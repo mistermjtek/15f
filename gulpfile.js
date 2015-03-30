@@ -1,17 +1,21 @@
-// Requires
+// # Gulp Tasks
+
+// ## Requires
 var browserify = require('browserify');
 var browserSync = require('browser-sync');
 var buffer = require('vinyl-buffer');
 var bust = require('gulp-buster');
-var env = require('./env');
 var filter = require('gulp-filter');
 var gulp = require('gulp');
 var gulp = require('gulp');
 var gulp = require('gulp');
 var gulpif = require('gulp-if');
+var minify = require('gulp-minify-css');
 var plumber = require('gulp-plumber');
+var prefix = require('gulp-autoprefixer')
 var reactify = require('reactify');
 var reload = require('browser-sync').reload;
+var runSequence = require('run-sequence');
 var source = require('vinyl-source-stream');
 var sourcemaps = require('gulp-sourcemaps');
 var sourcemaps = require('gulp-sourcemaps');
@@ -22,9 +26,9 @@ var watchify = require('watchify');
 // ### Sources / Destinations
 var src = {
   js: ['src/js/**/*.js', 'src/js/**/*.jsx'],
-  js_index: 'src/js/index.js',
-  css: 'src/stylus/**/*.styl',
-  css_index: 'src/stylus/index.styl'
+  js_index: './src/js/index.jsx',
+  css: 'src/css/**/*.styl',
+  css_index: 'src/css/index.styl'
 };
 var dest = {
   js: 'build/js',
@@ -32,7 +36,6 @@ var dest = {
 };
 
 // ## Environment
-
 var env = {
   dev: function() {
     process.env.NODE_ENV === 'dev'
@@ -41,6 +44,14 @@ var env = {
     process.env.NODE_ENV === 'prod'
   }
 };
+gulp.task('env:dev', function(cb) {
+  process.env.NODE_ENV = 'dev';
+  cb();
+});
+gulp.task('env:prod', function(cb) {
+  process.env.NODE_ENV = 'prod';
+  cb();
+});
 
 // ## Subtasks
 gulp.task('js', function() {
@@ -96,17 +107,25 @@ gulp.task('css', function() {
       includeContent: false,
       sourceRoot: 'src/css'
     })))
+    .pipe(gulpif(env.prod(), prefix()))
+    .pipe(gulpif(env.prod(), minify()))
     .pipe(gulp.dest(dest.css))
     .pipe(filter('**/*.css'))
     .pipe(reload({stream: true}));
 });
 
-// ## Main tasks
-
-// Build task
-gulp.task('build', function() {
-
+gulp.task('serve', function() {
+  browserSync({
+    ghostMode: false,
+    server: {
+      baseDir: './',
+      open: true
+    },
+    port: 8000
+  });
 });
+
+// ## Main tasks
 
 // Watch task
 gulp.task('watch', function() {
@@ -114,5 +133,16 @@ gulp.task('watch', function() {
   gulp.watch(src.css, ['css']);
 });
 
+// Build tasks
+gulp.task('build', ['js', 'css']);
+gulp.task('build:dev', function(cb) {
+  runSequence('env:dev', 'build', cb);
+});
+gulp.task('build:prod', function(cb) {
+  runSequence('env:prod', 'build', cb);
+});
+
 // Default task
-gulp.task('default', ['build', 'watch']);
+gulp.task('default', function(cb) {
+  runSequence('env:dev', 'build', 'serve', 'watch', cb);
+});
