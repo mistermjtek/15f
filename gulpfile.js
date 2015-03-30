@@ -56,7 +56,7 @@ gulp.task('env:prod', function(cb) {
 // ## Subtasks
 gulp.task('js', function() {
   function errorHandler(err) {
-    throw err;
+    console.log(err);
   }
 
   var bundler = browserify({
