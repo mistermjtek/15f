@@ -8,7 +8,7 @@ module.exports = React.createClass({
         <img src='images/logo.png' />
         <nav>
           <ul className='nav-buttons'>
-            <li><Button content='Register!' /></li>
+            <li><Button content='Register!' flavor={Button.flavors.solid} /></li>
             <li><Button content='Schedule' /></li>
             <li><Button content='Info' /></li>
             <li><Button content='Sponsors' /></li>

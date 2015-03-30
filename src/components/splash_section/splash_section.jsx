@@ -10,7 +10,7 @@ module.exports = React.createClass({
           <h5>May 17-18, 2015</h5>
         </div>
         <ul className='clouds'></ul>
-        <ul classname='planes'></ul>
+        <ul className='planes'></ul>
       </section>
     );
   }
