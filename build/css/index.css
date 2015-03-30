@@ -1,3 +1,6 @@
 * {
   box-sizing: border-box;
 }
+.Page .page-section {
+  width: 100%;
+}
