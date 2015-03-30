@@ -25,10 +25,10 @@ var watchify = require('watchify');
 
 // ### Sources / Destinations
 var src = {
-  js: ['src/js/**/*.js', 'src/js/**/*.jsx'],
-  js_index: './src/js/index.jsx',
-  css: 'src/css/**/*.styl',
-  css_index: 'src/css/index.styl'
+  js: ['src/**/*.js', 'src/**/*.jsx'],
+  js_index: './src/index.jsx',
+  css: 'src/**/*.styl',
+  css_index: 'src/index.styl'
 };
 var dest = {
   js: 'build/js',
