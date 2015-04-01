@@ -1,0 +1,15 @@
+@import '../../constants'
+buttonBorderSize = 4px
+
+.Button
+  border-radius 2px
+  cursor pointer
+
+  &.solid
+    color white
+    background linear-gradient(colorBlueLight, colorBlue)
+    border-bottom buttonBorderSize solid colorBlueDark
+    transition background 1s
+
+    &:hover
+      background linear-gradient(colorBlueLight, colorBlueLight)

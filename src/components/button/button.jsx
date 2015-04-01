@@ -22,7 +22,7 @@ module.exports = React.createClass({
     return (
       <div className={'Button ' + (this.props.flavor ? this.props.flavor : '')}>
         {this.props.icon ?
-          <img src={'./images/icons/' + this.props.icon} />
+          <img className='icon' src={'./images/icons/' + this.props.icon + '.svg'} />
         : ''}
         {this.props.content ? this.props.content : ''}
       </div>

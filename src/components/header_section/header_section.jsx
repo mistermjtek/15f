@@ -5,7 +5,7 @@ module.exports = React.createClass({
   render: function() {
     return (
       <section className='HeaderSection page-section'>
-        <img className='logo' src='images/logo.png' />
+        <img className='logo' src='images/logo-small.svg' />
         <nav className='nav'>
           <ul className='nav-buttons'>
             <li><Button content='Register!' flavor={Button.flavors.solid} /></li>

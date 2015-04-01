@@ -1,14 +1,30 @@
 * {
   box-sizing: border-box;
 }
+.Button {
+  border-radius: 2px;
+  cursor: pointer;
+}
+.Button.solid {
+  color: #fff;
+  background: linear-gradient(#2cafe6, #179bd2);
+  border-bottom: 4px solid #0072ad;
+  transition: background 1s;
+}
+.Button.solid:hover {
+  background: linear-gradient(#2cafe6, #2cafe6);
+}
 .HeaderSection {
-  padding: 20px;
+  padding: 15px 15px 10px 15px;
 }
 .HeaderSection .logo {
   display: inline-block;
+  margin-left: 10px;
+  width: 120px;
 }
 .HeaderSection .nav {
   display: inline-block;
+  vertical-align: top;
 }
 .HeaderSection .nav li {
   display: inline-block;
@@ -29,6 +45,10 @@
 .HeaderSection .social-buttons li .Button {
   padding: 10px;
 }
+.HeaderSection .social-buttons li .Button .icon {
+  width: 25px;
+  vertical-align: middle;
+}
 .Page .page-section {
   width: 100%;
 }
@@ -46,6 +66,17 @@
   top: 50%;
   margin-left: -150px;
   margin-top: -150px;
+}
+.SplashSection .center .logo {
+  width: 100%;
+}
+.SplashSection .center .subtitle {
+  margin-top: 10px;
+}
+.SplashSection .skyline {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 html,
 body,
