@@ -1,6 +1,221 @@
 * {
   box-sizing: border-box;
 }
+.HeaderSection {
+  padding: 20px;
+}
+.HeaderSection .logo {
+  display: inline-block;
+}
+.HeaderSection .nav {
+  display: inline-block;
+}
+.HeaderSection .nav li {
+  display: inline-block;
+  margin-left: 30px;
+}
+.HeaderSection .nav li .Button {
+  padding: 10px 20px;
+  font-size: 20px;
+}
+.HeaderSection .social-buttons {
+  float: right;
+  display: inline-block;
+}
+.HeaderSection .social-buttons li {
+  display: inline-block;
+  margin-left: 30px;
+}
+.HeaderSection .social-buttons li .Button {
+  padding: 10px;
+}
 .Page .page-section {
   width: 100%;
+}
+.SplashSection {
+  height: 90vh;
+  background: linear-gradient(#eb1e7a, #ef5352);
+  color: #fff;
+}
+.SplashSection .center {
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -150px;
+  margin-top: -150px;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after {
+  content: "";
+  content: none;
+}
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  -webkit-font-smoothing: antialiased;
+}
+html,
+body {
+  height: 100%;
+}
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 46px;
+}
+h3 {
+  font-size: 36px;
+}
+h4 {
+  font-size: 30px;
+}
+h5 {
+  font-size: 20px;
+}
+h6 {
+  font-size: 18px;
+}
+p {
+  font-size: 16px;
+}
+em {
+  font-style: italic;
+}
+strong {
+  font-weight: 700;
+}
+button {
+  -webkit-appearance: none;
+  background: transparent;
+  border: 0;
+  outline: 0;
 }
