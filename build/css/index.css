@@ -1,15 +1,21 @@
 * {
   box-sizing: border-box;
 }
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url("http://themes.googleusercontent.com/licensed/font?kit=3qINvnjb346LubKDfLRn64nF5uFdDttMLvmWuJdhhgs") format('truetype');
+}
 .Button {
   border-radius: 2px;
   cursor: pointer;
+  transition: background 200ms;
 }
 .Button.solid {
   color: #fff;
   background: linear-gradient(#2cafe6, #179bd2);
   border-bottom: 4px solid #0072ad;
-  transition: background 1s;
 }
 .Button.solid:hover {
   background: linear-gradient(#2cafe6, #2cafe6);
@@ -34,6 +40,9 @@
   padding: 10px 20px;
   font-size: 20px;
 }
+.HeaderSection .nav li .Button:hover:not(.solid) {
+  background: #eee;
+}
 .HeaderSection .social-buttons {
   float: right;
   display: inline-block;
@@ -51,6 +60,13 @@
 }
 .Page .page-section {
   width: 100%;
+  font-family: 'Proxima Nova', sans-serif;
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url("http://themes.googleusercontent.com/licensed/font?kit=3qINvnjb346LubKDfLRn64nF5uFdDttMLvmWuJdhhgs") format('truetype');
 }
 .SplashSection {
   height: 90vh;
