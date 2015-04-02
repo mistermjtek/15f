@@ -15,6 +15,7 @@ module.exports = React.createClass({
             <ul className='times'></ul>
           </li>
         </ul>
+        <img className='water' src='images/water.svg' />
       </section>
     );
   }

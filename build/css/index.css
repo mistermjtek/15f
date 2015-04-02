@@ -55,6 +55,26 @@
   font-weight: 400;
   src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url("http://themes.googleusercontent.com/licensed/font?kit=3qINvnjb346LubKDfLRn64nF5uFdDttMLvmWuJdhhgs") format('truetype');
 }
+.FAQSection {
+  background: -webkit-linear-gradient(#00b2e2, #0081bd);
+  background: linear-gradient(#00b2e2, #0081bd);
+  color: #fff;
+  padding: 30px;
+  position: relative;
+}
+.FAQSection .section.title {
+  top: 10px;
+  position: absolute;
+}
+.FAQSection .faq {
+  margin-top: 30px;
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url("http://themes.googleusercontent.com/licensed/font?kit=3qINvnjb346LubKDfLRn64nF5uFdDttMLvmWuJdhhgs") format('truetype');
+}
 .FooterSection .footer {
   padding: 30px;
   color: #cfcfce;
@@ -229,6 +249,12 @@
   background: -webkit-linear-gradient(#6e5ea4, #594094);
   background: linear-gradient(#6e5ea4, #594094);
   color: #fff;
+  height: 400px;
+}
+.ScheduleSection .water {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
 @font-face {
   font-family: 'Proxima Nova';
