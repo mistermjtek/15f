@@ -29,6 +29,32 @@
   font-weight: 400;
   src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url("http://themes.googleusercontent.com/licensed/font?kit=3qINvnjb346LubKDfLRn64nF5uFdDttMLvmWuJdhhgs") format('truetype');
 }
+.DescriptionSection {
+  position: relative;
+  padding-bottom: 100px;
+  color: #ef5352;
+}
+.DescriptionSection .trees {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.DescriptionSection .title {
+  margin-bottom: 45px;
+}
+.DescriptionSection .text {
+  padding: 30px;
+  line-height: 2;
+}
+.DescriptionSection .text .description {
+  text-align: center;
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url("http://themes.googleusercontent.com/licensed/font?kit=3qINvnjb346LubKDfLRn64nF5uFdDttMLvmWuJdhhgs") format('truetype');
+}
 .FooterSection .footer {
   padding: 30px;
   color: #cfcfce;
@@ -181,10 +207,28 @@
   width: 25px;
   vertical-align: middle;
 }
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url("http://themes.googleusercontent.com/licensed/font?kit=3qINvnjb346LubKDfLRn64nF5uFdDttMLvmWuJdhhgs") format('truetype');
+}
 .Page .page-section {
   width: 100%;
   font-family: 'Proxima Nova', sans-serif;
   line-height: 1.5;
+}
+.Page .section.title {
+  font-size: 30px;
+  -webkit-transform: skewY(-7deg);
+      -ms-transform: skewY(-7deg);
+          transform: skewY(-7deg);
+}
+.ScheduleSection {
+  position: relative;
+  background: -webkit-linear-gradient(#6e5ea4, #594094);
+  background: linear-gradient(#6e5ea4, #594094);
+  color: #fff;
 }
 @font-face {
   font-family: 'Proxima Nova';

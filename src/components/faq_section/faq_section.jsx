@@ -4,7 +4,7 @@ module.exports = React.createClass({
   render: function() {
     return (
       <section className='FAQSection page-section'>
-        <h2 className='title'>FAQ</h2>
+        <h2 className='section title'>FAQ</h2>
         <ul className='faq'>
           <li className='qa'>
             <h4 className='question'>Who can attend?</h4>

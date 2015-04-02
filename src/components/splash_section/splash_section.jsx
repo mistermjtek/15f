@@ -7,7 +7,7 @@ module.exports = React.createClass({
         <div className='center'>
           <img className='logo' src='images/logo.svg' />
           <h3 className='subtitle'>UW, Seattle</h3>
-          <h5 className='subtitle'>May 17-18, 2015</h5>
+          <h5 className='subtitle'>May 16-17, 2015</h5>
         </div>
         <ul className='clouds'>
           <img className='cloud form1' src='images/cloud1.svg' />
