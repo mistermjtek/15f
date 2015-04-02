@@ -107,7 +107,7 @@ gulp.task('css', function() {
       includeContent: false,
       sourceRoot: 'src/css'
     })))
-    .pipe(gulpif(env.prod(), prefix()))
+    .pipe(prefix())
     .pipe(gulpif(env.prod(), minify()))
     .pipe(gulp.dest(dest.css))
     .pipe(filter('**/*.css'))

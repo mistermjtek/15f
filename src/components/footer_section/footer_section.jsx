@@ -34,7 +34,7 @@ module.exports = React.createClass({
           </div>
         </div>
         <div className='sub footer'>
-          <div className='love'>Made with <span className='red'>❤</span> in Seattle</div>
+          <div className='love'>Made with <span className='heart'>❤</span> in Seattle</div>
           <p className='TOS'>DubHacks is a student event. Our sponsors are sponsors of the event and not of the University of Washington.<br/>There is no implied endorsement of these companies by the University.</p>
         </div>
       </section>
