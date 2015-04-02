@@ -1,8 +1,10 @@
+@import '../../constants'
+
 .HeaderSection
   position fixed
   background white
   z-index 100
-  padding 15px 15px 10px 15px
+  padding websitePadding websitePadding 10px websitePadding
 
   .logo
     display inline-block
@@ -19,7 +21,7 @@
 
       .Button
         padding 10px 20px
-        font-size 20px
+        font-size fontSizeLarge
 
         &:hover:not(.solid)
           background #eee

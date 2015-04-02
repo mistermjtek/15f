@@ -20,6 +20,63 @@
 .Button.solid:hover {
   background: linear-gradient(#2cafe6, #2cafe6);
 }
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url("http://themes.googleusercontent.com/licensed/font?kit=3qINvnjb346LubKDfLRn64nF5uFdDttMLvmWuJdhhgs") format('truetype');
+}
+.FooterSection .footer {
+  padding: 30px;
+  color: #cfcfce;
+}
+.FooterSection .main.footer {
+  background: #3b403d;
+}
+.FooterSection .main.footer .col {
+  display: inline-block;
+  width: 33.3%;
+  vertical-align: top;
+}
+.FooterSection .main.footer .col.logo {
+  text-align: center;
+}
+.FooterSection .main.footer .col .title {
+  font-size: 16px;
+  color: #7f7f7e;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.FooterSection .main.footer .organizers .organizers-list {
+  height: 100px;
+}
+.FooterSection .main.footer .organizers .organizers-list li {
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+.FooterSection .sub.footer {
+  padding: 15px;
+  background: #252527;
+  text-align: center;
+  color: #fff;
+}
+.FooterSection .sub.footer .love {
+  margin-bottom: 15px;
+}
+.FooterSection .sub.footer .love .red {
+  color: #ef5352;
+}
+.FooterSection .sub.footer .TOS {
+  font-size: 12px;
+  color: #7f7f7e;
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url("http://themes.googleusercontent.com/licensed/font?kit=3qINvnjb346LubKDfLRn64nF5uFdDttMLvmWuJdhhgs") format('truetype');
+}
 .HeaderSection {
   position: fixed;
   background: #fff;
@@ -64,6 +121,7 @@
 .Page .page-section {
   width: 100%;
   font-family: 'Proxima Nova', sans-serif;
+  line-height: 1.5;
 }
 @font-face {
   font-family: 'Proxima Nova';
