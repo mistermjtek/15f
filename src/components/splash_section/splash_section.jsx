@@ -9,7 +9,11 @@ module.exports = React.createClass({
           <h3 className='subtitle'>UW, Seattle</h3>
           <h5 className='subtitle'>May 17-18, 2015</h5>
         </div>
-        <ul className='clouds'></ul>
+        <ul className='clouds'>
+          <img className='cloud form1' src='images/cloud1.svg' />
+          <img className='cloud form2' src='images/cloud2.svg' />
+          <img className='cloud form3' src='images/cloud3.svg' />
+        </ul>
         <ul className='planes'></ul>
         <img className='skyline' src='images/skyline.svg' />
       </section>

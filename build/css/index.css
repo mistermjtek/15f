@@ -21,6 +21,9 @@
   background: linear-gradient(#2cafe6, #2cafe6);
 }
 .HeaderSection {
+  position: fixed;
+  background: #fff;
+  z-index: 100;
   padding: 15px 15px 10px 15px;
 }
 .HeaderSection .logo {
@@ -69,7 +72,7 @@
   src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url("http://themes.googleusercontent.com/licensed/font?kit=3qINvnjb346LubKDfLRn64nF5uFdDttMLvmWuJdhhgs") format('truetype');
 }
 .SplashSection {
-  height: 90vh;
+  height: 100vh;
   background: linear-gradient(#eb1e7a, #ef5352);
   color: #fff;
 }
@@ -93,6 +96,24 @@
   width: 100%;
   position: absolute;
   bottom: 0;
+}
+.SplashSection .clouds .cloud {
+  position: absolute;
+}
+.SplashSection .clouds .cloud.form1 {
+  width: 150px;
+  top: 30%;
+  left: 10%;
+}
+.SplashSection .clouds .cloud.form2 {
+  width: 100px;
+  top: 50%;
+  left: 80%;
+}
+.SplashSection .clouds .cloud.form3 {
+  width: 100px;
+  top: 70%;
+  left: 15%;
 }
 html,
 body,
