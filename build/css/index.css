@@ -15,9 +15,9 @@
 }
 .Button.solid {
   color: #fff;
-  background: -webkit-linear-gradient(#2cafe6, #179bd2);
-  background: linear-gradient(#2cafe6, #179bd2);
-  border-bottom: 4px solid #0072ad;
+  background: -webkit-linear-gradient(#2cafe6, #00b2e2);
+  background: linear-gradient(#2cafe6, #00b2e2);
+  border-bottom: 4px solid #0081bd;
 }
 .Button.solid:hover {
   background: -webkit-linear-gradient(#2cafe6, #2cafe6);
@@ -358,6 +358,43 @@
   width: 100px;
   top: 70%;
   left: 15%;
+}
+.SponsorSection {
+  background: -webkit-linear-gradient(#0081bd, #594094);
+  background: linear-gradient(#0081bd, #594094);
+  color: #fff;
+  padding: 30px;
+}
+.SponsorSection .subtitle {
+  margin-top: 30px;
+}
+.SponsorSection .tiers {
+  margin-top: 20px;
+  text-align: center;
+}
+.SponsorSection .tiers li {
+  -webkit-transition: background 200ms;
+          transition: background 200ms;
+  cursor: pointer;
+  background: rgba(255,255,255,0.2);
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+}
+.SponsorSection .tiers li:hover {
+  background: rgba(255,255,255,0.1);
+}
+.SponsorSection .tiers a {
+  height: 200px;
+  padding: 5px;
+  display: inline-block;
+}
+.SponsorSection .tiers .standard a {
+  width: 400px;
+}
+.SponsorSection .tiers .lite a {
+  width: 200px;
 }
 html,
 body,

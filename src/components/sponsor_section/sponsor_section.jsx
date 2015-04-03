@@ -6,14 +6,16 @@ module.exports = React.createClass({
       <section className='SponsorSection page-section'>
         <h2 className='section title'>Our Sponsors</h2>
         <h5 className='subtitle'>A huge thanks to all our amazing DubHacks sponsors! Become a <a href='/sponsor'>sponsor</a>.</h5>
-        <ul className='standard'>
-          <li>Microsoft</li>
-          <li>Amazon</li>
-        </ul>
-        <ul className='lite'>
-          <li>Startup 1</li>
-          <li>Startup 2</li>
-        </ul>
+        <div className='tiers'>
+          <ul className='standard'>
+            <a href=''><li>Microsoft</li></a>
+            <a href=''><li>Amazon</li></a>
+          </ul>
+          <ul className='lite'>
+            <a href=''><li>Startup 1</li></a>
+            <a href=''><li>Startup 2</li></a>
+          </ul>
+        </div>
       </section>
     );
   }
