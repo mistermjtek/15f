@@ -100,7 +100,7 @@ module.exports = React.createClass({
           </li>
           <li className='day'>
             <h3 className='day-title'>Sunday, May 17, 2015</h3>
-            {getEvents(1)}
+            {getEvents(2)}
           </li>
         </ul>
         <img className='water' src='images/water.svg' />
