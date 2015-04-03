@@ -92,7 +92,7 @@ module.exports = React.createClass({
 
     return (
       <section className='ScheduleSection page-section'>
-        <h2 className='section title'>Event Schedule</h2>
+        <h2 className='section title'>Schedule</h2>
         <ul className='days'>
           <li className='day'>
             <h3 className='day-title'>Saturday, May 16, 2015</h3>

@@ -1,10 +1,53 @@
+@import '../../constants'
+timeSize = 50px
+
 .ScheduleSection
   position relative
   background linear-gradient(colorPurpleLight, colorPurple)
   color white
 
-  // temp
-  height 400px
+  .section.title
+    margin-left websitePadding
+
+  .days
+    padding-bottom 80px
+
+    .day
+      margin-top 50px
+      display inline-block
+      width 50%
+      padding 0 websitePadding
+
+      .day-title
+        margin-bottom 20px
+
+      .events
+        margin-left 10px
+
+        .event
+          margin-bottom 20px
+
+          .time
+            width timeSize
+            height timeSize
+            display inline-block
+            text-align center
+            border 2px solid colorBlueLight
+            border-radius 50%
+            line-height 1
+
+            .number
+              font-size 26px
+
+            .period
+              text-transform uppercase
+
+          .event-title
+            padding-top 10px
+            margin-left 30px
+            vertical-align top
+            display inline-block
+            font-size fontSizeLarge
 
   .water
     position absolute

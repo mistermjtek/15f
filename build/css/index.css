@@ -244,12 +244,60 @@
       -ms-transform: skewY(-7deg);
           transform: skewY(-7deg);
 }
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url("http://themes.googleusercontent.com/licensed/font?kit=3qINvnjb346LubKDfLRn64nF5uFdDttMLvmWuJdhhgs") format('truetype');
+}
 .ScheduleSection {
   position: relative;
   background: -webkit-linear-gradient(#6e5ea4, #594094);
   background: linear-gradient(#6e5ea4, #594094);
   color: #fff;
-  height: 400px;
+}
+.ScheduleSection .section.title {
+  margin-left: 30px;
+}
+.ScheduleSection .days {
+  padding-bottom: 80px;
+}
+.ScheduleSection .days .day {
+  margin-top: 50px;
+  display: inline-block;
+  width: 50%;
+  padding: 0 30px;
+}
+.ScheduleSection .days .day .day-title {
+  margin-bottom: 20px;
+}
+.ScheduleSection .days .day .events {
+  margin-left: 10px;
+}
+.ScheduleSection .days .day .events .event {
+  margin-bottom: 20px;
+}
+.ScheduleSection .days .day .events .event .time {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  border: 2px solid #2cafe6;
+  border-radius: 50%;
+  line-height: 1;
+}
+.ScheduleSection .days .day .events .event .time .number {
+  font-size: 26px;
+}
+.ScheduleSection .days .day .events .event .time .period {
+  text-transform: uppercase;
+}
+.ScheduleSection .days .day .events .event .event-title {
+  padding-top: 10px;
+  margin-left: 30px;
+  vertical-align: top;
+  display: inline-block;
+  font-size: 20px;
 }
 .ScheduleSection .water {
   position: absolute;
