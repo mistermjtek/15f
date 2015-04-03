@@ -29,6 +29,8 @@ module.exports = React.createClass({
             <ul className='links-list'>
               <li><a href='http://hackcodeofconduct.org/dubhacks_f14'>Code of Conduct</a></li>
               <li><a href='contact@dubhacks.co'>Contact Us</a></li>
+              <li><a href='https://www.facebook.com/uwhacks'>Facebook</a></li>
+              <li><a href='https://twitter.com/dubhacks'>Twitter</a></li>
               <li><a href='dubhacks.pr.co'>Press</a></li>
             </ul>
           </div>
