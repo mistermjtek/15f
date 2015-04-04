@@ -91,7 +91,7 @@ module.exports = React.createClass({
     };
 
     return (
-      <section className='ScheduleSection page-section'>
+      <section className='ScheduleSection page-section' id='schedule'>
         <h2 className='section title'>Schedule</h2>
         <ul className='days'>
           <li className='day'>

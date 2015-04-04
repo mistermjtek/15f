@@ -3,7 +3,7 @@ var React = require('react');
 module.exports = React.createClass({
   render: function() {
     return (
-      <section className='FAQSection page-section'>
+      <section className='FAQSection page-section' id='faq'>
         <h2 className='section title'>FAQ</h2>
         <ul className='faq'>
           <li className='qa'>

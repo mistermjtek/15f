@@ -2,16 +2,22 @@ var React = require('react');
 var Button = require('../button/button.jsx');
 
 module.exports = React.createClass({
+  scrollToSection: function(sectionName) {
+    return function() {
+      console.log('hi');
+    };
+  },
+
   render: function() {
     return (
       <section className='HeaderSection page-section'>
         <img className='logo' src='images/logo-small.svg' />
         <nav className='nav'>
           <ul className='nav-buttons'>
-            <li><Button content='Register!' flavor={Button.flavors.solid} /></li>
-            <li><Button content='Schedule' /></li>
-            <li><Button content='Info' /></li>
-            <li><Button content='Sponsors' /></li>
+            <a target='_blank' href='https://dubhacks15s.typeform.com/to/stUU5c'><li><Button content='Register!' flavor={Button.flavors.solid} /></li></a>
+            <li onClick={this.scrollToSection('schedule')}><Button content='Schedule' /></li>
+            <li onClick={this.scrollToSection('faq')}><Button content='FAQ' /></li>
+            <li onClick={this.scrollToSection('sponsor')}><Button content='Sponsors' /></li>
           </ul>
         </nav>
         <ul className='social-buttons'>
