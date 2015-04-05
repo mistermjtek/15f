@@ -20,8 +20,8 @@
   border-bottom: 4px solid #0081bd;
 }
 .Button.solid:hover {
-  background: -webkit-linear-gradient(#2cafe6, #2cafe6);
-  background: linear-gradient(#2cafe6, #2cafe6);
+  background: -webkit-linear-gradient(#2cc3f0, #2cc3f0);
+  background: linear-gradient(#2cc3f0, #2cc3f0);
 }
 @font-face {
   font-family: 'Proxima Nova';
@@ -190,10 +190,13 @@
   position: fixed;
   background: #fff;
   z-index: 100;
+  height: 80px;
+  overflow: hidden;
   padding: 15px 15px 10px 15px;
 }
 .HeaderSection .logo {
   display: inline-block;
+  margin-top: 10px;
   margin-left: 10px;
   width: 120px;
 }
@@ -222,6 +225,11 @@
 }
 .HeaderSection .social-buttons li .Button {
   padding: 10px;
+  -webkit-transition: opacity 200ms;
+          transition: opacity 200ms;
+}
+.HeaderSection .social-buttons li .Button:hover {
+  opacity: 0.6;
 }
 .HeaderSection .social-buttons li .Button .icon {
   width: 25px;
