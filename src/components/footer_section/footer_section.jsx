@@ -8,15 +8,15 @@ module.exports = React.createClass({
           <div className='col organizers'>
             <h5 className='title'>Spring 2015 DubHacks Organizers</h5>
             <ul className='organizers-list'>
-              <li>Grant Timmerman</li>
+              <a href='http://grant.cm/'><li>Grant Timmerman</li></a>
               <li>Skyler Kidd</li>
-              <li>Mahir Kothary</li>
+              <a href='http://mahirk.me/'><li>Mahir Kothary</li></a>
               <li>Naomi Musgrave</li>
               <li>Navid Azodi</li>
               <li>David Coven</li>
               <li>Karan Goel</li>
               <li>Anwell Wang</li>
-              <li>Christopher Su</li>
+              <a href='http://christopher.su/'><li>Christopher Su</li></a>
               <li>Lucas Colusso</li>
               <li>Malia Imayama</li>
             </ul>
