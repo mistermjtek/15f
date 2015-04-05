@@ -87,27 +87,74 @@ body {
 .FooterSection .main.footer {
   background: #3b403d;
 }
+@media all and (max-width: 600px) {
+  .FooterSection .main.footer {
+    text-align: center;
+  }
+}
 .FooterSection .main.footer .col {
   display: inline-block;
   width: 33.3%;
   vertical-align: top;
 }
+@media all and (max-width: 600px) {
+  .FooterSection .main.footer .col {
+    display: block;
+    width: 100%;
+  }
+  .FooterSection .main.footer .col.logo {
+    margin: 30px 0;
+  }
+  .FooterSection .main.footer .col.organizers .organizers-list {
+    height: inherit;
+  }
+}
+@media all and (min-width: 600px) {
+  .FooterSection .main.footer .col:first-child {
+    padding-right: 30px;
+  }
+  .FooterSection .main.footer .col:last-child {
+    padding-left: 30px;
+  }
+}
+@media all and (min-width: 950px) {
+  .FooterSection .main.footer .col.organizers .organizers-list {
+    height: 150px;
+  }
+}
 .FooterSection .main.footer .col.logo {
   text-align: center;
+}
+.FooterSection .main.footer .col.logo .logo {
+  width: 100%;
+  max-width: 220px;
+}
+.FooterSection .main.footer .col.organizers .organizers-list {
+  overflow: hidden;
+}
+.FooterSection .main.footer .col.organizers .organizers-list li {
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+@media all and (max-width: 950px) {
+  .FooterSection .main.footer .col.organizers .organizers-list li {
+    display: block;
+    width: 100%;
+  }
+}
+.FooterSection .main.footer .col.links a {
+  -webkit-transition: color 200ms;
+          transition: color 200ms;
+}
+.FooterSection .main.footer .col.links a:hover {
+  color: #fff;
 }
 .FooterSection .main.footer .col .title {
   font-size: 16px;
   color: #7f7f7e;
   font-weight: 700;
   margin-bottom: 5px;
-}
-.FooterSection .main.footer .organizers .organizers-list {
-  height: 100px;
-}
-.FooterSection .main.footer .organizers .organizers-list li {
-  display: inline-block;
-  width: 50%;
-  float: left;
 }
 .FooterSection .sub.footer {
   padding: 15px;
@@ -454,7 +501,7 @@ body {
   50% {
     left: 110%;
   }
-  50.01% {
+  50.0001% {
     left: -20%;
   }
   100% {
@@ -468,7 +515,7 @@ body {
   50% {
     left: 110%;
   }
-  50.01% {
+  50.0001% {
     left: -20%;
   }
   100% {

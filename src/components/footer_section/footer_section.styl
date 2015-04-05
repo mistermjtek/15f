@@ -20,28 +20,69 @@
   .main.footer
     background colorGray
 
+    @media mediaPhone
+      text-align center
+
     .col
       display inline-block
       width 33.3%
       vertical-align top
 
+      @media mediaPhone
+        display block
+        width 100%
+
+        &.logo
+          margin websitePadding 0
+
+        &.organizers
+          .organizers-list
+            height inherit
+
+      @media notMediaPhone
+        &:first-child
+          padding-right websitePadding
+
+        &:last-child
+          padding-left websitePadding
+
+      @media notMediaTablet
+        &.organizers
+          .organizers-list
+            height 150px
+
       &.logo
         text-align center
+
+        .logo
+          width 100%
+          max-width 220px
+
+      &.organizers
+        .organizers-list
+          overflow hidden
+
+          li
+            display inline-block
+            width 50%
+            float left
+
+            @media mediaTablet
+              display block
+              width 100%
+
+      &.links
+        a
+          transition color transitionSpeed
+
+          &:hover
+            color white
 
       .title
         font-size fontSizeNormal
         color colorGrayLight
         font-weight 700
         margin-bottom 5px
-
-    .organizers
-      .organizers-list
-        height 100px
-
-        li
-          display inline-block
-          width 50%
-          float left
 
   .sub.footer
     padding websitePadding * 0.5
