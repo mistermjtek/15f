@@ -12,6 +12,14 @@
   70%
     transform scale(1)
 
+@keyframes logoShake
+  0%
+    transform scale(1) rotate(0deg)
+  80%
+    transform scale(1.1) rotate(360deg)
+  100%
+    transform scale(1) rotate(360deg)
+
 .FooterSection
   .footer
     padding websitePadding
@@ -57,6 +65,10 @@
         .logo
           width 100%
           max-width 220px
+          transition transform transitionSpeedSlow
+
+          &:hover
+            animation logoShake 2s
 
       &.organizers
         .organizers-list
@@ -99,9 +111,7 @@
         transition-property font-size
         transition-duration 1s
         transition-timing-function ease
-        animation-name heartbeat
-        animation-duration 1.3s
-        animation-iteration-count infinite
+        animation heartbeat 1.3s infinite
 
         &:hover
           font-size 40px

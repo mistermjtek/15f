@@ -128,6 +128,12 @@ body {
 .FooterSection .main.footer .col.logo .logo {
   width: 100%;
   max-width: 220px;
+  -webkit-transition: -webkit-transform 400ms;
+          transition: transform 400ms;
+}
+.FooterSection .main.footer .col.logo .logo:hover {
+  -webkit-animation: logoShake 2s;
+          animation: logoShake 2s;
 }
 .FooterSection .main.footer .col.organizers .organizers-list {
   overflow: hidden;
@@ -174,12 +180,8 @@ body {
           transition-duration: 1s;
   -webkit-transition-timing-function: ease;
           transition-timing-function: ease;
-  -webkit-animation-name: heartbeat;
-          animation-name: heartbeat;
-  -webkit-animation-duration: 1.3s;
-          animation-duration: 1.3s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  -webkit-animation: heartbeat 1.3s infinite;
+          animation: heartbeat 1.3s infinite;
 }
 .FooterSection .sub.footer .love .heart:hover {
   font-size: 40px;
@@ -230,6 +232,34 @@ body {
   70% {
     -webkit-transform: scale(1);
             transform: scale(1);
+  }
+}
+@-webkit-keyframes logoShake {
+  0% {
+    -webkit-transform: scale(1) rotate(0deg);
+            transform: scale(1) rotate(0deg);
+  }
+  80% {
+    -webkit-transform: scale(1.1) rotate(360deg);
+            transform: scale(1.1) rotate(360deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotate(360deg);
+            transform: scale(1) rotate(360deg);
+  }
+}
+@keyframes logoShake {
+  0% {
+    -webkit-transform: scale(1) rotate(0deg);
+            transform: scale(1) rotate(0deg);
+  }
+  80% {
+    -webkit-transform: scale(1.1) rotate(360deg);
+            transform: scale(1.1) rotate(360deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotate(360deg);
+            transform: scale(1) rotate(360deg);
   }
 }
 @font-face {
