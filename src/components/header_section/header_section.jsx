@@ -4,7 +4,8 @@ var Button = require('../button/button.jsx');
 module.exports = React.createClass({
   scrollToSection: function(sectionName) {
     return function() {
-      console.log('hi');
+      window.scrollTo(0, 0);
+      window.scrollTo(0, document.getElementById(sectionName).getBoundingClientRect().top - 80);
     };
   },
 
