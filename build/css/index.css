@@ -39,7 +39,8 @@ body {
 }
 .DescriptionSection .trees {
   position: absolute;
-  width: 100%;
+  width: 105%;
+  left: -10px;
   bottom: -1px;
 }
 .DescriptionSection .title {
@@ -467,7 +468,8 @@ body {
 }
 .ScheduleSection .sea {
   position: absolute;
-  width: 100%;
+  width: 105%;
+  left: -10px;
   bottom: -1px;
 }
 @font-face {
@@ -510,13 +512,13 @@ body {
 }
 .SplashSection .clouds .cloud.form1 {
   width: 150px;
-  top: 30%;
+  top: 25%;
   -webkit-animation: cloud1 100s infinite;
           animation: cloud1 100s infinite;
 }
 .SplashSection .clouds .cloud.form2 {
   width: 100px;
-  top: 55%;
+  top: 50%;
   -webkit-animation: cloud2 110.00000000000001s infinite;
           animation: cloud2 110.00000000000001s infinite;
 }
