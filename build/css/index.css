@@ -290,6 +290,10 @@ body {
   display: inline-block;
   margin-left: 30px;
 }
+.HeaderSection .nav li.register-button {
+  -webkit-animation: buttonShake 40s infinite;
+          animation: buttonShake 40s infinite;
+}
 @media all and (max-width: 950px) {
   .HeaderSection .nav li:not(.register-button) {
     display: none;
@@ -321,6 +325,58 @@ body {
 .HeaderSection .social-buttons li .Button .icon {
   width: 25px;
   vertical-align: middle;
+}
+@-webkit-keyframes buttonShake {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  10% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  10.5% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+  11% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+  11.5% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+  12% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+}
+@keyframes buttonShake {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  10% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  10.5% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+  11% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+  11.5% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+  12% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
 }
 @font-face {
   font-family: 'Proxima Nova';
@@ -438,6 +494,8 @@ body {
 }
 .SplashSection .center .logo {
   width: 100%;
+  -webkit-animation: titleLogoShake 20s infinite;
+          animation: titleLogoShake 20s infinite;
 }
 .SplashSection .center .subtitle {
   margin-top: 10px;
@@ -550,6 +608,34 @@ body {
   }
   100% {
     left: 15%;
+  }
+}
+@-webkit-keyframes titleLogoShake {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  80% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  95% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+@keyframes titleLogoShake {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  80% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  95% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
   }
 }
 .SponsorSection {

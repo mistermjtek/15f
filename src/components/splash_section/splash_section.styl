@@ -32,6 +32,14 @@ cloudSpeed = 100s
   100%
     left 15%
 
+@keyframes titleLogoShake
+  0%
+    transform scale(1)
+  80%
+    transform scale(1)
+  95%
+    transform scale(1.1)
+
 .SplashSection
   height 100 vh
   background linear-gradient(colorPink, colorPinkLight)
@@ -49,6 +57,7 @@ cloudSpeed = 100s
 
     .logo
       width 100%
+      animation titleLogoShake 20s infinite
 
     .subtitle
       margin-top 10px

@@ -1,5 +1,19 @@
 @import '../../constants'
 
+@keyframes buttonShake
+  0%
+    transform rotate(0)
+  10%
+    transform rotate(0)
+  10.5%
+    transform rotate(10deg)
+  11%
+    transform rotate(-10deg)
+  11.5%
+    transform rotate(10deg)
+  12%
+    transform rotate(0)
+
 .HeaderSection
   position fixed
   background white
@@ -18,9 +32,13 @@
     display inline-block
     vertical-align top
 
+
     li
       display inline-block
       margin-left 30px
+
+      &.register-button
+        animation buttonShake 40s infinite
 
       // Hide nav links
       &:not(.register-button)
