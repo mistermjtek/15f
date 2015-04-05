@@ -68,7 +68,7 @@ module.exports = React.createClass({
     // Returns the html for a single event
     var getEvent = function(eventData) {
       return (
-        <li className='event'>
+        <li className='event' key={eventData.title}>
           <time className='time'>
             <div className='number'>{eventData.number}</div>
             <div className='period'>{eventData.period}</div>
