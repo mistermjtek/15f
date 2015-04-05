@@ -22,7 +22,7 @@ module.exports = React.createClass({
           </ul>
         </nav>
         <ul className='social-buttons'>
-          <li><a href='info@dubhacks.co'><Button icon='mail' /></a></li>
+          <li><a href='mailto:info@dubhacks.co'><Button icon='mail' /></a></li>
           <li><a href='http://www.facebook.com/uwhacks'><Button icon='facebook' /></a></li>
           <li><a href='http://www.twitter.com/dubhacks'><Button icon='twitter' /></a></li>
         </ul>
