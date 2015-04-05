@@ -347,20 +347,20 @@
 .SplashSection .clouds .cloud.form1 {
   width: 150px;
   top: 30%;
-  -webkit-animation: cloud1 10s infinite;
-          animation: cloud1 10s infinite;
+  -webkit-animation: cloud1 100s infinite;
+          animation: cloud1 100s infinite;
 }
 .SplashSection .clouds .cloud.form2 {
   width: 100px;
   top: 50%;
-  -webkit-animation: cloud2 11s infinite;
-          animation: cloud2 11s infinite;
+  -webkit-animation: cloud2 110.00000000000001s infinite;
+          animation: cloud2 110.00000000000001s infinite;
 }
 .SplashSection .clouds .cloud.form3 {
   width: 100px;
   top: 70%;
-  -webkit-animation: cloud3 9s infinite;
-          animation: cloud3 9s infinite;
+  -webkit-animation: cloud3 90s infinite;
+          animation: cloud3 90s infinite;
 }
 @-webkit-keyframes cloud1 {
   0% {
