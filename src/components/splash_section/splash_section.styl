@@ -1,15 +1,16 @@
 @import '../../constants'
 centerSize = 300px
 cloudSpeed = 100s
+planeSpeed = 60s
 
 @keyframes cloud1
   0%
     left 10%
-  25%
+  15%
     left 4%
-  50%
-    left 30%
-  50%
+  30%
+    left 20%
+  70%
     left 80%
   100%
     left 10%
@@ -31,6 +32,16 @@ cloudSpeed = 100s
     left -20%
   100%
     left 15%
+
+@keyframes plane
+  10%
+    left -20%
+    top 70%
+  20%
+    left 105%
+    top 40%
+  20.0001%
+    left -20%
 
 @keyframes titleLogoShake
   0%
@@ -78,10 +89,17 @@ cloudSpeed = 100s
 
       &.form2
         width 100px
-        top 50%
+        top 55%
         animation cloud2 cloudSpeed * 1.1 infinite
 
       &.form3
         width 100px
-        top 70%
+        top 75%
         animation cloud3 cloudSpeed * 0.9 infinite
+
+  .planes
+    .plane
+      position absolute
+      width 100px
+      transform rotate(-10deg)
+      animation plane planeSpeed linear infinite
