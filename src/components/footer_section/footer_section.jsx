@@ -9,12 +9,12 @@ module.exports = React.createClass({
             <h5 className='title'>Spring 2015 DubHacks Organizers</h5>
             <ul className='organizers-list'>
               <a href='http://grant.cm/'><li>Grant Timmerman</li></a>
-              <li>Skyler Kidd</li>
+              <a href='https://www.linkedin.com/in/skylerkidd'><li>Skyler Kidd</li></a>
               <a href='http://mahirk.me/'><li>Mahir Kothary</li></a>
               <li>Naomi Musgrave</li>
-              <li>Navid Azodi</li>
+              <a href='https://twitter.com/NavidAzodi'><li>Navid Azodi</li></a>
               <li>David Coven</li>
-              <li>Karan Goel</li>
+              <a href='https://twitter.com/karangoel'><li>Karan Goel</li></a>
               <li>Anwell Wang</li>
               <a href='http://christopher.su/'><li>Christopher Su</li></a>
               <li>Lucas Colusso</li>
