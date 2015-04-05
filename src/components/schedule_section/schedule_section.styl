@@ -17,6 +17,12 @@ timeSize = 50px
       display inline-block
       width 50%
       padding 0 websitePadding
+      margin-top 20px
+
+      // 1 column
+      @media mediaPhone
+        display block
+        width 100%
 
       .day-title
         margin-bottom 20px
@@ -26,6 +32,7 @@ timeSize = 50px
 
         .event
           margin-bottom 20px
+          overflow hidden
 
           .time
             width timeSize
@@ -35,6 +42,7 @@ timeSize = 50px
             border 2px solid colorBlueLight
             border-radius 50%
             line-height 1
+            float left
 
             .number
               font-size 26px
@@ -51,6 +59,8 @@ timeSize = 50px
             vertical-align top
             display inline-block
             font-size fontSizeLarge
+            float right
+            position absolute
 
   .water
     position absolute
