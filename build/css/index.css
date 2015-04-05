@@ -5,7 +5,7 @@
   font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 400;
-  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url("http://themes.googleusercontent.com/licensed/font?kit=3qINvnjb346LubKDfLRn64nF5uFdDttMLvmWuJdhhgs") format('truetype');
+  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url("../../fonts/font.ttf") format('truetype');
 }
 .Button {
   border-radius: 2px;
@@ -27,7 +27,7 @@
   font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 400;
-  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url("http://themes.googleusercontent.com/licensed/font?kit=3qINvnjb346LubKDfLRn64nF5uFdDttMLvmWuJdhhgs") format('truetype');
+  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url("../../fonts/font.ttf") format('truetype');
 }
 .DescriptionSection {
   position: relative;
@@ -53,7 +53,7 @@
   font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 400;
-  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url("http://themes.googleusercontent.com/licensed/font?kit=3qINvnjb346LubKDfLRn64nF5uFdDttMLvmWuJdhhgs") format('truetype');
+  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url("../../fonts/font.ttf") format('truetype');
 }
 .FAQSection {
   background: -webkit-linear-gradient(#00b2e2, #0081bd);
@@ -73,7 +73,7 @@
   font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 400;
-  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url("http://themes.googleusercontent.com/licensed/font?kit=3qINvnjb346LubKDfLRn64nF5uFdDttMLvmWuJdhhgs") format('truetype');
+  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url("../../fonts/font.ttf") format('truetype');
 }
 .FooterSection .footer {
   padding: 30px;
@@ -184,7 +184,7 @@
   font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 400;
-  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url("http://themes.googleusercontent.com/licensed/font?kit=3qINvnjb346LubKDfLRn64nF5uFdDttMLvmWuJdhhgs") format('truetype');
+  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url("../../fonts/font.ttf") format('truetype');
 }
 .HeaderSection {
   position: fixed;
@@ -231,7 +231,7 @@
   font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 400;
-  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url("http://themes.googleusercontent.com/licensed/font?kit=3qINvnjb346LubKDfLRn64nF5uFdDttMLvmWuJdhhgs") format('truetype');
+  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url("../../fonts/font.ttf") format('truetype');
 }
 .Page .page-section {
   width: 100%;
@@ -249,7 +249,7 @@
   font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 400;
-  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url("http://themes.googleusercontent.com/licensed/font?kit=3qINvnjb346LubKDfLRn64nF5uFdDttMLvmWuJdhhgs") format('truetype');
+  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url("../../fonts/font.ttf") format('truetype');
 }
 .ScheduleSection {
   position: relative;
@@ -312,7 +312,7 @@
   font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 400;
-  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url("http://themes.googleusercontent.com/licensed/font?kit=3qINvnjb346LubKDfLRn64nF5uFdDttMLvmWuJdhhgs") format('truetype');
+  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url("../../fonts/font.ttf") format('truetype');
 }
 .SplashSection {
   height: 100vh;
