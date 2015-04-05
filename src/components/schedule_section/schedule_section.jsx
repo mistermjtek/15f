@@ -103,7 +103,7 @@ module.exports = React.createClass({
             {getEvents(2)}
           </li>
         </ul>
-        <img className='water' src='images/water.svg' />
+        <img className='sea' src='images/sea.svg' />
       </section>
     );
   }

@@ -40,7 +40,7 @@ body {
 .DescriptionSection .trees {
   position: absolute;
   width: 100%;
-  bottom: 0;
+  bottom: -1px;
 }
 .DescriptionSection .title {
   margin-bottom: 45px;
@@ -465,10 +465,10 @@ body {
   float: right;
   position: absolute;
 }
-.ScheduleSection .water {
+.ScheduleSection .sea {
   position: absolute;
   width: 100%;
-  bottom: 0;
+  bottom: -1px;
 }
 @font-face {
   font-family: 'Proxima Nova';
@@ -488,7 +488,7 @@ body {
   width: 300px;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 45%;
   margin-left: -150px;
   margin-top: -150px;
 }
@@ -503,7 +503,7 @@ body {
 .SplashSection .skyline {
   width: 100%;
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
 }
 .SplashSection .clouds .cloud {
   position: absolute;
