@@ -642,6 +642,8 @@ body {
 .SplashSection .planes .plane {
   position: absolute;
   width: 100px;
+  left: -33%;
+  top: 70%;
   -webkit-transform: rotate(-10deg);
       -ms-transform: rotate(-10deg);
           transform: rotate(-10deg);
