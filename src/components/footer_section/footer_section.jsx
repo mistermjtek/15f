@@ -13,7 +13,7 @@ module.exports = React.createClass({
               <a href='http://mahirk.me/'><li>Mahir Kothary</li></a>
               <a href='https://twitter.com/naomimusgrave'><li>Naomi Musgrave</li></a>
               <a href='https://twitter.com/NavidAzodi'><li>Navid Azodi</li></a>
-              <li>David Coven</li>
+              <a href='http://davidcoven.me'><li>David Coven</li></a>
               <a href='https://twitter.com/karangoel'><li>Karan Goel</li></a>
               <a href='http://anwell.me/'><li>Anwell Wang</li></a>
               <a href='http://christopher.su/'><li>Christopher Su</li></a>
@@ -27,6 +27,7 @@ module.exports = React.createClass({
           <div className='col links'>
             <h5 className='title'>Links</h5>
             <ul className='links-list'>
+              <li><a href='http://14f.dubhacks.co/'>DubHacks Fall 2014</a></li>
               <li><a href='http://hackcodeofconduct.org/dubhacks_f14'>Code of Conduct</a></li>
               <li><a href='https://github.com/dubhacks/15s'>View Source</a></li>
               <li><a href='mailto:info@dubhacks.co'>Contact Us</a></li>

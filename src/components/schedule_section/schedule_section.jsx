@@ -28,10 +28,6 @@ module.exports = React.createClass({
           number: 7,
           period: 'pm',
           title: 'Dinner'
-        }, {
-          number: 10,
-          period: 'pm',
-          title: 'Surprise Activity'
         }],
         2: [{
           number: 12,

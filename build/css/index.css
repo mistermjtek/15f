@@ -460,6 +460,7 @@ body {
 .Page .section.title {
   font-size: fontSizeXXLarge;
   font-family: 'Unica One', sans-serif;
+  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   width: 100%;
@@ -491,21 +492,40 @@ body {
 .ScheduleSection .days .day {
   display: inline-block;
   width: 50%;
-  padding: 0 30px;
+  padding: 0 10%;
   margin-top: 20px;
+  vertical-align: top;
+}
+@media all and (max-width: 950px) {
+  .ScheduleSection .days .day {
+    padding: 0 5%;
+  }
 }
 @media all and (max-width: 600px) {
   .ScheduleSection .days .day {
     display: block;
     width: 100%;
+    padding: 0 10%;
   }
 }
 .ScheduleSection .days .day .day-title {
   margin-bottom: 20px;
   font-size: 30px;
 }
+@media all and (max-width: 600px) {
+  .ScheduleSection .days .day .day-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+  }
+}
 .ScheduleSection .days .day .events {
   margin-left: 10px;
+}
+@media all and (max-width: 600px) {
+  .ScheduleSection .days .day .events {
+    margin-left: 0;
+  }
 }
 .ScheduleSection .days .day .events .event {
   margin-bottom: 20px;
@@ -538,6 +558,11 @@ body {
   font-size: 20px;
   float: right;
   position: absolute;
+}
+@media all and (max-width: 600px) {
+  .ScheduleSection .days .day .events .event .event-title {
+    margin-left: 10px;
+  }
 }
 .ScheduleSection .sea {
   position: absolute;
@@ -790,6 +815,22 @@ body {
 }
 .SponsorSection .subtitle .sponsor-cta:hover {
   border-bottom: 1px dotted rgba(255,255,255,0.7);
+}
+.SponsorSection .prev-sponsors {
+  line-height: 2;
+  margin: 20px auto;
+  max-width: 1000px;
+  overflow: hidden;
+  text-align: center;
+}
+.SponsorSection .prev-sponsors li {
+  opacity: 0.7;
+  display: inline-block;
+  margin-right: 20px;
+}
+.SponsorSection .prev-sponsors li:not(:last-child)::after {
+  content: '•';
+  margin-left: 20px;
 }
 .SponsorSection .anchor {
   position: absolute;

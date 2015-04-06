@@ -15,20 +15,33 @@ timeSize = 50px
     .day
       display inline-block
       width 50%
-      padding 0 websitePadding
+      padding 0 10%
       margin-top 20px
+      vertical-align top
+
+      @media mediaTablet
+        padding 0 5%
 
       // 1 column
       @media mediaPhone
         display block
         width 100%
+        padding 0 10%
 
       .day-title
         margin-bottom 20px
         font-size fontSizeXLarge
 
+        @media mediaPhone
+          font-size fontSizeLarge
+          font-weight 700
+          text-align center
+
       .events
         margin-left 10px
+
+        @media mediaPhone
+          margin-left 0
 
         .event
           margin-bottom 20px
@@ -61,6 +74,9 @@ timeSize = 50px
             font-size fontSizeLarge
             float right
             position absolute
+
+            @media mediaPhone
+              margin-left 10px
 
   .sea
     position absolute
