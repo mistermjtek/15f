@@ -47,7 +47,7 @@ module.exports = React.createClass({
             </li>
             <li className='qa'>
               <h4 className='question'>I have a different question. Who can I ask?</h4>
-              <p>Reach out to us at via <a href='twitter.com/dubhacks'>Twitter</a>, <a href='facebook.com/uwhacks'>Facebook</a>, or send an email to <a href='contact@dubhacks.co'>contact@dubhacks.co</a></p>
+              <p>Reach out to us at via <a href='http://twitter.com/dubhacks'>Twitter</a>, <a href='http://facebook.com/uwhacks'>Facebook</a>, or send an email to <a href='mailto:info@dubhacks.co'>info@dubhacks.co</a></p>
             </li>
           </ul>
         </div>
