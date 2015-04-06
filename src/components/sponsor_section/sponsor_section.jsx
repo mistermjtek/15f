@@ -12,7 +12,7 @@ module.exports = React.createClass({
     return (
       <section className='SponsorSection page-section' id='sponsor'>
         <h2 className='section title'>Our Sponsors</h2>
-        <h5 className='subtitle'>A huge thanks to all our amazing DubHacks sponsors! <a href='/sponsor' className='sponsor-cta'>Become a sponsor</a>.</h5>
+        <h5 className='subtitle'>A huge thanks to all our amazing DubHacks sponsors! <a href='mailto:sponsor@dubhacks.co' className='sponsor-cta'>Become a sponsor</a>.</h5>
         <div className='tiers'>
           <ul className='standard'>
             <a href=''><li>Microsoft</li></a>

@@ -101,7 +101,7 @@ body {
   display: inline-block;
   width: 50%;
   vertical-align: top;
-  padding: 30px;
+  padding: 0 30px;
 }
 @media all and (max-width: 600px) {
   .FAQSection .faqs .faq {
@@ -112,6 +112,17 @@ body {
 }
 .FAQSection .faqs .faq .qa {
   margin-top: 20px;
+}
+.FAQSection .faqs .faq .qa .question {
+  margin-bottom: 5px;
+}
+.FAQSection .faqs a {
+  -webkit-transition: border-bottom 200ms;
+          transition: border-bottom 200ms;
+  border-bottom: 1px dotted rgba(255,255,255,0.3);
+}
+.FAQSection .faqs a:hover {
+  border-bottom: 1px dotted rgba(255,255,255,0.7);
 }
 @font-face {
   font-family: 'Proxima Nova';

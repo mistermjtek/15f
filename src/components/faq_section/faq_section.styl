@@ -16,7 +16,7 @@
       display inline-block
       width 50%
       vertical-align top
-      padding websitePadding
+      padding 0 websitePadding
 
       @media mediaPhone
         display block
@@ -25,3 +25,13 @@
 
       .qa
         margin-top 20px
+
+        .question
+          margin-bottom 5px
+
+    a
+      transition border-bottom transitionSpeed
+      border-bottom 1px dotted rgba(white, 0.3)
+
+      &:hover
+        border-bottom 1px dotted rgba(white, 0.7)
