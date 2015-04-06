@@ -88,15 +88,20 @@ body {
   background: -webkit-linear-gradient(#00b2e2, #0081bd);
   background: linear-gradient(#00b2e2, #0081bd);
   color: #fff;
-  padding: 30px;
   position: relative;
 }
 .FAQSection .section.title {
   top: 10px;
   position: absolute;
 }
-.FAQSection .faq {
-  margin-top: 60px;
+.FAQSection .faqs {
+  padding: 90px 30px 30px 30px;
+}
+.FAQSection .faqs .faq {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  padding: 30px;
 }
 @font-face {
   font-family: 'Proxima Nova';
@@ -457,7 +462,6 @@ body {
   color: #fff;
 }
 .ScheduleSection .section.title {
-  margin-left: 30px;
   padding-top: 30px;
 }
 .ScheduleSection .days {
