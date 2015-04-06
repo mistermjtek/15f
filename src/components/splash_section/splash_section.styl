@@ -35,13 +35,13 @@ planeSpeed = 60s
 
 @keyframes plane
   10%
-    left -20%
+    left -23%
     top 70%
   20%
     left 105%
     top 40%
   20.0001%
-    left -20%
+    left -23%
 
 @keyframes titleLogoShake
   0%
@@ -57,6 +57,7 @@ planeSpeed = 60s
   color white
 
   .center
+    font-family 'Unica One'
     text-align center
     height centerSize
     width centerSize
@@ -71,12 +72,15 @@ planeSpeed = 60s
       animation titleLogoShake 20s infinite
 
     .subtitle
-      margin-top 10px
+      text-transform uppercase
+
+      &.date
+        margin-top 10px
 
   .skyline
     width 100%
     position absolute
-    bottom -1px
+    bottom -10px
 
   .clouds
     .cloud
