@@ -28,10 +28,11 @@ module.exports = React.createClass({
             <h5 className='title'>Links</h5>
             <ul className='links-list'>
               <li><a href='http://hackcodeofconduct.org/dubhacks_f14'>Code of Conduct</a></li>
-              <li><a href='mailto:contact@dubhacks.co'>Contact Us</a></li>
+              <li><a href='https://github.com/dubhacks/15s'>View Source</a></li>
+              <li><a href='mailto:info@dubhacks.co'>Contact Us</a></li>
               <li><a href='https://www.facebook.com/uwhacks'>Facebook</a></li>
               <li><a href='https://twitter.com/dubhacks'>Twitter</a></li>
-              <li><a href='dubhacks.pr.co'>Press</a></li>
+              <li><a href='https://medium.com/@dubhacks'>Press</a></li>
             </ul>
           </div>
         </div>

@@ -1,10 +1,31 @@
+@import '../../constants'
+
 .SponsorSection
+  position relative
   background linear-gradient(colorBlueDark, colorPurple)
   color white
   padding websitePadding
+  overflow hidden
 
   .subtitle
     margin-top 30px
+    text-align center
+
+    .sponsor-cta
+      font-weight 700
+      transition border-bottom transitionSpeed
+      border-bottom 1px dotted rgba(white, 0.3)
+
+      &:hover
+        border-bottom 1px dotted rgba(white, 0.7)
+
+  .anchor
+    position absolute
+    bottom -7px
+    right 15%
+    transform rotate(30deg)
+    width 70px
+    opacity 0.4
 
   .tiers
     margin-top 20px

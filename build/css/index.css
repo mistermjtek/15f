@@ -41,7 +41,7 @@ body {
   position: absolute;
   width: 105%;
   left: -10px;
-  bottom: -1px;
+  bottom: -3px;
 }
 .DescriptionSection .title {
   margin-bottom: 45px;
@@ -73,7 +73,7 @@ body {
   position: absolute;
 }
 .FAQSection .faq {
-  margin-top: 40px;
+  margin-top: 80px;
 }
 @font-face {
   font-family: 'Proxima Nova';
@@ -391,8 +391,8 @@ body {
   line-height: 1.5;
 }
 .Page .section.title {
-  font-size: 30px;
-  width: 300px;
+  font-size: fontSizeXXLarge;
+  width: 400px;
   -webkit-transform: skewY(-7deg);
       -ms-transform: skewY(-7deg);
           transform: skewY(-7deg);
@@ -430,6 +430,7 @@ body {
 }
 .ScheduleSection .days .day .day-title {
   margin-bottom: 20px;
+  font-size: 30px;
 }
 .ScheduleSection .days .day .events {
   margin-left: 10px;
@@ -675,14 +676,42 @@ body {
             transform: scale(1.1);
   }
 }
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url("../../fonts/font.ttf") format('truetype');
+}
 .SponsorSection {
+  position: relative;
   background: -webkit-linear-gradient(#0081bd, #594094);
   background: linear-gradient(#0081bd, #594094);
   color: #fff;
   padding: 30px;
+  overflow: hidden;
 }
 .SponsorSection .subtitle {
   margin-top: 30px;
+  text-align: center;
+}
+.SponsorSection .subtitle .sponsor-cta {
+  font-weight: 700;
+  -webkit-transition: border-bottom 200ms;
+          transition: border-bottom 200ms;
+  border-bottom: 1px dotted rgba(255,255,255,0.3);
+}
+.SponsorSection .subtitle .sponsor-cta:hover {
+  border-bottom: 1px dotted rgba(255,255,255,0.7);
+}
+.SponsorSection .anchor {
+  position: absolute;
+  bottom: -7px;
+  right: 15%;
+  -webkit-transform: rotate(30deg);
+      -ms-transform: rotate(30deg);
+          transform: rotate(30deg);
+  width: 70px;
+  opacity: 0.4;
 }
 .SponsorSection .tiers {
   margin-top: 20px;

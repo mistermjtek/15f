@@ -5,7 +5,7 @@ module.exports = React.createClass({
     return (
       <section className='SponsorSection page-section' id='sponsor'>
         <h2 className='section title'>Our Sponsors</h2>
-        <h5 className='subtitle'>A huge thanks to all our amazing DubHacks sponsors! Become a <a href='/sponsor'>sponsor</a>.</h5>
+        <h5 className='subtitle'>A huge thanks to all our amazing DubHacks sponsors! <a href='/sponsor' className='sponsor-cta'>Become a sponsor</a>.</h5>
         <div className='tiers'>
           <ul className='standard'>
             <a href=''><li>Microsoft</li></a>
@@ -16,6 +16,7 @@ module.exports = React.createClass({
             <a href=''><li>Startup 2</li></a>
           </ul>
         </div>
+        <img className='anchor' src='images/anchor.svg' />
       </section>
     );
   }
