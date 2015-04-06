@@ -5,7 +5,7 @@ module.exports = React.createClass({
   scrollToSection: function(sectionName) {
     return function() {
       window.scrollTo(0, 0);
-      window.scrollTo(0, document.getElementById(sectionName).getBoundingClientRect().top - 80);
+      window.scrollTo(0, document.getElementById(sectionName).getBoundingClientRect().top - 60);
     };
   },
 
