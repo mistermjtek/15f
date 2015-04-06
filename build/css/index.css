@@ -7,7 +7,7 @@ body {
 .Bubble {
   position: absolute;
   width: 10px;
-  opacity: 0.3;
+  opacity: 0;
 }
 @font-face {
   font-family: 'Proxima Nova';

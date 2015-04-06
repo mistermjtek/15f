@@ -54,6 +54,7 @@
     "watchify": "^2.6.2"
   },
   "dependencies": {
+    "raf": "^2.0.4",
     "react-inlinesvg": "^0.3.0"
   }
 }

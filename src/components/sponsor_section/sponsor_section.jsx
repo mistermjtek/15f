@@ -52,10 +52,15 @@ module.exports = React.createClass({
           </ul>
         </div>
         <div className='bubbles'>
+          <Bubble origin={bubbleOrigin} />
+          <Bubble origin={bubbleOrigin} />
+          <Bubble origin={bubbleOrigin} />
+          <Bubble origin={bubbleOrigin} />
+          <Bubble origin={bubbleOrigin} />
+          <Bubble origin={bubbleOrigin} />
         </div>
         <img className='anchor' src='images/anchor.svg' />
       </section>
     );
-    // <Bubble origin={bubbleOrigin} />
   }
 });
