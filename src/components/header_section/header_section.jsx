@@ -15,7 +15,7 @@ module.exports = React.createClass({
         <img className='logo' src='images/logo-small.svg' />
         <nav className='nav'>
           <ul className='nav-buttons'>
-            <a target='_blank' href='https://dubhacks15s.typeform.com/to/stUU5c'><li className='register-button'><Button content='Apply!' flavor={Button.flavors.solid} /></li></a>
+            <a target='_blank' href='/apply'><li className='register-button'><Button content='Apply!' flavor={Button.flavors.solid} /></li></a>
             <li onClick={this.scrollToSection('schedule')}><Button content='Schedule' /></li>
             <li onClick={this.scrollToSection('faq')}><Button content='FAQ' /></li>
             <li onClick={this.scrollToSection('sponsor')}><Button content='Sponsors' /></li>
