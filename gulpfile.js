@@ -38,10 +38,10 @@ var dest = {
 // ## Environment
 var env = {
   dev: function() {
-    process.env.NODE_ENV === 'dev'
+    return process.env.NODE_ENV === 'dev';
   },
   prod: function() {
-    process.env.NODE_ENV === 'prod'
+    return process.env.NODE_ENV === 'prod';
   }
 };
 gulp.task('env:dev', function(cb) {
@@ -103,11 +103,11 @@ gulp.task('css', function() {
     .pipe(gulpif(env.dev(), plumber()))
     .pipe(gulpif(env.dev(), sourcemaps.init()))
     .pipe(stylus())
+    .pipe(prefix())
     .pipe(gulpif(env.dev(), sourcemaps.write('./', {
       includeContent: false,
       sourceRoot: 'src/css'
     })))
-    .pipe(prefix())
     .pipe(gulpif(env.prod(), minify()))
     .pipe(gulp.dest(dest.css))
     .pipe(filter('**/*.css'))
