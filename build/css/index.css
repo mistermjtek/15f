@@ -452,6 +452,9 @@ body {
   font-weight: 400;
   src: local('Unica One'), local('UnicaOne-Regular'), url("../../fonts/font-title.ttf") format('truetype');
 }
+.Page {
+  overflow: hidden;
+}
 .Page .page-section {
   width: 100%;
   font-family: 'Proxima Nova', sans-serif;
@@ -1048,3 +1051,5 @@ button {
   border: 0;
   outline: 0;
 }
+
+/*# sourceMappingURL=index.css.map */
