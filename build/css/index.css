@@ -273,13 +273,13 @@ body {
   position: fixed;
   background: #fff;
   z-index: 100;
-  height: 80px;
+  height: 60px;
   overflow: hidden;
-  padding: 15px 15px 10px 15px;
+  padding: 9px;
 }
 .HeaderSection .logo {
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-left: 10px;
   width: 120px;
 }
@@ -301,7 +301,7 @@ body {
   }
 }
 .HeaderSection .nav li .Button {
-  padding: 10px 20px;
+  padding: 5px 20px;
   font-size: 20px;
 }
 .HeaderSection .nav li .Button:hover:not(.solid) {
@@ -316,7 +316,7 @@ body {
   margin-left: 30px;
 }
 .HeaderSection .social-buttons li .Button {
-  padding: 10px;
+  padding: 8px;
   -webkit-transition: opacity 200ms;
           transition: opacity 200ms;
 }
