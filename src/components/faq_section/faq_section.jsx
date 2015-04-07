@@ -31,7 +31,7 @@ module.exports = React.createClass({
           <ul className='faq'>
             <li className='qa'>
               <h4 className='question'>What should I build?</h4>
-              <p>Anything really. The project is up to you and your team. You have 24 hours to make anything, ranging from web apps, desktop apps, mobile apps, or even embedded software.</p>
+              <p>Anything really. The project is up to you and your team. You have 24 hours to make anything, ranging from web apps, desktop apps, mobile apps, or even hardware.</p>
             </li>
             <li className='qa'>
               <h4 className='question'>How big are teams?</h4>
