@@ -21949,7 +21949,7 @@ module.exports = React.createClass({displayName: "exports",
       React.createElement("section", {className: "DescriptionSection page-section"}, 
         React.createElement("div", {className: "text"}, 
           React.createElement("h2", {className: "section title"}, "Educate Yourself"), 
-          React.createElement("p", {className: "description"}, "This spring, join 200 other college hackers at Mary Gates Hall to build the next generation of innovative software and hardware hacks. This time, we're featuring a ", React.createElement("strong", null, "50-50 female/male ratio"), " and focusing on bringing ", React.createElement("strong", null, "mentorship and resources"), " to new developers, designers, and makers.")
+          React.createElement("p", {className: "description"}, "This spring, join 200 other college hackers at Mary Gates Hall to build the next generation of innovative software and hardware hacks. This time, we're aiming for a ", React.createElement("strong", null, "50-50 female/male ratio"), " and focusing on bringing ", React.createElement("strong", null, "mentorship and resources"), " to new developers, designers, and makers.")
         ), 
         React.createElement("img", {className: "trees", src: "images/trees.svg"})
       )
