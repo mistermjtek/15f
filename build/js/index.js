@@ -21995,7 +21995,7 @@ module.exports = React.createClass({displayName: "exports",
           React.createElement("ul", {className: "faq"}, 
             React.createElement("li", {className: "qa"}, 
               React.createElement("h4", {className: "question"}, "What should I build?"), 
-              React.createElement("p", null, "Anything really. The project is up to you and your team. You have 24 hours to make anything, ranging from web apps, desktop apps, mobile apps, or even traditional software.")
+              React.createElement("p", null, "Anything really. The project is up to you and your team. You have 24 hours to make anything, ranging from web apps, desktop apps, mobile apps, or even embedded software.")
             ), 
             React.createElement("li", {className: "qa"}, 
               React.createElement("h4", {className: "question"}, "How big are teams?"), 
