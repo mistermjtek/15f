@@ -16,6 +16,14 @@ module.exports = React.createClass({
               <p>Undergraduate university students of all backgrounds are encouraged to apply and attend DubHacks.</p>
             </li>
             <li className='qa'>
+              <h4 className='question'>When does the application close?</h4>
+              <p>The applications for the Spring season will close on the 24th of April.</p>
+            </li>
+            <li className='qa'>
+              <h4 className='question'>When will I hear back?</h4>
+              <p>You will receive you decision via email during the first week of May.</p>
+            </li>
+            <li className='qa'>
               <h4 className='question'>Travel reimbursement?</h4>
               <p>We are <strong>not</strong> providing travel reimbursement.</p>
             </li>
@@ -31,7 +39,7 @@ module.exports = React.createClass({
           <ul className='faq'>
             <li className='qa'>
               <h4 className='question'>What should I build?</h4>
-              <p>Anything really. The project is up to you and your team. You have 24 hours to make anything, ranging from web apps, desktop apps, mobile apps, or even embedded software.</p>
+              <p>Anything really. The project is up to you and your team. You have 24 hours to make anything, ranging from web apps, desktop apps, mobile apps, or even hardware.</p>
             </li>
             <li className='qa'>
               <h4 className='question'>How big are teams?</h4>

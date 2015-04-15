@@ -44,7 +44,7 @@ module.exports = React.createClass({
           <li>STF</li>
           <li>UW IT</li>
         </ul>
-        <h5 className='subtitle'>A huge thanks to all our amazing DubHacks sponsors! <a href='mailto:sponsor@dubhacks.co' className='sponsor-cta'>Become a sponsor</a>.</h5>
+        <h5 className='subtitle'>A huge thanks to all our amazing DubHacks sponsors! Interested in sponsoring? Email us at <a href='mailto:sponsor@dubhacks.co' className='sponsor-cta'>sponsor@dubhacks.co</a>.</h5>
         <div className='tiers'>
           <ul className='standard'>
           </ul>
