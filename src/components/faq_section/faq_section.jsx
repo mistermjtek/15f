@@ -16,6 +16,14 @@ module.exports = React.createClass({
               <p>Undergraduate university students of all backgrounds are encouraged to apply and attend DubHacks.</p>
             </li>
             <li className='qa'>
+              <h4 className='question'>When does the application close?</h4>
+              <p>The applications for the Spring season will close on the 24th of April.</p>
+            </li>
+            <li className='qa'>
+              <h4 className='question'>When will I hear back?</h4>
+              <p>You will receive you decision via email during the first week of May.</p>
+            </li>
+            <li className='qa'>
               <h4 className='question'>Travel reimbursement?</h4>
               <p>We are <strong>not</strong> providing travel reimbursement.</p>
             </li>
