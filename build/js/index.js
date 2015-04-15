@@ -21980,6 +21980,10 @@ module.exports = React.createClass({displayName: "exports",
               React.createElement("p", null, "Undergraduate university students of all backgrounds are encouraged to apply and attend DubHacks.")
             ), 
             React.createElement("li", {className: "qa"}, 
+              React.createElement("h4", {className: "question"}, "When does the application close?"), 
+              React.createElement("p", null, "The applications for the Spring season will close on the 24th of April. You will receive you decision via email during the first week of May.")
+            ), 
+            React.createElement("li", {className: "qa"}, 
               React.createElement("h4", {className: "question"}, "Travel reimbursement?"), 
               React.createElement("p", null, "We are ", React.createElement("strong", null, "not"), " providing travel reimbursement.")
             ), 
@@ -21995,7 +21999,7 @@ module.exports = React.createClass({displayName: "exports",
           React.createElement("ul", {className: "faq"}, 
             React.createElement("li", {className: "qa"}, 
               React.createElement("h4", {className: "question"}, "What should I build?"), 
-              React.createElement("p", null, "Anything really. The project is up to you and your team. You have 24 hours to make anything, ranging from web apps, desktop apps, mobile apps, or even embedded software.")
+              React.createElement("p", null, "Anything really. The project is up to you and your team. You have 24 hours to make anything, ranging from web apps, desktop apps, mobile apps, or even hardware.")
             ), 
             React.createElement("li", {className: "qa"}, 
               React.createElement("h4", {className: "question"}, "How big are teams?"), 
@@ -22334,7 +22338,7 @@ module.exports = React.createClass({displayName: "exports",
           React.createElement("li", null, "STF"), 
           React.createElement("li", null, "UW IT")
         ), 
-        React.createElement("h5", {className: "subtitle"}, "A huge thanks to all our amazing DubHacks sponsors! ", React.createElement("a", {href: "mailto:sponsor@dubhacks.co", className: "sponsor-cta"}, "Become a sponsor"), "."), 
+        React.createElement("h5", {className: "subtitle"}, "A huge thanks to all our amazing DubHacks sponsors! Interested in sponsoring?", React.createElement("br", null), "Check out our ", React.createElement("a", {href: "/sponsor.pdf", className: "sponsor-cta"}, "sponsor document"), " or email us at ", React.createElement("a", {href: "mailto:sponsor@dubhacks.co", className: "sponsor-cta"}, "sponsor@dubhacks.co"), "."), 
         React.createElement("div", {className: "tiers"}, 
           React.createElement("ul", {className: "standard"}
           ), 
