@@ -31,10 +31,6 @@ module.exports = React.createClass({
               <h4 className='question'>How much does this event cost?</h4>
               <p>Absolutely free. We will provide you WiFi, meals, caffeine, swag, and the workspace.</p>
             </li>
-            <li className='qa'>
-              <h4 className='question'>What should I bring?</h4>
-              <p>Please bring a laptop, charger, student id and passion! Besides that, a toothbrush, sleeping bag/blanket, and change of clothes is recommended.</p>
-            </li>
           </ul>
           <ul className='faq'>
             <li className='qa'>
@@ -52,6 +48,10 @@ module.exports = React.createClass({
             <li className='qa'>
               <h4 className='question'>Are we allowed to build on past projects?</h4>
               <p>A hackathon is an experience to build on something completely new within a set amount of time. With that in mind, you cannot work on past projects. Using your own APIs or third-party APIs is alright as long as the project is a fresh start.</p>
+            </li>
+            <li className='qa'>
+              <h4 className='question'>What should I bring?</h4>
+              <p>Please bring a laptop, charger, student id and passion! Besides that, a toothbrush, sleeping bag/blanket, and change of clothes is recommended.</p>
             </li>
             <li className='qa'>
               <h4 className='question'>I have a different question. Who can I ask?</h4>
