@@ -7,5 +7,6 @@
 Just run
 
 ```sh
+sudo npm install
 gulp
 ```
