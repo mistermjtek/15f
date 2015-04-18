@@ -16,6 +16,10 @@ module.exports = React.createClass({
               <p>Undergraduate university students of all backgrounds are encouraged to apply and attend DubHacks.</p>
             </li>
             <li className='qa'>
+              <h4 className='question'>What is the difference between the blue buttons?</h4>
+              <p>When you apply, you apply to be a participant at the hackathon, clicking to "Be a Mentor" enrolls you to mentor the participants of the event and lastly a volunteer is essential to the setting up and running of the event</p>
+            </li>
+            <li className='qa'>
               <h4 className='question'>When does the application close?</h4>
               <p>The applications for the Spring season will close on the 24th of April. You will receive your decision via email during the first week of May.</p>
             </li>
