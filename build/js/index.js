@@ -21980,8 +21980,12 @@ module.exports = React.createClass({displayName: "exports",
               React.createElement("p", null, "Undergraduate university students of all backgrounds are encouraged to apply and attend DubHacks.")
             ), 
             React.createElement("li", {className: "qa"}, 
+              React.createElement("h4", {className: "question"}, "What is the difference between the blue buttons?"), 
+              React.createElement("p", null, "When you apply, you apply to be a participant at the hackathon, clicking to \"Be a Mentor\" enrolls you to mentor the participants of the event and lastly a volunteer is essential to the setting up and running of the event")
+            ), 
+            React.createElement("li", {className: "qa"}, 
               React.createElement("h4", {className: "question"}, "When does the application close?"), 
-              React.createElement("p", null, "The applications for the Spring season will close on the 24th of April. You will receive you decision via email during the first week of May.")
+              React.createElement("p", null, "The applications for the Spring season will close on the 24th of April. You will receive your decision via email during the first week of May.")
             ), 
             React.createElement("li", {className: "qa"}, 
               React.createElement("h4", {className: "question"}, "Travel reimbursement?"), 
@@ -21990,10 +21994,6 @@ module.exports = React.createClass({displayName: "exports",
             React.createElement("li", {className: "qa"}, 
               React.createElement("h4", {className: "question"}, "How much does this event cost?"), 
               React.createElement("p", null, "Absolutely free. We will provide you WiFi, meals, caffeine, swag, and the workspace.")
-            ), 
-            React.createElement("li", {className: "qa"}, 
-              React.createElement("h4", {className: "question"}, "What should I bring?"), 
-              React.createElement("p", null, "Please bring a laptop, charger, student id and passion! Besides that, a toothbrush, sleeping bag/blanket, and change of clothes is recommended.")
             )
           ), 
           React.createElement("ul", {className: "faq"}, 
@@ -22012,6 +22012,10 @@ module.exports = React.createClass({displayName: "exports",
             React.createElement("li", {className: "qa"}, 
               React.createElement("h4", {className: "question"}, "Are we allowed to build on past projects?"), 
               React.createElement("p", null, "A hackathon is an experience to build on something completely new within a set amount of time. With that in mind, you cannot work on past projects. Using your own APIs or third-party APIs is alright as long as the project is a fresh start.")
+            ), 
+            React.createElement("li", {className: "qa"}, 
+              React.createElement("h4", {className: "question"}, "What should I bring?"), 
+              React.createElement("p", null, "Please bring a laptop, charger, student id and passion! Besides that, a toothbrush, sleeping bag/blanket, and change of clothes is recommended.")
             ), 
             React.createElement("li", {className: "qa"}, 
               React.createElement("h4", {className: "question"}, "I have a different question. Who can I ask?"), 
@@ -22100,6 +22104,8 @@ module.exports = React.createClass({displayName: "exports",
         React.createElement("nav", {className: "nav"}, 
           React.createElement("ul", {className: "nav-buttons"}, 
             React.createElement("a", {target: "_blank", href: "/apply"}, React.createElement("li", {className: "register-button"}, React.createElement(Button, {content: "Apply!", flavor: Button.flavors.solid}))), 
+            React.createElement("a", {target: "_blank", href: "/mentor"}, React.createElement("li", {className: "register-button"}, React.createElement(Button, {content: "Mentor!", flavor: Button.flavors.solid}))), 
+            React.createElement("a", {target: "_blank", href: "/volunteer"}, React.createElement("li", {className: "register-button"}, React.createElement(Button, {content: "Volunteer!", flavor: Button.flavors.solid}))), 
             React.createElement("li", {onClick: this.scrollToSection('schedule')}, React.createElement(Button, {content: "Schedule"})), 
             React.createElement("li", {onClick: this.scrollToSection('faq')}, React.createElement(Button, {content: "FAQ"})), 
             React.createElement("li", {onClick: this.scrollToSection('sponsor')}, React.createElement(Button, {content: "Sponsors"}))
