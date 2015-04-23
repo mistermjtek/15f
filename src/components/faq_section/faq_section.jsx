@@ -13,30 +13,26 @@ module.exports = React.createClass({
             </li>
             <li className='qa'>
               <h4 className='question'>Who can attend?</h4>
-              <p>Undergraduate university students of all backgrounds are encouraged to apply and attend DubHacks.</p>
+              <p>Undergraduate university and high school students of all backgrounds are encouraged to apply and attend DubHacks.</p>
             </li>
             <li className='qa'>
-              <h4 className='question'>What is the difference between the blue buttons?</h4>
-              <p>When you apply, you apply to be a participant at the hackathon, clicking to "Be a Mentor" enrolls you to mentor the participants of the event and lastly a volunteer is essential to the setting up and running of the event</p>
-            </li>
-            <li className='qa'>
-              <h4 className='question'>When does the application close?</h4>
-              <p>The applications for the Spring season will close on the 24th of April. You will receive your decision via email during the first week of May.</p>
+              <h4 className='question'>When does the application open?</h4>
+              <p>The applications for fall will open sometime this summer.</p>
             </li>
             <li className='qa'>
               <h4 className='question'>Travel reimbursement?</h4>
-              <p>We are <strong>not</strong> providing travel reimbursement.</p>
+              <p>We will provide travel reimbursement to those who need it. More details will come out this summer.</p>
             </li>
             <li className='qa'>
               <h4 className='question'>How much does this event cost?</h4>
               <p>Absolutely free. We will provide you WiFi, meals, caffeine, swag, and the workspace.</p>
             </li>
-          </ul>
-          <ul className='faq'>
             <li className='qa'>
               <h4 className='question'>What should I build?</h4>
               <p>Anything really. The project is up to you and your team. You have 24 hours to make anything, ranging from web apps, desktop apps, mobile apps, or even hardware.</p>
             </li>
+          </ul>
+          <ul className='faq'>
             <li className='qa'>
               <h4 className='question'>How big are teams?</h4>
               <p>A team can be as big as 5 people. We'll help with pairing team members if you don't come with one.</p>

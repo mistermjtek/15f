@@ -6,7 +6,7 @@ module.exports = React.createClass({
       <section className='SplashSection page-section'>
         <div className='center'>
           <img className='logo' src='images/logo.svg' />
-          <h3 className='subtitle date'>May 16-17, 2015</h3>
+          <h3 className='subtitle date'>Fall, 2015</h3>
           <h4 className='subtitle location'>UW, Seattle</h4>
         </div>
         <ul className='clouds'>

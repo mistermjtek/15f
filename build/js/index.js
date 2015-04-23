@@ -21949,7 +21949,7 @@ module.exports = React.createClass({displayName: "exports",
       React.createElement("section", {className: "DescriptionSection page-section"}, 
         React.createElement("div", {className: "text"}, 
           React.createElement("h2", {className: "section title"}, "Educate Yourself"), 
-          React.createElement("p", {className: "description"}, "This spring, join 200 other college hackers at Mary Gates Hall to build the next generation of innovative software and hardware hacks. This time, we're aiming for a ", React.createElement("strong", null, "50-50 female/male ratio"), " and focusing on bringing ", React.createElement("strong", null, "mentorship and resources"), " to new developers, designers, and makers.")
+          React.createElement("p", {className: "description"}, "DubHacks is the ", React.createElement("strong", null, "largest collegiate hackathon"), " in the Pacific Northwest. This fall, over 500 top college hackers will gather at the ", React.createElement("strong", null, "University of Washington"), " to build the next generation of innovative software and hardware hacks.")
         ), 
         React.createElement("img", {className: "trees", src: "images/trees.svg"})
       )
@@ -21977,30 +21977,26 @@ module.exports = React.createClass({displayName: "exports",
             ), 
             React.createElement("li", {className: "qa"}, 
               React.createElement("h4", {className: "question"}, "Who can attend?"), 
-              React.createElement("p", null, "Undergraduate university students of all backgrounds are encouraged to apply and attend DubHacks.")
+              React.createElement("p", null, "Undergraduate university and high school students of all backgrounds are encouraged to apply and attend DubHacks.")
             ), 
             React.createElement("li", {className: "qa"}, 
-              React.createElement("h4", {className: "question"}, "What is the difference between the blue buttons?"), 
-              React.createElement("p", null, "When you apply, you apply to be a participant at the hackathon, clicking to \"Be a Mentor\" enrolls you to mentor the participants of the event and lastly a volunteer is essential to the setting up and running of the event")
-            ), 
-            React.createElement("li", {className: "qa"}, 
-              React.createElement("h4", {className: "question"}, "When does the application close?"), 
-              React.createElement("p", null, "The applications for the Spring season will close on the 24th of April. You will receive your decision via email during the first week of May.")
+              React.createElement("h4", {className: "question"}, "When does the application open?"), 
+              React.createElement("p", null, "The applications for fall will open sometime this summer.")
             ), 
             React.createElement("li", {className: "qa"}, 
               React.createElement("h4", {className: "question"}, "Travel reimbursement?"), 
-              React.createElement("p", null, "We are ", React.createElement("strong", null, "not"), " providing travel reimbursement.")
+              React.createElement("p", null, "We will provide travel reimbursement to those who need it. More details will come out this summer.")
             ), 
             React.createElement("li", {className: "qa"}, 
               React.createElement("h4", {className: "question"}, "How much does this event cost?"), 
               React.createElement("p", null, "Absolutely free. We will provide you WiFi, meals, caffeine, swag, and the workspace.")
-            )
-          ), 
-          React.createElement("ul", {className: "faq"}, 
+            ), 
             React.createElement("li", {className: "qa"}, 
               React.createElement("h4", {className: "question"}, "What should I build?"), 
               React.createElement("p", null, "Anything really. The project is up to you and your team. You have 24 hours to make anything, ranging from web apps, desktop apps, mobile apps, or even hardware.")
-            ), 
+            )
+          ), 
+          React.createElement("ul", {className: "faq"}, 
             React.createElement("li", {className: "qa"}, 
               React.createElement("h4", {className: "question"}, "How big are teams?"), 
               React.createElement("p", null, "A team can be as big as 5 people. We'll help with pairing team members if you don't come with one.")
@@ -22041,7 +22037,7 @@ module.exports = React.createClass({displayName: "exports",
       React.createElement("section", {className: "FooterSection page-section"}, 
         React.createElement("div", {className: "main footer"}, 
           React.createElement("div", {className: "col organizers"}, 
-            React.createElement("h5", {className: "title"}, "Spring 2015 DubHacks Organizers"), 
+            React.createElement("h5", {className: "title"}, "Fall 2015 DubHacks Organizers"), 
             React.createElement("ul", {className: "organizers-list"}, 
               React.createElement("a", {href: "http://grant.cm/"}, React.createElement("li", null, "Grant Timmerman")), 
               React.createElement("a", {href: "https://www.linkedin.com/in/skylerkidd"}, React.createElement("li", null, "Skyler Kidd")), 
@@ -22098,14 +22094,14 @@ module.exports = React.createClass({displayName: "exports",
   },
 
   render: function() {
+// <a target='_blank' href='/apply'><li className='register-button'><Button content='Apply!' flavor={Button.flavors.solid} /></li></a>
+// <a target='_blank' href='/mentor'><li className='register-button'><Button content='Mentor!' flavor={Button.flavors.solid} /></li></a>
+// <a target='_blank' href='/volunteer'><li className='register-button'><Button content='Volunteer!' flavor={Button.flavors.solid} /></li></a>
     return (
       React.createElement("section", {className: "HeaderSection page-section"}, 
         React.createElement("img", {className: "logo", src: "images/logo-small.svg"}), 
         React.createElement("nav", {className: "nav"}, 
           React.createElement("ul", {className: "nav-buttons"}, 
-            React.createElement("a", {target: "_blank", href: "/apply"}, React.createElement("li", {className: "register-button"}, React.createElement(Button, {content: "Apply!", flavor: Button.flavors.solid}))), 
-            React.createElement("a", {target: "_blank", href: "/mentor"}, React.createElement("li", {className: "register-button"}, React.createElement(Button, {content: "Mentor!", flavor: Button.flavors.solid}))), 
-            React.createElement("a", {target: "_blank", href: "/volunteer"}, React.createElement("li", {className: "register-button"}, React.createElement(Button, {content: "Volunteer!", flavor: Button.flavors.solid}))), 
             React.createElement("li", {onClick: this.scrollToSection('schedule')}, React.createElement(Button, {content: "Schedule"})), 
             React.createElement("li", {onClick: this.scrollToSection('faq')}, React.createElement(Button, {content: "FAQ"})), 
             React.createElement("li", {onClick: this.scrollToSection('sponsor')}, React.createElement(Button, {content: "Sponsors"}))
@@ -22249,11 +22245,11 @@ module.exports = React.createClass({displayName: "exports",
         React.createElement("h2", {className: "section title"}, "Schedule"), 
         React.createElement("ul", {className: "days"}, 
           React.createElement("li", {className: "day"}, 
-            React.createElement("h3", {className: "day-title"}, "Saturday, May 16, 2015"), 
+            React.createElement("h3", {className: "day-title"}, "Day 1"), 
             getEvents(1)
           ), 
           React.createElement("li", {className: "day"}, 
-            React.createElement("h3", {className: "day-title"}, "Sunday, May 17, 2015"), 
+            React.createElement("h3", {className: "day-title"}, "Day 2"), 
             getEvents(2)
           )
         ), 
@@ -22276,7 +22272,7 @@ module.exports = React.createClass({displayName: "exports",
       React.createElement("section", {className: "SplashSection page-section"}, 
         React.createElement("div", {className: "center"}, 
           React.createElement("img", {className: "logo", src: "images/logo.svg"}), 
-          React.createElement("h3", {className: "subtitle date"}, "May 16-17, 2015"), 
+          React.createElement("h3", {className: "subtitle date"}, "Fall, 2015"), 
           React.createElement("h4", {className: "subtitle location"}, "UW, Seattle")
         ), 
         React.createElement("ul", {className: "clouds"}, 
@@ -22344,7 +22340,7 @@ module.exports = React.createClass({displayName: "exports",
           React.createElement("li", null, "STF"), 
           React.createElement("li", null, "UW IT")
         ), 
-        React.createElement("h5", {className: "subtitle"}, "A huge thanks to all our amazing DubHacks sponsors! Interested in sponsoring?", React.createElement("br", null), "Check out our ", React.createElement("a", {href: "/sponsor.pdf", className: "sponsor-cta"}, "sponsor document"), " or email us at ", React.createElement("a", {href: "mailto:sponsor@dubhacks.co", className: "sponsor-cta"}, "sponsor@dubhacks.co"), "."), 
+        React.createElement("h5", {className: "subtitle"}, "A huge thanks to all our amazing DubHacks sponsors! Interested in sponsoring?", React.createElement("br", null), "Email us at ", React.createElement("a", {href: "mailto:sponsor@dubhacks.co", className: "sponsor-cta"}, "sponsor@dubhacks.co"), "."), 
         React.createElement("div", {className: "tiers"}, 
           React.createElement("ul", {className: "standard"}
           ), 
