@@ -91,11 +91,11 @@ module.exports = React.createClass({
         <h2 className='section title'>Schedule</h2>
         <ul className='days'>
           <li className='day'>
-            <h3 className='day-title'>Day 1</h3>
+            <h3 className='day-title'>October 17th</h3>
             {getEvents(1)}
           </li>
           <li className='day'>
-            <h3 className='day-title'>Day 2</h3>
+            <h3 className='day-title'>October 18th</h3>
             {getEvents(2)}
           </li>
         </ul>

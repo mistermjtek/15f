@@ -22245,11 +22245,11 @@ module.exports = React.createClass({displayName: "exports",
         React.createElement("h2", {className: "section title"}, "Schedule"), 
         React.createElement("ul", {className: "days"}, 
           React.createElement("li", {className: "day"}, 
-            React.createElement("h3", {className: "day-title"}, "Day 1"), 
+            React.createElement("h3", {className: "day-title"}, "October 17th"), 
             getEvents(1)
           ), 
           React.createElement("li", {className: "day"}, 
-            React.createElement("h3", {className: "day-title"}, "Day 2"), 
+            React.createElement("h3", {className: "day-title"}, "October 18th"), 
             getEvents(2)
           )
         ), 
@@ -22272,7 +22272,7 @@ module.exports = React.createClass({displayName: "exports",
       React.createElement("section", {className: "SplashSection page-section"}, 
         React.createElement("div", {className: "center"}, 
           React.createElement("img", {className: "logo", src: "images/logo.svg"}), 
-          React.createElement("h3", {className: "subtitle date"}, "Fall, 2015"), 
+          React.createElement("h3", {className: "subtitle date"}, "October 17-18, 2015"), 
           React.createElement("h4", {className: "subtitle location"}, "UW, Seattle")
         ), 
         React.createElement("ul", {className: "clouds"}, 
