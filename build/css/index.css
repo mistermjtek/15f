@@ -7,10 +7,10 @@ body {
 .Boat {
   position: absolute;
   width: 8%;
-  -webkit-animation: up-and-down 3s ease-in-out infinite, boat-back-and-forth 160s ease-in-out infinite, boat-rotate 160s ease-in-out infinite;
-          animation: up-and-down 3s ease-in-out infinite, boat-back-and-forth 160s ease-in-out infinite, boat-rotate 160s ease-in-out infinite;
-  -webkit-animation-delay: -30s;
-          animation-delay: -30s;
+  -webkit-animation: up-and-down 3s ease-in-out infinite, boat-back-and-forth 80s ease-in-out infinite, boat-rotate 80s ease-in-out infinite;
+          animation: up-and-down 3s ease-in-out infinite, boat-back-and-forth 80s ease-in-out infinite, boat-rotate 80s ease-in-out infinite;
+  -webkit-animation-delay: -15s;
+          animation-delay: -15s;
 }
 .Boat .boat-img {
   width: 100%;
@@ -65,11 +65,11 @@ body {
     -webkit-transform: rotateY(0deg);
             transform: rotateY(0deg);
   }
-  51% {
+  50% {
     -webkit-transform: rotateY(180deg);
             transform: rotateY(180deg);
   }
-  98% {
+  99% {
     -webkit-transform: rotateY(180deg);
             transform: rotateY(180deg);
   }
@@ -87,11 +87,11 @@ body {
     -webkit-transform: rotateY(0deg);
             transform: rotateY(0deg);
   }
-  51% {
+  50% {
     -webkit-transform: rotateY(180deg);
             transform: rotateY(180deg);
   }
-  98% {
+  99% {
     -webkit-transform: rotateY(180deg);
             transform: rotateY(180deg);
   }
