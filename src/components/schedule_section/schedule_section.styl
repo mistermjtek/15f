@@ -1,6 +1,14 @@
 @import '../../constants'
 timeSize = 50px
 
+@keyframes left-right
+  0%
+    left -20px
+  50%
+    left -10px
+  100%
+    left -20px
+
 .ScheduleSection
   position relative
   background linear-gradient(colorPurpleLight, colorPurple)
@@ -80,6 +88,15 @@ timeSize = 50px
 
   .sea
     position absolute
-    width 105%
-    left -10px
+    width 110%
+    left -20px
     bottom -10px
+    animation-name left-right
+    animation-duration 10s
+    animation-timing-function ease-in-out
+    animation-iteration-count infinite
+
+    &:nth-child(2n)
+      transform translateX(20px)
+      animation-duration 3s
+      opacity 0.4

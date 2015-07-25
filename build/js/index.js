@@ -21797,7 +21797,42 @@ module.exports = require('./lib/React');
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/node_modules/react/react.js","/node_modules/react")
 
-},{"./lib/React":"/Users/granttimmerman/Documents/github/15f/node_modules/react/lib/React.js","_process":"/Users/granttimmerman/Documents/github/15f/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/granttimmerman/Documents/github/15f/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/granttimmerman/Documents/github/15f/src/components/bubble/bubble.jsx":[function(require,module,exports){
+},{"./lib/React":"/Users/granttimmerman/Documents/github/15f/node_modules/react/lib/React.js","_process":"/Users/granttimmerman/Documents/github/15f/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/granttimmerman/Documents/github/15f/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/granttimmerman/Documents/github/15f/src/components/boat/boat.jsx":[function(require,module,exports){
+(function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
+var React = require('react');
+var raf = require('raf');
+
+module.exports = React.createClass({displayName: "exports",
+  /**
+   * The water height varies on the width of the browser.
+   * Update the boat height off the water on load and when the window resizes.
+   */
+  _updateBoatHeightOffWater: function() {
+    var browserWidth = window.innerWidth;
+    this.refs.Boat.getDOMNode().style.bottom = (Math.pow(browserWidth, 2) / 100000) + 'px';
+  },
+
+  componentDidMount: function() {
+    var self = this;
+    self._updateBoatHeightOffWater();
+    window.addEventListener('resize', function(e) {
+      self._updateBoatHeightOffWater();
+    });
+  },
+
+  render: function() {
+    return (
+      React.createElement("div", {className: "Boat", ref: "Boat"}, 
+        React.createElement("img", {ref: "img", className: "boat-img", src: "images/boat.svg"})
+      )
+    );
+  }
+});
+
+
+}).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/src/components/boat/boat.jsx","/src/components/boat")
+
+},{"_process":"/Users/granttimmerman/Documents/github/15f/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/granttimmerman/Documents/github/15f/node_modules/browserify/node_modules/buffer/index.js","raf":"/Users/granttimmerman/Documents/github/15f/node_modules/raf/index.js","react":"/Users/granttimmerman/Documents/github/15f/node_modules/react/react.js"}],"/Users/granttimmerman/Documents/github/15f/src/components/bubble/bubble.jsx":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 var React = require('react');
 var raf = require('raf');
@@ -22152,6 +22187,7 @@ module.exports = React.createClass({displayName: "exports",
 
 },{"../description_section/description_section.jsx":"/Users/granttimmerman/Documents/github/15f/src/components/description_section/description_section.jsx","../faq_section/faq_section.jsx":"/Users/granttimmerman/Documents/github/15f/src/components/faq_section/faq_section.jsx","../footer_section/footer_section.jsx":"/Users/granttimmerman/Documents/github/15f/src/components/footer_section/footer_section.jsx","../header_section/header_section.jsx":"/Users/granttimmerman/Documents/github/15f/src/components/header_section/header_section.jsx","../schedule_section/schedule_section.jsx":"/Users/granttimmerman/Documents/github/15f/src/components/schedule_section/schedule_section.jsx","../splash_section/splash_section.jsx":"/Users/granttimmerman/Documents/github/15f/src/components/splash_section/splash_section.jsx","../sponsor_section/sponsor_section.jsx":"/Users/granttimmerman/Documents/github/15f/src/components/sponsor_section/sponsor_section.jsx","_process":"/Users/granttimmerman/Documents/github/15f/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/granttimmerman/Documents/github/15f/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/granttimmerman/Documents/github/15f/node_modules/react/react.js"}],"/Users/granttimmerman/Documents/github/15f/src/components/schedule_section/schedule_section.jsx":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
+var Boat = require('../boat/boat.jsx');
 var React = require('react');
 
 module.exports = React.createClass({displayName: "exports",
@@ -22253,6 +22289,8 @@ module.exports = React.createClass({displayName: "exports",
             getEvents(2)
           )
         ), 
+        React.createElement(Boat, null), 
+        React.createElement("img", {className: "sea", src: "images/sea.svg"}), 
         React.createElement("img", {className: "sea", src: "images/sea.svg"})
       )
     );
@@ -22262,7 +22300,7 @@ module.exports = React.createClass({displayName: "exports",
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/src/components/schedule_section/schedule_section.jsx","/src/components/schedule_section")
 
-},{"_process":"/Users/granttimmerman/Documents/github/15f/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/granttimmerman/Documents/github/15f/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/granttimmerman/Documents/github/15f/node_modules/react/react.js"}],"/Users/granttimmerman/Documents/github/15f/src/components/splash_section/splash_section.jsx":[function(require,module,exports){
+},{"../boat/boat.jsx":"/Users/granttimmerman/Documents/github/15f/src/components/boat/boat.jsx","_process":"/Users/granttimmerman/Documents/github/15f/node_modules/browserify/node_modules/process/browser.js","buffer":"/Users/granttimmerman/Documents/github/15f/node_modules/browserify/node_modules/buffer/index.js","react":"/Users/granttimmerman/Documents/github/15f/node_modules/react/react.js"}],"/Users/granttimmerman/Documents/github/15f/src/components/splash_section/splash_section.jsx":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 var React = require('react');
 

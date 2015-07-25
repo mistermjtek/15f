@@ -1,3 +1,4 @@
+var Boat = require('../boat/boat.jsx');
 var React = require('react');
 
 module.exports = React.createClass({
@@ -99,6 +100,8 @@ module.exports = React.createClass({
             {getEvents(2)}
           </li>
         </ul>
+        <Boat />
+        <img className='sea' src='images/sea.svg' />
         <img className='sea' src='images/sea.svg' />
       </section>
     );
