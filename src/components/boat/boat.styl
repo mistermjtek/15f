@@ -6,9 +6,21 @@
   100%
     transform rotate(10deg) translateY(10px)
 
+@keyframes boat-rotate
+  0%
+    transform rotateY(0deg)
+  49%
+    transform rotateY(0deg)
+  51%
+    transform rotateY(180deg)
+  98%
+    transform rotateY(180deg)
+  10%
+    transform rotateY(0deg)
+
 @keyframes boat-back-and-forth
   0%
-    left -10%
+    left 10%
   20%
     left 20%
   50%
@@ -16,7 +28,7 @@
   70%
     left 40%
   100%
-    left -10%
+    left 10%
 
 @keyframes up-and-down
   0%
@@ -27,11 +39,12 @@
     transform translateY(10px)
 
 boatRockAnimationTime = 3s
+boatTravelTime = 160s
 
 .Boat
   position absolute
   width 8%
-  animation up-and-down boatRockAnimationTime ease-in-out infinite, boat-back-and-forth 160s ease-in-out infinite
+  animation up-and-down boatRockAnimationTime ease-in-out infinite, boat-back-and-forth boatTravelTime ease-in-out infinite, boat-rotate boatTravelTime ease-in-out infinite
   animation-delay -30s
 
   .boat-img

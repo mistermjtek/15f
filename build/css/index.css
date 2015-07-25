@@ -7,8 +7,8 @@ body {
 .Boat {
   position: absolute;
   width: 8%;
-  -webkit-animation: up-and-down 3s ease-in-out infinite, boat-back-and-forth 160s ease-in-out infinite;
-          animation: up-and-down 3s ease-in-out infinite, boat-back-and-forth 160s ease-in-out infinite;
+  -webkit-animation: up-and-down 3s ease-in-out infinite, boat-back-and-forth 160s ease-in-out infinite, boat-rotate 160s ease-in-out infinite;
+          animation: up-and-down 3s ease-in-out infinite, boat-back-and-forth 160s ease-in-out infinite, boat-rotate 160s ease-in-out infinite;
   -webkit-animation-delay: -30s;
           animation-delay: -30s;
 }
@@ -56,9 +56,53 @@ body {
             transform: rotate(10deg) translateY(10px);
   }
 }
+@-webkit-keyframes boat-rotate {
+  0% {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  49% {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  51% {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+  98% {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+  10% {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+}
+@keyframes boat-rotate {
+  0% {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  49% {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  51% {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+  98% {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+  10% {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+}
 @-webkit-keyframes boat-back-and-forth {
   0% {
-    left: -10%;
+    left: 10%;
   }
   20% {
     left: 20%;
@@ -70,12 +114,12 @@ body {
     left: 40%;
   }
   100% {
-    left: -10%;
+    left: 10%;
   }
 }
 @keyframes boat-back-and-forth {
   0% {
-    left: -10%;
+    left: 10%;
   }
   20% {
     left: 20%;
@@ -87,7 +131,7 @@ body {
     left: 40%;
   }
   100% {
-    left: -10%;
+    left: 10%;
   }
 }
 @-webkit-keyframes up-and-down {
