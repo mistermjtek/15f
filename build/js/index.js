@@ -21822,7 +21822,7 @@ module.exports = React.createClass({displayName: "exports",
 
   render: function() {
     return (
-      React.createElement("div", {className: "Boat", ref: "Boat"}, 
+      React.createElement("div", {className: "Boat", ref: "Boat"},
         React.createElement("img", {ref: "img", className: "boat-img", src: "images/boat.svg"})
       )
     );
@@ -21961,10 +21961,10 @@ module.exports = React.createClass({displayName: "exports",
 
   render: function() {
     return (
-      React.createElement("div", {className: 'Button ' + (this.props.flavor ? this.props.flavor : '')}, 
+      React.createElement("div", {className: 'Button ' + (this.props.flavor ? this.props.flavor : '')},
         this.props.icon ?
           React.createElement("img", {className: "icon", src: './images/icons/' + this.props.icon + '.svg'})
-        : '', 
+        : '',
         this.props.content ? this.props.content : ''
       )
     );
@@ -21981,11 +21981,11 @@ var React = require('react');
 module.exports = React.createClass({displayName: "exports",
   render: function() {
     return (
-      React.createElement("section", {className: "DescriptionSection page-section"}, 
-        React.createElement("div", {className: "text"}, 
-          React.createElement("h2", {className: "section title"}, "Educate Yourself"), 
+      React.createElement("section", {className: "DescriptionSection page-section"},
+        React.createElement("div", {className: "text"},
+          React.createElement("h2", {className: "section title"}, "Educate Yourself"),
           React.createElement("p", {className: "description"}, "DubHacks is the ", React.createElement("strong", null, "largest collegiate hackathon"), " in the Pacific Northwest. This fall, over 500 top college hackers will gather at the ", React.createElement("strong", null, "University of Washington"), " to build the next generation of innovative software and hardware hacks.")
-        ), 
+        ),
         React.createElement("img", {className: "trees", src: "images/trees.svg"})
       )
     );
@@ -22002,54 +22002,54 @@ var React = require('react');
 module.exports = React.createClass({displayName: "exports",
   render: function() {
     return (
-      React.createElement("section", {className: "FAQSection page-section", id: "faq"}, 
-        React.createElement("h2", {className: "section title"}, "FAQ"), 
-        React.createElement("div", {className: "faqs"}, 
-          React.createElement("ul", {className: "faq"}, 
-            React.createElement("li", {className: "qa"}, 
-              React.createElement("h4", {className: "question"}, "What is DubHacks?"), 
+      React.createElement("section", {className: "FAQSection page-section", id: "faq"},
+        React.createElement("h2", {className: "section title"}, "FAQ"),
+        React.createElement("div", {className: "faqs"},
+          React.createElement("ul", {className: "faq"},
+            React.createElement("li", {className: "qa"},
+              React.createElement("h4", {className: "question"}, "What is DubHacks?"),
               React.createElement("p", null, "DubHacks is the largest student-run college hackathon in the Pacific Northwest. The first of its kind in the Pacific Northwest, student developers and designers gather at the University of Washington in Seattle campus to form teams and build projects with the goal of creating solutions to real-world problems and learning. This is the second-ever DubHacks event.")
-            ), 
-            React.createElement("li", {className: "qa"}, 
-              React.createElement("h4", {className: "question"}, "Who can attend?"), 
+            ),
+            React.createElement("li", {className: "qa"},
+              React.createElement("h4", {className: "question"}, "Who can attend?"),
               React.createElement("p", null, "Undergraduate university and high school students of all backgrounds are encouraged to apply and attend DubHacks.")
-            ), 
-            React.createElement("li", {className: "qa"}, 
-              React.createElement("h4", {className: "question"}, "When does the application open?"), 
+            ),
+            React.createElement("li", {className: "qa"},
+              React.createElement("h4", {className: "question"}, "When does the application open?"),
               React.createElement("p", null, "The applications for fall will open sometime this summer.")
-            ), 
-            React.createElement("li", {className: "qa"}, 
-              React.createElement("h4", {className: "question"}, "Travel reimbursement?"), 
+            ),
+            React.createElement("li", {className: "qa"},
+              React.createElement("h4", {className: "question"}, "Travel reimbursement?"),
               React.createElement("p", null, "We will provide travel reimbursement to those who need it. More details will come out this summer.")
-            ), 
-            React.createElement("li", {className: "qa"}, 
-              React.createElement("h4", {className: "question"}, "How much does this event cost?"), 
+            ),
+            React.createElement("li", {className: "qa"},
+              React.createElement("h4", {className: "question"}, "How much does this event cost?"),
               React.createElement("p", null, "Absolutely free. We will provide you WiFi, meals, caffeine, swag, and the workspace.")
-            ), 
-            React.createElement("li", {className: "qa"}, 
-              React.createElement("h4", {className: "question"}, "What should I build?"), 
+            ),
+            React.createElement("li", {className: "qa"},
+              React.createElement("h4", {className: "question"}, "What should I build?"),
               React.createElement("p", null, "Anything really. The project is up to you and your team. You have 24 hours to make anything, ranging from web apps, desktop apps, mobile apps, or even hardware.")
             )
-          ), 
-          React.createElement("ul", {className: "faq"}, 
-            React.createElement("li", {className: "qa"}, 
-              React.createElement("h4", {className: "question"}, "How big are teams?"), 
+          ),
+          React.createElement("ul", {className: "faq"},
+            React.createElement("li", {className: "qa"},
+              React.createElement("h4", {className: "question"}, "How big are teams?"),
               React.createElement("p", null, "A team can be as big as 5 people. We'll help with pairing team members if you don't come with one.")
-            ), 
-            React.createElement("li", {className: "qa"}, 
-              React.createElement("h4", {className: "question"}, "Will you have hardware prototyping equipment?"), 
+            ),
+            React.createElement("li", {className: "qa"},
+              React.createElement("h4", {className: "question"}, "Will you have hardware prototyping equipment?"),
               React.createElement("p", null, "Yes. Our partners at MLH will have limited stock of Oculus Rifts, Myo arm-bands, Leap Motions, Arduinos, 3D printers and more to give out to hackers for the duration of the hackathon.")
-            ), 
-            React.createElement("li", {className: "qa"}, 
-              React.createElement("h4", {className: "question"}, "Are we allowed to build on past projects?"), 
+            ),
+            React.createElement("li", {className: "qa"},
+              React.createElement("h4", {className: "question"}, "Are we allowed to build on past projects?"),
               React.createElement("p", null, "A hackathon is an experience to build on something completely new within a set amount of time. With that in mind, you cannot work on past projects. Using your own APIs or third-party APIs is alright as long as the project is a fresh start.")
-            ), 
-            React.createElement("li", {className: "qa"}, 
-              React.createElement("h4", {className: "question"}, "What should I bring?"), 
+            ),
+            React.createElement("li", {className: "qa"},
+              React.createElement("h4", {className: "question"}, "What should I bring?"),
               React.createElement("p", null, "Please bring a laptop, charger, student id and passion! Besides that, a toothbrush, sleeping bag/blanket, and change of clothes is recommended.")
-            ), 
-            React.createElement("li", {className: "qa"}, 
-              React.createElement("h4", {className: "question"}, "I have a different question. Who can I ask?"), 
+            ),
+            React.createElement("li", {className: "qa"},
+              React.createElement("h4", {className: "question"}, "I have a different question. Who can I ask?"),
               React.createElement("p", null, "Reach out to us at via ", React.createElement("a", {href: "http://twitter.com/dubhacks"}, "Twitter"), ", ", React.createElement("a", {href: "http://facebook.com/uwhacks"}, "Facebook"), ", or send an email to ", React.createElement("a", {href: "mailto:info@dubhacks.co"}, "info@dubhacks.co"), ".")
             )
           )
@@ -22069,42 +22069,42 @@ var React = require('react');
 module.exports = React.createClass({displayName: "exports",
   render: function() {
     return (
-      React.createElement("section", {className: "FooterSection page-section"}, 
-        React.createElement("div", {className: "main footer"}, 
-          React.createElement("div", {className: "col organizers"}, 
-            React.createElement("h5", {className: "title"}, "Fall 2015 DubHacks Organizers"), 
-            React.createElement("ul", {className: "organizers-list"}, 
-              React.createElement("a", {href: "http://grant.cm/"}, React.createElement("li", null, "Grant Timmerman")), 
-              React.createElement("a", {href: "https://www.linkedin.com/in/skylerkidd"}, React.createElement("li", null, "Skyler Kidd")), 
-              React.createElement("a", {href: "http://mahirk.me/"}, React.createElement("li", null, "Mahir Kothary")), 
-              React.createElement("a", {href: "https://twitter.com/naomimusgrave"}, React.createElement("li", null, "Naomi Musgrave")), 
-              React.createElement("a", {href: "https://twitter.com/NavidAzodi"}, React.createElement("li", null, "Navid Azodi")), 
-              React.createElement("a", {href: "http://davidcoven.me"}, React.createElement("li", null, "David Coven")), 
-              React.createElement("a", {href: "https://twitter.com/karangoel"}, React.createElement("li", null, "Karan Goel")), 
-              React.createElement("a", {href: "http://anwell.me/"}, React.createElement("li", null, "Anwell Wang")), 
-              React.createElement("a", {href: "http://christopher.su/"}, React.createElement("li", null, "Christopher Su")), 
-              React.createElement("a", {href: "http://www.lucascolusso.com/"}, React.createElement("li", null, "Lucas Colusso")), 
+      React.createElement("section", {className: "FooterSection page-section"},
+        React.createElement("div", {className: "main footer"},
+          React.createElement("div", {className: "col organizers"},
+            React.createElement("h5", {className: "title"}, "Fall 2015 DubHacks Organizers"),
+            React.createElement("ul", {className: "organizers-list"},
+              React.createElement("a", {href: "http://grant.cm/"}, React.createElement("li", null, "Grant Timmerman")),
+              React.createElement("a", {href: "https://www.linkedin.com/in/skylerkidd"}, React.createElement("li", null, "Skyler Kidd")),
+              React.createElement("a", {href: "http://mahirk.me/"}, React.createElement("li", null, "Mahir Kothary")),
+              React.createElement("a", {href: "https://twitter.com/naomimusgrave"}, React.createElement("li", null, "Naomi Musgrave")),
+              React.createElement("a", {href: "https://twitter.com/NavidAzodi"}, React.createElement("li", null, "Navid Azodi")),
+              React.createElement("a", {href: "http://davidcoven.me"}, React.createElement("li", null, "David Coven")),
+              React.createElement("a", {href: "https://twitter.com/karangoel"}, React.createElement("li", null, "Karan Goel")),
+              React.createElement("a", {href: "http://anwell.me/"}, React.createElement("li", null, "Anwell Wang")),
+              React.createElement("a", {href: "http://christopher.su/"}, React.createElement("li", null, "Christopher Su")),
+              React.createElement("a", {href: "http://www.lucascolusso.com/"}, React.createElement("li", null, "Lucas Colusso")),
               React.createElement("a", {href: "http://www.linkedin.com/in/MaliaImayama"}, React.createElement("li", null, "Malia Imayama"))
             )
-          ), 
-          React.createElement("div", {className: "col logo"}, 
+          ),
+          React.createElement("div", {className: "col logo"},
             React.createElement("img", {className: "logo", src: "/images/logo.svg"})
-          ), 
-          React.createElement("div", {className: "col links"}, 
-            React.createElement("h5", {className: "title"}, "Links"), 
-            React.createElement("ul", {className: "links-list"}, 
-              React.createElement("li", null, React.createElement("a", {href: "http://14f.dubhacks.co/"}, "DubHacks Fall 2014")), 
-              React.createElement("li", null, React.createElement("a", {href: "http://hackcodeofconduct.org/dubhacks_f14"}, "Code of Conduct")), 
-              React.createElement("li", null, React.createElement("a", {href: "https://github.com/dubhacks/15f"}, "View Source")), 
-              React.createElement("li", null, React.createElement("a", {href: "mailto:info@dubhacks.co"}, "Contact Us")), 
-              React.createElement("li", null, React.createElement("a", {href: "https://www.facebook.com/uwhacks"}, "Facebook")), 
-              React.createElement("li", null, React.createElement("a", {href: "https://twitter.com/dubhacks"}, "Twitter")), 
+          ),
+          React.createElement("div", {className: "col links"},
+            React.createElement("h5", {className: "title"}, "Links"),
+            React.createElement("ul", {className: "links-list"},
+              React.createElement("li", null, React.createElement("a", {href: "http://14f.dubhacks.co/"}, "DubHacks Fall 2014")),
+              React.createElement("li", null, React.createElement("a", {href: "http://hackcodeofconduct.org/dubhacks_f14"}, "Code of Conduct")),
+              React.createElement("li", null, React.createElement("a", {href: "https://github.com/dubhacks/15f"}, "View Source")),
+              React.createElement("li", null, React.createElement("a", {href: "mailto:info@dubhacks.co"}, "Contact Us")),
+              React.createElement("li", null, React.createElement("a", {href: "https://www.facebook.com/uwhacks"}, "Facebook")),
+              React.createElement("li", null, React.createElement("a", {href: "https://twitter.com/dubhacks"}, "Twitter")),
               React.createElement("li", null, React.createElement("a", {href: "https://medium.com/@dubhacks"}, "Press"))
             )
           )
-        ), 
-        React.createElement("div", {className: "sub footer"}, 
-          React.createElement("div", {className: "love"}, "Made with ", React.createElement("span", {className: "heart"}, "❤"), " in Seattle"), 
+        ),
+        React.createElement("div", {className: "sub footer"},
+          React.createElement("div", {className: "love"}, "Made with ", React.createElement("span", {className: "heart"}, "❤"), " in Seattle"),
           React.createElement("p", {className: "TOS"}, "DubHacks is a student event. Our sponsors are sponsors of the event and not of the University of Washington.", React.createElement("br", null), "There is no implied endorsement of these companies by the University.")
         )
       )
@@ -22133,18 +22133,18 @@ module.exports = React.createClass({displayName: "exports",
 // <a target='_blank' href='/mentor'><li className='register-button'><Button content='Mentor!' flavor={Button.flavors.solid} /></li></a>
 // <a target='_blank' href='/volunteer'><li className='register-button'><Button content='Volunteer!' flavor={Button.flavors.solid} /></li></a>
     return (
-      React.createElement("section", {className: "HeaderSection page-section"}, 
-        React.createElement("img", {className: "logo", src: "images/logo-small.svg"}), 
-        React.createElement("nav", {className: "nav"}, 
-          React.createElement("ul", {className: "nav-buttons"}, 
-            React.createElement("li", {onClick: this.scrollToSection('schedule')}, React.createElement(Button, {content: "Schedule"})), 
-            React.createElement("li", {onClick: this.scrollToSection('faq')}, React.createElement(Button, {content: "FAQ"})), 
+      React.createElement("section", {className: "HeaderSection page-section"},
+        React.createElement("img", {className: "logo", src: "images/logo-small.svg"}),
+        React.createElement("nav", {className: "nav"},
+          React.createElement("ul", {className: "nav-buttons"},
+            React.createElement("li", {onClick: this.scrollToSection('schedule')}, React.createElement(Button, {content: "Schedule"})),
+            React.createElement("li", {onClick: this.scrollToSection('faq')}, React.createElement(Button, {content: "FAQ"})),
             React.createElement("li", {onClick: this.scrollToSection('sponsor')}, React.createElement(Button, {content: "Sponsors"}))
           )
-        ), 
-        React.createElement("ul", {className: "social-buttons"}, 
-          React.createElement("li", null, React.createElement("a", {href: "mailto:info@dubhacks.co"}, React.createElement(Button, {icon: "mail"}))), 
-          React.createElement("li", null, React.createElement("a", {href: "http://www.facebook.com/uwhacks"}, React.createElement(Button, {icon: "facebook"}))), 
+        ),
+        React.createElement("ul", {className: "social-buttons"},
+          React.createElement("li", null, React.createElement("a", {href: "mailto:info@dubhacks.co"}, React.createElement(Button, {icon: "mail"}))),
+          React.createElement("li", null, React.createElement("a", {href: "http://www.facebook.com/uwhacks"}, React.createElement(Button, {icon: "facebook"}))),
           React.createElement("li", null, React.createElement("a", {href: "http://www.twitter.com/dubhacks"}, React.createElement(Button, {icon: "twitter"})))
         )
       )
@@ -22169,13 +22169,13 @@ var SponsorSection = require('../sponsor_section/sponsor_section.jsx');
 module.exports = React.createClass({displayName: "exports",
   render: function() {
     return (
-      React.createElement("div", {className: "Page"}, 
-        React.createElement(HeaderSection, null), 
-        React.createElement(SplashSection, null), 
-        React.createElement(DescriptionSection, null), 
-        React.createElement(ScheduleSection, null), 
-        React.createElement(FAQSection, null), 
-        React.createElement(SponsorSection, null), 
+      React.createElement("div", {className: "Page"},
+        React.createElement(HeaderSection, null),
+        React.createElement(SplashSection, null),
+        React.createElement(DescriptionSection, null),
+        React.createElement(ScheduleSection, null),
+        React.createElement(FAQSection, null),
+        React.createElement(SponsorSection, null),
         React.createElement(FooterSection, null)
       )
     );
@@ -22254,11 +22254,11 @@ module.exports = React.createClass({displayName: "exports",
     // Returns the html for a single event
     var getEvent = function(eventData) {
       return (
-        React.createElement("li", {className: "event", key: eventData.title}, 
-          React.createElement("time", {className: "time"}, 
-            React.createElement("div", {className: "number"}, eventData.number), 
+        React.createElement("li", {className: "event", key: eventData.title},
+          React.createElement("time", {className: "time"},
+            React.createElement("div", {className: "number"}, eventData.number),
             React.createElement("div", {className: "period"}, eventData.period)
-          ), 
+          ),
           React.createElement("div", {className: "event-title"}, eventData.title)
         )
       );
@@ -22268,7 +22268,7 @@ module.exports = React.createClass({displayName: "exports",
     var getEvents = function(dayNumber) {
       var events = self.props.eventsByDay[dayNumber];
       return (
-        React.createElement("ul", {className: "events"}, 
+        React.createElement("ul", {className: "events"},
           events.map(function(eventData) {
             return getEvent(eventData);
           })
@@ -22277,20 +22277,20 @@ module.exports = React.createClass({displayName: "exports",
     };
 
     return (
-      React.createElement("section", {className: "ScheduleSection page-section", id: "schedule"}, 
-        React.createElement("h2", {className: "section title"}, "Schedule"), 
-        React.createElement("ul", {className: "days"}, 
-          React.createElement("li", {className: "day"}, 
-            React.createElement("h3", {className: "day-title"}, "October 17th"), 
+      React.createElement("section", {className: "ScheduleSection page-section", id: "schedule"},
+        React.createElement("h2", {className: "section title"}, "Schedule"),
+        React.createElement("ul", {className: "days"},
+          React.createElement("li", {className: "day"},
+            React.createElement("h3", {className: "day-title"}, "October 17th"),
             getEvents(1)
-          ), 
-          React.createElement("li", {className: "day"}, 
-            React.createElement("h3", {className: "day-title"}, "October 18th"), 
+          ),
+          React.createElement("li", {className: "day"},
+            React.createElement("h3", {className: "day-title"}, "October 18th"),
             getEvents(2)
           )
-        ), 
-        React.createElement(Boat, null), 
-        React.createElement("img", {className: "sea", src: "images/sea.svg"}), 
+        ),
+        React.createElement(Boat, null),
+        React.createElement("img", {className: "sea", src: "images/sea.svg"}),
         React.createElement("img", {className: "sea", src: "images/sea.svg"})
       )
     );
@@ -22307,20 +22307,20 @@ var React = require('react');
 module.exports = React.createClass({displayName: "exports",
   render: function() {
     return (
-      React.createElement("section", {className: "SplashSection page-section"}, 
-        React.createElement("div", {className: "center"}, 
-          React.createElement("img", {className: "logo", src: "images/logo.svg"}), 
-          React.createElement("h3", {className: "subtitle date"}, "October 17-18, 2015"), 
+      React.createElement("section", {className: "SplashSection page-section"},
+        React.createElement("div", {className: "center"},
+          React.createElement("img", {className: "logo", src: "images/logo.svg"}),
+          React.createElement("h3", {className: "subtitle date"}, "October 17-18, 2015"),
           React.createElement("h4", {className: "subtitle location"}, "UW, Seattle")
-        ), 
-        React.createElement("ul", {className: "clouds"}, 
-          React.createElement("img", {className: "cloud form1", src: "images/cloud1.svg"}), 
-          React.createElement("img", {className: "cloud form2", src: "images/cloud2.svg"}), 
+        ),
+        React.createElement("ul", {className: "clouds"},
+          React.createElement("img", {className: "cloud form1", src: "images/cloud1.svg"}),
+          React.createElement("img", {className: "cloud form2", src: "images/cloud2.svg"}),
           React.createElement("img", {className: "cloud form3", src: "images/cloud3.svg"})
-        ), 
-        React.createElement("ul", {className: "planes"}, 
+        ),
+        React.createElement("ul", {className: "planes"},
           React.createElement("img", {className: "plane", src: "images/plane.svg"})
-        ), 
+        ),
         React.createElement("img", {className: "skyline", src: "images/skyline.svg"})
       )
     );
@@ -22344,55 +22344,55 @@ module.exports = React.createClass({displayName: "exports",
     };
 
     return (
-      React.createElement("section", {className: "SponsorSection page-section", id: "sponsor"}, 
-        React.createElement("h2", {className: "section title"}, "Previous Sponsors"), 
-        React.createElement("ul", {className: "prev-sponsors"}, 
-          React.createElement("li", null, "Microsoft"), 
-          React.createElement("li", null, "Qumulo"), 
-          React.createElement("li", null, "Tata Consultancy Services"), 
-          React.createElement("li", null, "Amazon"), 
-          React.createElement("li", null, "Evidence"), 
-          React.createElement("li", null, "Google"), 
-          React.createElement("li", null, "Cisco"), 
-          React.createElement("li", null, "Dropbox"), 
-          React.createElement("li", null, "Facebook"), 
-          React.createElement("li", null, "C4C"), 
-          React.createElement("li", null, "Liberty Mutual"), 
-          React.createElement("li", null, "New Relic"), 
-          React.createElement("li", null, "Slice"), 
-          React.createElement("li", null, "Whitepages"), 
-          React.createElement("li", null, "Zillow"), 
-          React.createElement("li", null, "Codeship"), 
-          React.createElement("li", null, "Extrahop"), 
-          React.createElement("li", null, "Impact HUB"), 
-          React.createElement("li", null, "Intel"), 
-          React.createElement("li", null, "Leap Motion"), 
-          React.createElement("li", null, "Hackster.io"), 
-          React.createElement("li", null, "Intel Mashery"), 
-          React.createElement("li", null, "Mojio"), 
-          React.createElement("li", null, "Pebble"), 
-          React.createElement("li", null, "Sendgrid"), 
-          React.createElement("li", null, "Twilio"), 
-          React.createElement("li", null, "Ziggeo"), 
-          React.createElement("li", null, "MLH"), 
-          React.createElement("li", null, "STF"), 
+      React.createElement("section", {className: "SponsorSection page-section", id: "sponsor"},
+        React.createElement("h2", {className: "section title"}, "Previous Sponsors"),
+        React.createElement("ul", {className: "prev-sponsors"},
+          React.createElement("li", null, "Microsoft"),
+          React.createElement("li", null, "Qumulo"),
+          React.createElement("li", null, "Tata Consultancy Services"),
+          React.createElement("li", null, "Amazon"),
+          React.createElement("li", null, "Evidence"),
+          React.createElement("li", null, "Google"),
+          React.createElement("li", null, "Cisco"),
+          React.createElement("li", null, "Dropbox"),
+          React.createElement("li", null, "Facebook"),
+          React.createElement("li", null, "C4C"),
+          React.createElement("li", null, "Liberty Mutual"),
+          React.createElement("li", null, "New Relic"),
+          React.createElement("li", null, "Slice"),
+          React.createElement("li", null, "Whitepages"),
+          React.createElement("li", null, "Zillow"),
+          React.createElement("li", null, "Codeship"),
+          React.createElement("li", null, "Extrahop"),
+          React.createElement("li", null, "Impact HUB"),
+          React.createElement("li", null, "Intel"),
+          React.createElement("li", null, "Leap Motion"),
+          React.createElement("li", null, "Hackster.io"),
+          React.createElement("li", null, "Intel Mashery"),
+          React.createElement("li", null, "Mojio"),
+          React.createElement("li", null, "Pebble"),
+          React.createElement("li", null, "Sendgrid"),
+          React.createElement("li", null, "Twilio"),
+          React.createElement("li", null, "Ziggeo"),
+          React.createElement("li", null, "MLH"),
+          React.createElement("li", null, "STF"),
           React.createElement("li", null, "UW IT")
-        ), 
-        React.createElement("h5", {className: "subtitle"}, "A huge thanks to all our amazing DubHacks sponsors! Interested in sponsoring?", React.createElement("br", null), "Check out our ", React.createElement("a", {href: "/sponsor.pdf", className: "sponsor-cta"}, "sponsor document"), " or email us at ", React.createElement("a", {href: "mailto:sponsor@dubhacks.co", className: "sponsor-cta"}, "sponsor@dubhacks.co"), "."), 
-        React.createElement("div", {className: "tiers"}, 
+        ),
+        React.createElement("h5", {className: "subtitle"}, "A huge thanks to all our amazing DubHacks sponsors! Interested in sponsoring?", React.createElement("br", null), "Check out our ", React.createElement("a", {href: "/sponsor.pdf", className: "sponsor-cta"}, "sponsor document"), " or email us at ", React.createElement("a", {href: "mailto:sponsor@dubhacks.co", className: "sponsor-cta"}, "sponsor@dubhacks.co"), "."),
+        React.createElement("div", {className: "tiers"},
           React.createElement("ul", {className: "standard"}
-          ), 
+          ),
           React.createElement("ul", {className: "lite"}
           )
-        ), 
-        React.createElement("div", {className: "bubbles"}, 
-          React.createElement(Bubble, {origin: bubbleOrigin}), 
-          React.createElement(Bubble, {origin: bubbleOrigin}), 
-          React.createElement(Bubble, {origin: bubbleOrigin}), 
-          React.createElement(Bubble, {origin: bubbleOrigin}), 
-          React.createElement(Bubble, {origin: bubbleOrigin}), 
+        ),
+        React.createElement("div", {className: "bubbles"},
+          React.createElement(Bubble, {origin: bubbleOrigin}),
+          React.createElement(Bubble, {origin: bubbleOrigin}),
+          React.createElement(Bubble, {origin: bubbleOrigin}),
+          React.createElement(Bubble, {origin: bubbleOrigin}),
+          React.createElement(Bubble, {origin: bubbleOrigin}),
           React.createElement(Bubble, {origin: bubbleOrigin})
-        ), 
+        ),
         React.createElement("img", {className: "anchor", src: "images/anchor.svg"})
       )
     );

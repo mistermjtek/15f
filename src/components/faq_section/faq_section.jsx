@@ -16,10 +16,6 @@ module.exports = React.createClass({
               <p>Undergraduate university and high school students of all backgrounds are encouraged to apply and attend DubHacks.</p>
             </li>
             <li className='qa'>
-              <h4 className='question'>When does the application open?</h4>
-              <p>The applications for fall will open sometime this summer.</p>
-            </li>
-            <li className='qa'>
               <h4 className='question'>Travel reimbursement?</h4>
               <p>We will provide travel reimbursement to those who need it. More details will come out this summer.</p>
             </li>
@@ -36,6 +32,10 @@ module.exports = React.createClass({
             <li className='qa'>
               <h4 className='question'>How big are teams?</h4>
               <p>A team can be as big as 5 people. We'll help with pairing team members if you don't come with one.</p>
+            </li>
+            <li className='qa'>
+              <h4 className='question'>When does the application open?</h4>
+              <p>The applications for fall will open in early September. Follow our <a href='http://www.facebook.com/uwhacks'>Facebook</a> and <a href='http://twitter.com/dubhacks'>Twitter</a> pages to keep upto date.</p>
             </li>
             <li className='qa'>
               <h4 className='question'>Will you have hardware prototyping equipment?</h4>
