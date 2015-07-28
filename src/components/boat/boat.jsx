@@ -22,7 +22,9 @@ module.exports = React.createClass({
   render: function() {
     return (
       <div className='Boat' ref='Boat'>
-        <img ref='img' className='boat-img' src='images/boat.svg' />
+        <div className='boat-container'>
+          <img ref='img' className='boat-img' src='images/boat.svg' />
+        </div>
       </div>
     );
   }

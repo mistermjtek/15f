@@ -7,12 +7,18 @@ body {
 .Boat {
   position: absolute;
   width: 8%;
-  -webkit-animation: up-and-down 3s ease-in-out infinite, boat-back-and-forth 80s ease-in-out infinite, boat-rotate 80s ease-in-out infinite;
-          animation: up-and-down 3s ease-in-out infinite, boat-back-and-forth 80s ease-in-out infinite, boat-rotate 80s ease-in-out infinite;
+  -webkit-animation: up-and-down 3s ease-in-out infinite, boat-back-and-forth 80s ease-in-out infinite;
+          animation: up-and-down 3s ease-in-out infinite, boat-back-and-forth 80s ease-in-out infinite;
   -webkit-animation-delay: -15s;
           animation-delay: -15s;
 }
-.Boat .boat-img {
+.Boat .boat-container {
+  -webkit-animation: boat-rotate 80s ease-in-out infinite;
+          animation: boat-rotate 80s ease-in-out infinite;
+  -webkit-animation-delay: -15s;
+          animation-delay: -15s;
+}
+.Boat .boat-container .boat-img {
   width: 100%;
   -webkit-transform-origin: 50% 80%;
       -ms-transform-origin: 50% 80%;

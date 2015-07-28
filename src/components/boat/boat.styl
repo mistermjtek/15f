@@ -44,14 +44,18 @@ boatTravelTime = 80s
 .Boat
   position absolute
   width 8%
-  animation up-and-down boatRockAnimationTime ease-in-out infinite, boat-back-and-forth boatTravelTime ease-in-out infinite, boat-rotate boatTravelTime ease-in-out infinite
+  animation up-and-down boatRockAnimationTime ease-in-out infinite, boat-back-and-forth boatTravelTime ease-in-out infinite
   animation-delay -15s
+  
+  .boat-container
+    animation boat-rotate boatTravelTime ease-in-out infinite
+    animation-delay -15s
 
-  .boat-img
-    width 100%
-    transform-origin 50% 80%
-    animation-name rock
-    animation-duration boatRockAnimationTime
-    animation-timing-function ease-in-out
-    animation-iteration-count infinite
-    animation-delay -2s
+    .boat-img
+      width 100%
+      transform-origin 50% 80%
+      animation-name rock
+      animation-duration boatRockAnimationTime
+      animation-timing-function ease-in-out
+      animation-iteration-count infinite
+      animation-delay -2s
