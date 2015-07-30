@@ -35,7 +35,7 @@ module.exports = React.createClass({
             </li>
             <li className='qa'>
               <h4 className='question'>When does the application open?</h4>
-              <p>The applications for fall will open in early September. Follow our <a href='http://www.facebook.com/uwhacks'>Facebook</a> and <a href='http://twitter.com/dubhacks'>Twitter</a> pages to keep upto date.</p>
+              <p>The applications for fall will open in early September. Follow our <a href='http://www.facebook.com/uwhacks'>Facebook</a> and <a href='http://twitter.com/dubhacks'>Twitter</a> pages and sign up on the form above to keep upto date.</p>
             </li>
             <li className='qa'>
               <h4 className='question'>Will you have hardware prototyping equipment?</h4>

@@ -797,6 +797,80 @@ body {
   font-weight: 400;
   src: local('Unica One'), local('UnicaOne-Regular'), url("../../fonts/font-title.ttf") format('truetype');
 }
+.SignupSection {
+  position: relative;
+  color: #ef5352;
+}
+.SignupSection #signup {
+  text-align: center;
+  display: block;
+}
+.SignupSection #signup label {
+  display: block;
+}
+.SignupSection #signup div {
+  display: inline-block;
+}
+.SignupSection #signup input[type="email"] {
+  display: block;
+  font-family: 'Proxima Nova', sans-serif;
+  padding: 7px 7px;
+  margin: 10px 10px 24px 0;
+  outline: none;
+  vertical-align: middle;
+  min-width: 300px;
+  font-size: 15px;
+  background: #fff;
+  outline: 0;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: rgba(255,255,255,0);
+  line-height: 1.5em;
+  background: #fff;
+  border: 1px solid rgba(39,41,43,0.15);
+  color: rgba(0,0,0,0.8);
+  border-radius: 0.2857rem;
+  box-shadow: 0 0 transparent inset;
+  -webkit-transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.SignupSection #signup input[type="email"]:focus {
+  color: #b3b7bc;
+  background-color: #3d4145;
+}
+.SignupSection #signup .button {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5em;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+.SignupSection #signup .button:hover,
+.SignupSection #signup .button:focus {
+  background-color: #3d4145;
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url("../../fonts/font-copy.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Unica One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Unica One'), local('UnicaOne-Regular'), url("../../fonts/font-title.ttf") format('truetype');
+}
 .SplashSection {
   height: 100vh;
   background: -webkit-linear-gradient(335deg, #ec4e51 0%, #ec4e51 16.66%, #f59950 16.66%, #f59950 33.32%, #fce53c 33.32%, #fce53c 50%, #7fc04a 50%, #7fc04a 66.64%, #5f94cb 66.64%, #5f94cb 83.3%, #845ea4 83.3%, #845ea4 100%);
