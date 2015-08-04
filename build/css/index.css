@@ -819,7 +819,7 @@ body {
   outline: none;
   vertical-align: middle;
   min-width: 300px;
-  font-size: 15px;
+  font-size: 16px;
   background: #fff;
   outline: 0;
   -webkit-appearance: none;
@@ -834,14 +834,15 @@ body {
   transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 }
 .SignupSection #signup input[type="email"]:focus {
-  color: #b3b7bc;
-  background-color: #3d4145;
+  color: #585858;
+  background-color: #f2f2f2;
 }
 .SignupSection #signup .button {
+  font-family: 'Proxima Nova', sans-serif;
   display: inline-block;
-  padding: 6px 12px;
+  padding: 9px 16px;
   margin-bottom: 0;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.5em;
   text-align: center;
@@ -849,7 +850,7 @@ body {
   vertical-align: middle;
   cursor: pointer;
   background-image: none;
-  border: 1px solid transparent;
+  border: 0px;
   border-radius: 4px;
   color: #fff;
   background-color: #337ab7;
@@ -857,7 +858,7 @@ body {
 }
 .SignupSection #signup .button:hover,
 .SignupSection #signup .button:focus {
-  background-color: #3d4145;
+  background-color: #04447a;
 }
 @font-face {
   font-family: 'Proxima Nova';
