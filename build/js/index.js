@@ -22493,7 +22493,7 @@ getInitialState: function() {
           React.createElement("div", {id: "mc_embed_signup_scroll"}, 
             React.createElement("label", null, "Enter your email to be updated for our event this fall"), 
           React.createElement("div", {className: "mc-field-group"}, 
-          React.createElement("input", {onChange: this.handleChange, value: value, type: "email", name: "EMAIL", className: "required email", id: "mce-EMAIL"})
+          React.createElement("input", {onChange: this.handleChange, value: value, type: "email", name: "EMAIL", className: "required email", id: "mce-EMAIL", placeholder: "Enter email here"})
           ), 
           React.createElement("div", {id: "mce-responses", className: "clear"}, 
           React.createElement("div", {className: "response", id: "mce-error-response", style: MailChimpStyles.hide}), 

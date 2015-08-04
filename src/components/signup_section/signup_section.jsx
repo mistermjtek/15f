@@ -28,7 +28,7 @@ getInitialState: function() {
           <div id="mc_embed_signup_scroll">
             <label>Enter your email to be updated for our event this fall</label>
           <div className="mc-field-group">
-          <input onChange={this.handleChange} value={value} type="email" name="EMAIL" className="required email" id="mce-EMAIL" />
+          <input onChange={this.handleChange} value={value} type="email" name="EMAIL" className="required email" id="mce-EMAIL" placeholder={"Enter email here"}  />
           </div>
           <div id="mce-responses" className="clear">
           <div className="response" id="mce-error-response" style={MailChimpStyles.hide}></div>
