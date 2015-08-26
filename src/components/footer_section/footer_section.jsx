@@ -10,7 +10,7 @@ module.exports = React.createClass({
             <ul className='organizers-list'>
               <a href='http://grant.cm/'><li>Grant Timmerman</li></a>
               <a href='https://www.linkedin.com/in/skylerkidd'><li>Skyler Kidd</li></a>
-              <a href='http://mahirk.me/'><li>Mahir Kothary</li></a>
+              <a href='http://mahirk.com/'><li>Mahir Kothary</li></a>
               <a href='https://twitter.com/naomimusgrave'><li>Naomi Musgrave</li></a>
               <a href='https://twitter.com/NavidAzodi'><li>Navid Azodi</li></a>
               <a href='http://davidcoven.me'><li>David Coven</li></a>
@@ -40,6 +40,7 @@ module.exports = React.createClass({
         <div className='sub footer'>
           <div className='love'>Made with <span className='heart'>❤</span> in Seattle</div>
           <p className='TOS'>DubHacks is a student event. Our sponsors are sponsors of the event and not of the University of Washington.<br/>There is no implied endorsement of these companies by the University.</p>
+          <p className='TOS'>IBM and the IBM logo are trademarks of International Business Machines Corp., registered in many jurisdictions worldwide</p>
         </div>
       </section>
     );

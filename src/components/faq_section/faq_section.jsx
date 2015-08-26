@@ -1,7 +1,14 @@
 var React = require('react');
+var Bubble = require('../bubble/bubble.jsx');
 
 module.exports = React.createClass({
   render: function() {
+
+    var bubbleOrigin = {
+      right: '18%',
+      bottom: '3%'
+    };
+
     return (
       <section className='FAQSection page-section' id='faq'>
         <h2 className='section title'>FAQ</h2>
@@ -55,6 +62,16 @@ module.exports = React.createClass({
             </li>
           </ul>
         </div>
+        <div className='bubbles'>
+          <Bubble origin={bubbleOrigin} />
+          <Bubble origin={bubbleOrigin} />
+          <Bubble origin={bubbleOrigin} />
+          <Bubble origin={bubbleOrigin} />
+          <Bubble origin={bubbleOrigin} />
+          <Bubble origin={bubbleOrigin} />
+        </div>
+        <img className='anchor' src='images/anchor.svg' />
+        <img className='stones' src='images/stones.svg' />
       </section>
     );
   }

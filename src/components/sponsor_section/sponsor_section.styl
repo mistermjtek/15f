@@ -2,10 +2,12 @@
 
 .SponsorSection
   position relative
-  background linear-gradient(colorBlueDark, colorPurple)
   color white
   padding websitePadding
   overflow hidden
+
+  .title
+    color colorGray
 
   .subtitle
     margin-top 30px
@@ -35,17 +37,15 @@
         content '•'
         margin-left 20px
 
-  .anchor
-    position absolute
-    bottom -7px
-    right 15%
-    transform rotate(30deg)
-    width 70px
-    opacity 0.4
-
   .tiers
     margin-top 20px
     text-align center
+
+    img
+      width 45%
+      display inline-block
+      vertical-align middle
+      margin 3%
 
     li
       transition background transitionSpeed
@@ -65,13 +65,22 @@
       padding 5px
       display inline-block
 
-    .standard
-      a
-        width 400px
+    .platinum
+      img
+        width 65%
 
-    .lite
-      a
-        width 200px
+    .gold
+      img
+        width 40%
+
+    .silver
+      img
+        width 20%
+
+    .bronze
+      img
+        width 15%
+
 
         @media all and (max-width: 460px)
           width 100%
