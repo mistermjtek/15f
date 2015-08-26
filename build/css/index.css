@@ -258,6 +258,23 @@ body {
   top: 10px;
   position: absolute;
 }
+.FAQSection .anchor {
+  position: absolute;
+  right: 15%;
+  bottom: 40px;
+  -webkit-transform: rotate(30deg);
+      -ms-transform: rotate(30deg);
+          transform: rotate(30deg);
+  width: 70px;
+  opacity: 0.4;
+}
+.FAQSection .stones {
+  bottom: -7px;
+  width: 100%;
+  left: -2px;
+  display: block;
+  position: inherit;
+}
 .FAQSection .faqs {
   padding: 90px 30px 30px 30px;
 }
@@ -1093,11 +1110,12 @@ body {
 }
 .SponsorSection {
   position: relative;
-  background: -webkit-linear-gradient(#0081bd, #594094);
-  background: linear-gradient(#0081bd, #594094);
   color: #fff;
   padding: 30px;
   overflow: hidden;
+}
+.SponsorSection .title {
+  color: #3b403d;
 }
 .SponsorSection .subtitle {
   margin-top: 30px;
@@ -1128,19 +1146,15 @@ body {
   content: '•';
   margin-left: 20px;
 }
-.SponsorSection .anchor {
-  position: absolute;
-  bottom: -7px;
-  right: 15%;
-  -webkit-transform: rotate(30deg);
-      -ms-transform: rotate(30deg);
-          transform: rotate(30deg);
-  width: 70px;
-  opacity: 0.4;
-}
 .SponsorSection .tiers {
   margin-top: 20px;
   text-align: center;
+}
+.SponsorSection .tiers img {
+  width: 45%;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 3%;
 }
 .SponsorSection .tiers li {
   -webkit-transition: background 200ms;
@@ -1161,14 +1175,20 @@ body {
   padding: 5px;
   display: inline-block;
 }
-.SponsorSection .tiers .standard a {
-  width: 400px;
+.SponsorSection .tiers .platinum img {
+  width: 65%;
 }
-.SponsorSection .tiers .lite a {
-  width: 200px;
+.SponsorSection .tiers .gold img {
+  width: 40%;
+}
+.SponsorSection .tiers .silver img {
+  width: 20%;
+}
+.SponsorSection .tiers .bronze img {
+  width: 15%;
 }
 @media all and (max-width: 460px) {
-  .SponsorSection .tiers .lite a {
+  .SponsorSection .tiers .bronze img {
     width: 100%;
   }
 }
