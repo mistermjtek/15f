@@ -14,7 +14,7 @@ module.exports = React.createClass({
           <ul className='gold'>
             <img ref='img' src='images/company_logos/qumulo_color.png' />
             <img ref='img' src='images/company_logos/logos_concur_horizontal.png' />
-            <img ref='img' src='images/company_logos/ibm_logos/ibm_blue.jpg' />
+            <img ref='img' src='images/company_logos/ibm_blue.jpg' />
           </ul>
           <ul className='silver'>
             <img ref='img' src='images/company_logos/ZillowLogo.png' />
