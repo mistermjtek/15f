@@ -22587,7 +22587,7 @@ module.exports = React.createClass({displayName: "exports",
           React.createElement("ul", {className: "gold"}, 
             React.createElement("img", {ref: "img", src: "images/company_logos/qumulo_color.png"}), 
             React.createElement("img", {ref: "img", src: "images/company_logos/logos_concur_horizontal.png"}), 
-            React.createElement("img", {ref: "img", src: "images/company_logos/ibm_logos/ibm_blue.jpg"})
+            React.createElement("img", {ref: "img", src: "images/company_logos/ibm_blue.jpg"})
           ), 
           React.createElement("ul", {className: "silver"}, 
             React.createElement("img", {ref: "img", src: "images/company_logos/ZillowLogo.png"})
