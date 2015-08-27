@@ -22549,9 +22549,9 @@ module.exports = React.createClass({displayName: "exports",
     var d = new Date();
   	var n = d.getHours();
     var time = "SplashSection page-section";
-  	if (n > 19 || n < 6)
+  	if (n >= 20 || n < 6)
   	  time += " night";
-  	else if (n > 16 && n < 19)
+  	else if (n > 16 && n < 20)
   	  time += " evening";
   	else
   	  time += " morning";
