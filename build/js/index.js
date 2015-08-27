@@ -22149,7 +22149,7 @@ module.exports = React.createClass({displayName: "exports",
       React.createElement("section", {className: "DescriptionSection page-section"}, 
         React.createElement("div", {className: "text"}, 
           React.createElement("h2", {className: "section title"}, "Educate Yourself"), 
-          React.createElement("p", {className: "description"}, "DubHacks is the ", React.createElement("strong", null, "largest collegiate hackathon"), " in the Pacific Northwest. This fall, over 500 top college hackers will gather at the ", React.createElement("strong", null, "University of Washington"), " to build the next generation of innovative software and hardware hacks.")
+          React.createElement("p", {className: "description"}, "DubHacks is the ", React.createElement("strong", null, "largest collegiate hackathon"), " in the Pacific Northwest. This fall, over 600 top college hackers will gather at the ", React.createElement("strong", null, "University of Washington"), " to build the next generation of innovative software and hardware hacks.")
         ), 
         React.createElement("img", {className: "trees", src: "images/trees.svg"})
       )
@@ -22546,8 +22546,18 @@ var React = require('react');
 
 module.exports = React.createClass({displayName: "exports",
   render: function() {
+    var d = new Date();
+  	var n = d.getHours();
+    var time = "SplashSection page-section";
+  	if (n > 19 || n < 6)
+  	  time += " night";
+  	else if (n > 16 && n < 19)
+  	  time += " evening";
+  	else
+  	  time += " morning";
+
     return (
-      React.createElement("section", {className: "SplashSection page-section"}, 
+      React.createElement("section", {className: time}, 
         React.createElement("div", {className: "center"}, 
           React.createElement("img", {className: "logo", src: "images/logo.svg"}), 
           React.createElement("h3", {className: "subtitle date"}, "October 17-18, 2015"), 

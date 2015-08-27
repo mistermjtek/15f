@@ -2,8 +2,18 @@ var React = require('react');
 
 module.exports = React.createClass({
   render: function() {
+    var d = new Date();
+  	var n = d.getHours();
+    var time = "SplashSection page-section";
+  	if (n > 19 || n < 6)
+  	  time += " night";
+  	else if (n > 16 && n < 19)
+  	  time += " evening";
+  	else
+  	  time += " morning";
+
     return (
-      <section className='SplashSection page-section'>
+      <section className={time}>
         <div className='center'>
           <img className='logo' src='images/logo.svg' />
           <h3 className='subtitle date'>October 17-18, 2015</h3>

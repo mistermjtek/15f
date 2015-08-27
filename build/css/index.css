@@ -198,8 +198,8 @@ body {
   border-bottom: 4px solid #0081bd;
 }
 .Button.solid:hover {
-  background: -webkit-linear-gradient(#2cc3f0, #2cc3f0);
-  background: linear-gradient(#2cc3f0, #2cc3f0);
+  background: -webkit-linear-gradient(#94dff0, #94dff0);
+  background: linear-gradient(#94dff0, #94dff0);
 }
 @font-face {
   font-family: 'Proxima Nova';
@@ -906,8 +906,6 @@ body {
 }
 .SplashSection {
   height: 100vh;
-  background: -webkit-linear-gradient(335deg, #ec4e51 0%, #ec4e51 16.66%, #f59950 16.66%, #f59950 33.32%, #fce53c 33.32%, #fce53c 50%, #7fc04a 50%, #7fc04a 66.64%, #5f94cb 66.64%, #5f94cb 83.3%, #845ea4 83.3%, #845ea4 100%);
-  background: linear-gradient(115deg, #ec4e51 0%, #ec4e51 16.66%, #f59950 16.66%, #f59950 33.32%, #fce53c 33.32%, #fce53c 50%, #7fc04a 50%, #7fc04a 66.64%, #5f94cb 66.64%, #5f94cb 83.3%, #845ea4 83.3%, #845ea4 100%);
   color: #fff;
 }
 .SplashSection .center {
@@ -968,6 +966,17 @@ body {
           transform: rotate(-10deg);
   -webkit-animation: plane 60s linear infinite;
           animation: plane 60s linear infinite;
+}
+.morning {
+  background: -webkit-linear-gradient(#00b2e2, #2cafe6, #94dff0);
+  background: linear-gradient(#00b2e2, #2cafe6, #94dff0);
+}
+.evening {
+  background: -webkit-linear-gradient(#eb1e7a, #ef5352);
+  background: linear-gradient(#eb1e7a, #ef5352);
+}
+.night {
+  background: url("/images/stardust.png");
 }
 @-webkit-keyframes cloud1 {
   0% {
