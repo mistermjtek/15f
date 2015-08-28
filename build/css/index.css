@@ -1052,7 +1052,7 @@ body {
 }
 @media all and (max-width: 600px) {
   .SponsorSection .anchor {
-    bottom: 5px;
+    bottom: -3px;
     width: 30px;
   }
 }
