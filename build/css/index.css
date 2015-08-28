@@ -1045,7 +1045,7 @@ body {
 .SponsorSection .anchor {
   position: absolute;
   right: 15%;
-  bottom: 0px;
+  bottom: -6px;
   -webkit-transform: rotate(30deg);
       -ms-transform: rotate(30deg);
           transform: rotate(30deg);
