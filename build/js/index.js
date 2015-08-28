@@ -22010,7 +22010,7 @@ module.exports = React.createClass({displayName: "exports",
           React.createElement("ul", {className: "faq"}, 
             React.createElement("li", {className: "qa"}, 
               React.createElement("h4", {className: "question"}, "What is DubHacks?"), 
-              React.createElement("p", null, "DubHacks is the largest student-run college hackathon in the Pacific Northwest. The first of its kind in the Pacific Northwest, student developers and designers gather at the University of Washington in Seattle campus to form teams and build projects with the goal of creating solutions to real-world problems and learning. This is the second-ever DubHacks event.")
+              React.createElement("p", null, "DubHacks is the largest collegiate hackathon in the Pacific Northwest. The first of its kind in the Pacific Northwest, student developers and designers gather at the University of Washington in Seattle campus to form teams and build projects with the goal of creating solutions to real-world problems and learning new technologies. This is the second-ever DubHacks event.")
             ), 
             React.createElement("li", {className: "qa"}, 
               React.createElement("h4", {className: "question"}, "Who can attend?"), 
@@ -22018,7 +22018,7 @@ module.exports = React.createClass({displayName: "exports",
             ), 
             React.createElement("li", {className: "qa"}, 
               React.createElement("h4", {className: "question"}, "Travel reimbursement?"), 
-              React.createElement("p", null, "We will provide travel reimbursement to those who need it. More details will come out this summer.")
+              React.createElement("p", null, "We will provide travel reimbursement to select participants. Up to $150 travel reimbursement for out-of-state students and up to $50 for in-state participants provided a valid receipt.")
             ), 
             React.createElement("li", {className: "qa"}, 
               React.createElement("h4", {className: "question"}, "How much does this event cost?"), 
@@ -22035,8 +22035,8 @@ module.exports = React.createClass({displayName: "exports",
               React.createElement("p", null, "A team can be as big as 5 people. We'll help with pairing team members if you don't come with one.")
             ), 
             React.createElement("li", {className: "qa"}, 
-              React.createElement("h4", {className: "question"}, "When does the application open?"), 
-              React.createElement("p", null, "The applications for fall will open in early September. Follow our ", React.createElement("a", {href: "http://www.facebook.com/uwhacks"}, "Facebook"), " and ", React.createElement("a", {href: "http://twitter.com/dubhacks"}, "Twitter"), " pages and sign up on the form above to keep upto date.")
+              React.createElement("h4", {className: "question"}, "How do applications work?"), 
+              React.createElement("p", null, "Applications for out-of-state attendees ")
             ), 
             React.createElement("li", {className: "qa"}, 
               React.createElement("h4", {className: "question"}, "Will you have hardware prototyping equipment?"), 

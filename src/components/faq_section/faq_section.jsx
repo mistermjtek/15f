@@ -9,7 +9,7 @@ module.exports = React.createClass({
           <ul className='faq'>
             <li className='qa'>
               <h4 className='question'>What is DubHacks?</h4>
-              <p>DubHacks is the largest student-run college hackathon in the Pacific Northwest. The first of its kind in the Pacific Northwest, student developers and designers gather at the University of Washington in Seattle campus to form teams and build projects with the goal of creating solutions to real-world problems and learning. This is the second-ever DubHacks event.</p>
+              <p>DubHacks is the largest collegiate hackathon in the Pacific Northwest. The first of its kind in the Pacific Northwest, student developers and designers gather at the University of Washington in Seattle campus to form teams and build projects with the goal of creating solutions to real-world problems and learning new technologies. This is the second-ever DubHacks event.</p>
             </li>
             <li className='qa'>
               <h4 className='question'>Who can attend?</h4>
@@ -17,7 +17,7 @@ module.exports = React.createClass({
             </li>
             <li className='qa'>
               <h4 className='question'>Travel reimbursement?</h4>
-              <p>We will provide travel reimbursement to those who need it. More details will come out this summer.</p>
+              <p>We will provide travel reimbursement to select participants. Up to $150 travel reimbursement for out-of-state students and up to $50 for in-state participants provided a valid receipt.</p>
             </li>
             <li className='qa'>
               <h4 className='question'>How much does this event cost?</h4>
@@ -34,8 +34,8 @@ module.exports = React.createClass({
               <p>A team can be as big as 5 people. We'll help with pairing team members if you don't come with one.</p>
             </li>
             <li className='qa'>
-              <h4 className='question'>When does the application open?</h4>
-              <p>The applications for fall will open in early September. Follow our <a href='http://www.facebook.com/uwhacks'>Facebook</a> and <a href='http://twitter.com/dubhacks'>Twitter</a> pages and sign up on the form above to keep upto date.</p>
+              <h4 className='question'>How do applications work?</h4>
+              <p>Applications for out-of-state attendees </p>
             </li>
             <li className='qa'>
               <h4 className='question'>Will you have hardware prototyping equipment?</h4>
