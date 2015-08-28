@@ -30,7 +30,7 @@ module.exports = React.createClass({
           <ul className='bronze'>
             <a href="http://epic.com" target="_blank"><img ref='img' src='images/company_logos/epic_logo.png' /></a>
             <a href="http://extrahop.com" target="_blank"><img ref='img' className='extraLarge' src='images/company_logos/extrahop.png' /></a>
-            <a href="http://algorithmia.com" target="_blank"><img ref='img' className='extraLarge' src='images/company_logos/algorithmia_textonly.svg' /></a>
+            <a href="http://algorithmia.com" target="_blank"><img ref='img' className='extraLarge' src='images/company_logos/algorithmia.png' /></a>
           </ul>
           <ul className='partners'>
             <h2 className='section title'>Partners</h2>

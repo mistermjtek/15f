@@ -22626,7 +22626,7 @@ module.exports = React.createClass({displayName: "exports",
           React.createElement("ul", {className: "bronze"}, 
             React.createElement("a", {href: "http://epic.com", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/epic_logo.png"})), 
             React.createElement("a", {href: "http://extrahop.com", target: "_blank"}, React.createElement("img", {ref: "img", className: "extraLarge", src: "images/company_logos/extrahop.png"})), 
-            React.createElement("a", {href: "http://algorithmia.com", target: "_blank"}, React.createElement("img", {ref: "img", className: "extraLarge", src: "images/company_logos/algorithmia_textonly.svg"}))
+            React.createElement("a", {href: "http://algorithmia.com", target: "_blank"}, React.createElement("img", {ref: "img", className: "extraLarge", src: "images/company_logos/algorithmia.png"}))
           ), 
           React.createElement("ul", {className: "partners"}, 
             React.createElement("h2", {className: "section title"}, "Partners"), 
