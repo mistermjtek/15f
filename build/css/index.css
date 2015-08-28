@@ -838,6 +838,8 @@ body {
   width: 150px;
   font-size: 30px;
   margin: 10px auto;
+  background: #eb1e7a;
+  border-bottom-color: #c30a64;
 }
 .SplashSection .skyline {
   width: 100%;
