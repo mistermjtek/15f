@@ -16,6 +16,7 @@ module.exports = React.createClass({
             <a href="http://concur.com" target="_blank"><img ref='img' src='images/company_logos/logos_concur_horizontal.png' /></a>
             <a href="http://ibm.com" target="_blank"><img ref='img' src='images/company_logos/ibm_blue.jpg' /></a>
             <a href="http://developers.facebook.com" target="_blank"><img ref='img' className='extraSmall' src='images/company_logos/facebook.png' /></a>
+            <a href="https://developers.google.com/" target="_blank"><img ref='img' src='images/company_logos/google.png' /></a>
           </ul>
           <ul className='silver'>
             <a href="http://zillow.com" target="_blank"><img ref='img' src='images/company_logos/ZillowLogo.png' /></a>

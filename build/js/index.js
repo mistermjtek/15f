@@ -22317,6 +22317,7 @@ module.exports = React.createClass({displayName: "exports",
         React.createElement("img", {className: "logo", src: "images/logo-small.svg"}), 
         React.createElement("nav", {className: "nav"}, 
           React.createElement("ul", {className: "nav-buttons"}, 
+            React.createElement("a", {target: "_blank", href: "/apply"}, React.createElement("li", {className: "register-button"}, React.createElement(Button, {content: "Apply!", flavor: Button.flavors.solid}))), 
             React.createElement("li", {onClick: this.scrollToSection('schedule')}, React.createElement(Button, {content: "Schedule"})), 
             React.createElement("li", {onClick: this.scrollToSection('faq')}, React.createElement(Button, {content: "FAQ"})), 
             React.createElement("li", {onClick: this.scrollToSection('sponsor')}, React.createElement(Button, {content: "Sponsors"}))
@@ -22344,7 +22345,6 @@ var HeaderSection = require('../header_section/header_section.jsx');
 var ScheduleSection = require('../schedule_section/schedule_section.jsx');
 var SplashSection = require('../splash_section/splash_section.jsx');
 var SponsorSection = require('../sponsor_section/sponsor_section.jsx');
-var SignUpSection = require('../signup_section/signup_section.jsx');
 
 module.exports = React.createClass({displayName: "exports",
   render: function() {
@@ -22352,7 +22352,6 @@ module.exports = React.createClass({displayName: "exports",
       React.createElement("div", {className: "Page"}, 
         React.createElement(HeaderSection, null), 
         React.createElement(SplashSection, null), 
-        React.createElement(SignUpSection, null), 
         React.createElement(DescriptionSection, null), 
         React.createElement(ScheduleSection, null), 
         React.createElement(FAQSection, null), 
@@ -22365,7 +22364,7 @@ module.exports = React.createClass({displayName: "exports",
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/src/components/page/page.jsx","/src/components/page")
 
-},{"../description_section/description_section.jsx":"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/src/components/description_section/description_section.jsx","../faq_section/faq_section.jsx":"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/src/components/faq_section/faq_section.jsx","../footer_section/footer_section.jsx":"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/src/components/footer_section/footer_section.jsx","../header_section/header_section.jsx":"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/src/components/header_section/header_section.jsx","../schedule_section/schedule_section.jsx":"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/src/components/schedule_section/schedule_section.jsx","../signup_section/signup_section.jsx":"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/src/components/signup_section/signup_section.jsx","../splash_section/splash_section.jsx":"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/src/components/splash_section/splash_section.jsx","../sponsor_section/sponsor_section.jsx":"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/src/components/sponsor_section/sponsor_section.jsx","_process":"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/node_modules/browserify/node_modules/process/browser.js","buffer":"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/node_modules/browserify/node_modules/buffer/index.js","react":"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/node_modules/react/react.js"}],"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/src/components/schedule_section/schedule_section.jsx":[function(require,module,exports){
+},{"../description_section/description_section.jsx":"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/src/components/description_section/description_section.jsx","../faq_section/faq_section.jsx":"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/src/components/faq_section/faq_section.jsx","../footer_section/footer_section.jsx":"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/src/components/footer_section/footer_section.jsx","../header_section/header_section.jsx":"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/src/components/header_section/header_section.jsx","../schedule_section/schedule_section.jsx":"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/src/components/schedule_section/schedule_section.jsx","../splash_section/splash_section.jsx":"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/src/components/splash_section/splash_section.jsx","../sponsor_section/sponsor_section.jsx":"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/src/components/sponsor_section/sponsor_section.jsx","_process":"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/node_modules/browserify/node_modules/process/browser.js","buffer":"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/node_modules/browserify/node_modules/buffer/index.js","react":"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/node_modules/react/react.js"}],"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/src/components/schedule_section/schedule_section.jsx":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 var Boat = require('../boat/boat.jsx');
 var React = require('react');
@@ -22379,23 +22378,19 @@ module.exports = React.createClass({displayName: "exports",
     return {
       eventsByDay: {
         1: [{
-          number: 10,
-          period: 'am',
+          number: 6,
+          period: 'pm',
           title: 'Check-in'
         }, {
-          number: 12,
+          number: 5,
           period: 'pm',
           title: 'Opening Ceremony'
         }, {
-          number: 1,
+          number: 6,
           period: 'pm',
           title: 'Start Hacking!'
         }, {
-          number: 2,
-          period: 'pm',
-          title: 'Lunch'
-        }, {
-          number: 7,
+          number: 8,
           period: 'pm',
           title: 'Dinner'
         }],
@@ -22404,23 +22399,23 @@ module.exports = React.createClass({displayName: "exports",
           period: 'am',
           title: 'Midnight Snack Attack'
         }, {
-          number: 7,
+          number: 8,
           period: 'am',
           title: 'Breakfast'
         }, {
-          number: 11,
-          period: 'am',
+          number: 12,
+          period: 'pm',
           title: 'Lunch'
         }, {
-          number: 12,
+          number: 5,
           period: 'pm',
           title: 'Submit Your Hack!'
         }, {
-          number: 1,
+          number: 6,
           period: 'pm',
-          title: 'Judging'
+          title: 'Judging and Dinner'
         }, {
-          number: 3,
+          number: 8,
           period: 'pm',
           title: 'Closing Ceremony'
         }]
@@ -22479,68 +22474,7 @@ module.exports = React.createClass({displayName: "exports",
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/src/components/schedule_section/schedule_section.jsx","/src/components/schedule_section")
 
-},{"../boat/boat.jsx":"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/src/components/boat/boat.jsx","_process":"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/node_modules/browserify/node_modules/process/browser.js","buffer":"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/node_modules/browserify/node_modules/buffer/index.js","react":"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/node_modules/react/react.js"}],"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/src/components/signup_section/signup_section.jsx":[function(require,module,exports){
-(function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
-var React = require('react');
-
-var MailChimpStyles = {
-    hide: {
-        display: 'none'
-    },
-    etc: {
-      position: 'absolute',
-      left: '-5000px'
-    }
-  };
-
-module.exports = React.createClass({displayName: "exports",
-  getInitialState: function() {
-    return {
-      value: ''
-    };
-  },
-
-  handleChange: function(event) {
-    this.setState({
-      value: event.target.value
-    });
-  },
-
-  render: function() {
-    var value = this.state.value;
-    return (
-      React.createElement("section", {className: "SignupSection page-section"}, 
-        React.createElement("div", {id: "signup"}, 
-          React.createElement("h2", {className: "section title"}, "SIGN UP FOR OUR MAILING LIST"), 
-          React.createElement("div", {id: "mc_embed_signup"}, 
-            React.createElement("form", {action: "//dubhacks.us9.list-manage.com/subscribe/post?u=18be1407915b0713dddc4da62&id=1813ccd943", method: "post", id: "mc-embedded-subscribe-form", name: "mc-embedded-subscribe-form", className: "validate", target: "_blank", formNoValidate: true}, 
-              React.createElement("div", {id: "mc_embed_signup_scroll"}, 
-                React.createElement("label", null, "Enter your email to be updated for our event this fall"), 
-                React.createElement("div", {className: "mc-field-group"}, 
-                  React.createElement("input", {onChange: this.handleChange, value: value, type: "email", name: "EMAIL", className: "required email", id: "mce-EMAIL", placeholder: "Enter email here"})
-                ), 
-                React.createElement("div", {id: "mce-responses", className: "clear"}, 
-                  React.createElement("div", {className: "response", id: "mce-error-response", style: MailChimpStyles.hide}), 
-                  React.createElement("div", {className: "response", id: "mce-success-response", style: MailChimpStyles.hide})
-                ), 
-                React.createElement("div", {style: MailChimpStyles.etc}, 
-                  React.createElement("input", {type: "text", name: "b_18be1407915b0713dddc4da62_1813ccd943", tabindex: "-1", value: ""})
-                ), 
-                React.createElement("div", {className: "clear"}, 
-                  React.createElement("input", {type: "submit", value: "Subscribe", name: "subscribe", id: "mc-embedded-subscribe", className: "button"})
-                )
-              )
-            )
-          )
-        )
-      )
-    );
-  }
-});
-
-}).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/src/components/signup_section/signup_section.jsx","/src/components/signup_section")
-
-},{"_process":"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/node_modules/browserify/node_modules/process/browser.js","buffer":"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/node_modules/browserify/node_modules/buffer/index.js","react":"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/node_modules/react/react.js"}],"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/src/components/splash_section/splash_section.jsx":[function(require,module,exports){
+},{"../boat/boat.jsx":"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/src/components/boat/boat.jsx","_process":"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/node_modules/browserify/node_modules/process/browser.js","buffer":"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/node_modules/browserify/node_modules/buffer/index.js","react":"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/node_modules/react/react.js"}],"/Volumes/Work/Tech and Work/Coding/Gits/DubHacks/15f/15f/src/components/splash_section/splash_section.jsx":[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 var React = require('react');
 
@@ -22598,7 +22532,8 @@ module.exports = React.createClass({displayName: "exports",
             React.createElement("a", {href: "http://qumulo.com/", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/qumulo_color.png"})), 
             React.createElement("a", {href: "http://concur.com", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/logos_concur_horizontal.png"})), 
             React.createElement("a", {href: "http://ibm.com", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/ibm_blue.jpg"})), 
-            React.createElement("a", {href: "http://developers.facebook.com", target: "_blank"}, React.createElement("img", {ref: "img", className: "extraSmall", src: "images/company_logos/facebook.png"}))
+            React.createElement("a", {href: "http://developers.facebook.com", target: "_blank"}, React.createElement("img", {ref: "img", className: "extraSmall", src: "images/company_logos/facebook.png"})), 
+            React.createElement("a", {href: "https://developers.google.com/", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/google.png"}))
           ), 
           React.createElement("ul", {className: "silver"}, 
             React.createElement("a", {href: "http://zillow.com", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/ZillowLogo.png"})), 

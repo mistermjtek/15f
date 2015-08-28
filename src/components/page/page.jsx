@@ -6,7 +6,6 @@ var HeaderSection = require('../header_section/header_section.jsx');
 var ScheduleSection = require('../schedule_section/schedule_section.jsx');
 var SplashSection = require('../splash_section/splash_section.jsx');
 var SponsorSection = require('../sponsor_section/sponsor_section.jsx');
-var SignUpSection = require('../signup_section/signup_section.jsx');
 
 module.exports = React.createClass({
   render: function() {
@@ -14,7 +13,6 @@ module.exports = React.createClass({
       <div className='Page'>
         <HeaderSection />
         <SplashSection />
-        <SignUpSection />
         <DescriptionSection />
         <ScheduleSection />
         <FAQSection />
