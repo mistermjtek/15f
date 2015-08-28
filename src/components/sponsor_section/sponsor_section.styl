@@ -1,13 +1,23 @@
 @import '../../constants'
 
 .SponsorSection
+  background linear-gradient(colorBlueDark, colorBlueDarker 15%, colorBlueDarkest)
   position relative
   color white
   padding websitePadding
   overflow hidden
 
-  .title
-    color colorGray
+  .anchor
+    position absolute
+    right 15%
+    bottom 0px
+    transform rotate(30deg)
+    width 70px
+    opacity 0.4
+
+    @media mediaPhone
+      bottom 5px
+      width 30px
 
   .subtitle
     margin-top 30px
@@ -37,6 +47,12 @@
         content '•'
         margin-left 20px
 
+  .squid
+    height: 200px
+    opacity: 0.4
+    position: absolute
+    margin-top: 60%
+
   .tiers
     margin-top 20px
     text-align center
@@ -61,14 +77,14 @@
 
     .platinum
       img
-        width 65%
+        width 50%
 
     .gold
       img
         width 30%
 
       .extraSmall
-        width 20%
+        width 15%
 
     .silver
       img
