@@ -35,7 +35,7 @@ module.exports = React.createClass({
             </li>
             <li className='qa'>
               <h4 className='question'>How do applications work?</h4>
-              <p>Applications for out-of-state attendees </p>
+              <p>Applications for out-of-state attendees must be submitted by September 18th. All other applications are due October 3rd.</p>
             </li>
             <li className='qa'>
               <h4 className='question'>Will you have hardware prototyping equipment?</h4>

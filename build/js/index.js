@@ -22036,7 +22036,7 @@ module.exports = React.createClass({displayName: "exports",
             ), 
             React.createElement("li", {className: "qa"}, 
               React.createElement("h4", {className: "question"}, "How do applications work?"), 
-              React.createElement("p", null, "Applications for out-of-state attendees ")
+              React.createElement("p", null, "Applications for out-of-state attendees must be submitted by September 18th. All other applications are due October 3rd.")
             ), 
             React.createElement("li", {className: "qa"}, 
               React.createElement("h4", {className: "question"}, "Will you have hardware prototyping equipment?"), 
