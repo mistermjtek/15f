@@ -22362,28 +22362,29 @@ module.exports = React.createClass({displayName: "exports",
         React.createElement("h2", {className: "section title"}, "Sponsors"), 
         React.createElement("div", {className: "tiers"}, 
           React.createElement("ul", {className: "platinum"}, 
-            React.createElement("a", {href: "http://microsoft.com", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/microsoft.png"}))
+            React.createElement("li", null, React.createElement("a", {href: "http://microsoft.com", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/microsoft.png"})))
           ), 
           React.createElement("ul", {className: "gold"}, 
-            React.createElement("a", {href: "http://qumulo.com/", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/qumulo.png"})), 
-            React.createElement("a", {href: "http://isilon.com/", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/isilon.png"})), 
-            React.createElement("a", {href: "http://concur.com", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/logos_concur_horizontal.png"})), 
-            React.createElement("a", {href: "http://ibm.com", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/btnIBM.png"})), 
-            React.createElement("a", {href: "http://developers.facebook.com", target: "_blank"}, React.createElement("img", {ref: "img", className: "extraSmall", src: "images/company_logos/facebook.png"})), 
-            React.createElement("a", {href: "https://developers.google.com/", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/google.png"}))
+            React.createElement("li", null, React.createElement("a", {href: "http://qumulo.com/", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/qumulo.png"}))), 
+            React.createElement("li", null, React.createElement("a", {href: "http://isilon.com/", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/isilon.png"}))), 
+            React.createElement("li", null, React.createElement("a", {href: "http://concur.com", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/logos_concur_horizontal.png"}))), 
+            React.createElement("li", null, React.createElement("a", {href: "http://ibm.com", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/btnIBM.png"}))), 
+            React.createElement("li", {className: "extraSmall"}, React.createElement("a", {href: "http://developers.facebook.com", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/facebook.png"}))), 
+            React.createElement("li", null, React.createElement("a", {href: "https://developers.google.com/", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/google.png"})))
           ), 
           React.createElement("ul", {className: "silver"}, 
-            React.createElement("a", {href: "http://zillow.com", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/ZillowLogo.png"})), 
-            React.createElement("a", {href: "http://libertymutual.com", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/libertymutual.png"}))
+            React.createElement("li", null, React.createElement("a", {href: "http://zillow.com", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/ZillowLogo.png"}))), 
+            React.createElement("li", null, React.createElement("a", {href: "http://venmo.com", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/venmo.png"}))), 
+            React.createElement("li", null, React.createElement("a", {href: "http://libertymutual.com", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/libertymutual.png"})))
           ), 
           React.createElement("ul", {className: "bronze"}, 
-            React.createElement("a", {href: "http://epic.com", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/epic_logo.png"})), 
-            React.createElement("a", {href: "http://extrahop.com", target: "_blank"}, React.createElement("img", {ref: "img", className: "extraLarge", src: "images/company_logos/extrahop.png"})), 
-            React.createElement("a", {href: "http://algorithmia.com", target: "_blank"}, React.createElement("img", {ref: "img", className: "extraLarge", src: "images/company_logos/algorithmia.png"}))
+            React.createElement("li", null, React.createElement("a", {href: "http://epic.com", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/epic_logo.png"}))), 
+            React.createElement("li", {className: "extraLarge"}, React.createElement("a", {href: "http://extrahop.com", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/extrahop.png"}))), 
+            React.createElement("li", {className: "extraLarge"}, React.createElement("a", {href: "http://algorithmia.com", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/algorithmia.png"})))
           ), 
+          React.createElement("h2", {className: "section title"}, "Partners"), 
           React.createElement("ul", {className: "partners"}, 
-            React.createElement("h2", {className: "section title"}, "Partners"), 
-            React.createElement("a", {href: "http://mlh.io", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/mlh.png"}))
+            React.createElement("li", null, React.createElement("a", {href: "http://mlh.io", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/mlh.png"})))
           )
         ), 
         React.createElement("div", {className: "bubbles"}, 

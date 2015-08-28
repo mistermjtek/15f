@@ -54,78 +54,25 @@
     margin-top: 60%
 
   .tiers
-    margin-top 20px
-    text-align center
-
     img
-      width 45%
+      width 100%
+    ul
+      text-align center
+    li
+      margin 2%
       display inline-block
       vertical-align middle
-      margin 3%
 
-    li
-      transition background transitionSpeed
-      cursor pointer
-      background rgba(white, 0.2)
-      display inline-block
-      width 100%
-      height 100%
-      border-radius 2px
-
-      &:hover
-        background rgba(white, 0.1)
-
-    .platinum
-      img
-        width 50%
-
-    .gold
-      img
-        width 30%
-
-      .extraSmall
+    .platinum li
+      width 50%
+    .gold li
+      width 30%
+      &.extraSmall
         width 15%
-
-    .silver
-      img
+    .silver, .partners
+      li
         width 17%
-
-    .bronze
-      img
-        width 10%
-
-      .extraLarge
+    .bronze li
+      width 10%
+      &.extraLarge
         width 15%
-
-    .partners
-      img
-        width 15%
-
-@media mediaPhone
-  .tiers
-    img
-      margin-right auto
-      margin-left auto
-
-  .platinum
-    img
-      width 90%!important
-
-  .gold
-    img
-      width 70%!important
-
-    .extraSmall
-      width 50%!important
-
-  .silver
-    img
-      width 35%!important
-
-  .bronze
-    img
-      width 20%!important
-
-  .partners
-    img
-      width 35%!important
