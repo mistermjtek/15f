@@ -27,10 +27,6 @@ module.exports = React.createClass({
               <h4 className='question'>What should I build?</h4>
               <p>Anything really. The project is up to you and your team. You have 24 hours to make anything, ranging from web apps, desktop apps, mobile apps, or even hardware.</p>
             </li>
-            <li className='qa'>
-              <h4 className='question'>What should I bring?</h4>
-              <p>Please bring a laptop, charger, student id and passion! Besides that, a toothbrush, sleeping bag/blanket, and change of clothes is recommended.</p>
-            </li>
           </ul>
           <ul className='faq'>
             <li className='qa'>
@@ -39,7 +35,7 @@ module.exports = React.createClass({
             </li>
             <li className='qa'>
               <h4 className='question'>How do applications work?</h4>
-              <p>Applications for out-of-state attendees must be submitted by September 18th. All other applications are due October 3rd.</p>
+              <p>Applications for out-of-state attendees </p>
             </li>
             <li className='qa'>
               <h4 className='question'>Will you have hardware prototyping equipment?</h4>
@@ -48,6 +44,10 @@ module.exports = React.createClass({
             <li className='qa'>
               <h4 className='question'>Are we allowed to build on past projects?</h4>
               <p>A hackathon is an experience to build on something completely new within a set amount of time. With that in mind, you cannot work on past projects. Using your own APIs or third-party APIs is alright as long as the project is a fresh start.</p>
+            </li>
+            <li className='qa'>
+              <h4 className='question'>What should I bring?</h4>
+              <p>Please bring a laptop, charger, student id and passion! Besides that, a toothbrush, sleeping bag/blanket, and change of clothes is recommended.</p>
             </li>
             <li className='qa'>
               <h4 className='question'>I have a different question. Who can I ask?</h4>
