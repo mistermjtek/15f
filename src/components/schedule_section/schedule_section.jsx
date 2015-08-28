@@ -10,7 +10,7 @@ module.exports = React.createClass({
     return {
       eventsByDay: {
         1: [{
-          number: 6,
+          number: 3,
           period: 'pm',
           title: 'Check-in'
         }, {
@@ -18,19 +18,19 @@ module.exports = React.createClass({
           period: 'pm',
           title: 'Opening Ceremony'
         }, {
-          number: 6,
+          number: 7,
           period: 'pm',
           title: 'Start Hacking!'
         }, {
           number: 8,
           period: 'pm',
           title: 'Dinner'
-        }],
-        2: [{
+        }, {
           number: 12,
           period: 'am',
           title: 'Midnight Snack Attack'
-        }, {
+        }],
+        2: [{
           number: 8,
           period: 'am',
           title: 'Breakfast'
@@ -50,6 +50,10 @@ module.exports = React.createClass({
           number: 8,
           period: 'pm',
           title: 'Closing Ceremony'
+        }, {
+          number: 9,
+          period: 'pm',
+          title: 'Go Home'
         }]
       }
     };

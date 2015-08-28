@@ -1,21 +1,21 @@
 {
-  "name": "15s",
+  "name": "15f",
   "version": "1.0.0",
-  "description": "DubHacks Spring 2015 Site",
+  "description": "DubHacks Fall 2015 Site",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dubhacks/15s.git"
+    "url": "https://github.com/dubhacks/15f.git"
   },
   "author": "Grant Timmerman",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dubhacks/15s/issues"
+    "url": "https://github.com/dubhacks/15f/issues"
   },
-  "homepage": "https://github.com/dubhacks/15s",
+  "homepage": "https://github.com/dubhacks/15f",
   "browserify": {
     "transform": [
       "browserify-shim",
