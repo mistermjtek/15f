@@ -18,6 +18,7 @@ module.exports = React.createClass({
           </ul>
           <ul className='gold'>
             <a href="http://qumulo.com/" target="_blank"><img ref='img' src='images/company_logos/qumulo.png' /></a>
+            <a href="http://isilon.com/" target="_blank"><img ref='img' src='images/company_logos/isilon.png' /></a>
             <a href="http://concur.com" target="_blank"><img ref='img' src='images/company_logos/logos_concur_horizontal.png' /></a>
             <a href="http://ibm.com" target="_blank"><img ref='img' src='images/company_logos/btnIBM.png' /></a>
             <a href="http://developers.facebook.com" target="_blank"><img ref='img' className='extraSmall' src='images/company_logos/facebook.png' /></a>
