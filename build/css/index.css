@@ -188,8 +188,8 @@ body {
 .Button {
   border-radius: 2px;
   cursor: pointer;
-  -webkit-transition: background 200ms;
-          transition: background 200ms;
+  -webkit-transition: background 200ms, opacity 200ms;
+          transition: background 200ms, opacity 200ms;
 }
 .Button.solid {
   color: #fff !important;
@@ -198,9 +198,7 @@ body {
   border-bottom: 4px solid #0081bd;
 }
 .Button.solid:hover {
-  color: #333 !important;
-  background: -webkit-linear-gradient(#94dff0, #94dff0);
-  background: linear-gradient(#94dff0, #94dff0);
+  opacity: 0.8;
 }
 @font-face {
   font-family: 'Proxima Nova';

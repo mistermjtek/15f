@@ -4,7 +4,7 @@ buttonBorderSize = 4px
 .Button
   border-radius 2px
   cursor pointer
-  transition background transitionSpeed
+  transition background transitionSpeed, opacity transitionSpeed
 
   &.solid
     color white!important
@@ -12,5 +12,4 @@ buttonBorderSize = 4px
     border-bottom buttonBorderSize solid colorBlueDark
 
     &:hover
-      color #333!important
-      background linear-gradient(colorBlueLightest, colorBlueLightest)
+      opacity 0.8
