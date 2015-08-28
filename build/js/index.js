@@ -22384,7 +22384,7 @@ module.exports = React.createClass({displayName: "exports",
           ), 
           React.createElement("h2", {className: "section title"}, "Partners"), 
           React.createElement("ul", {className: "partners"}, 
-            React.createElement("li", null, React.createElement("a", {href: "http://mlh.io", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/mlh.png"})))
+            React.createElement("li", null, React.createElement("a", {href: "http://mlh.io", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/mlh-logo-grayscale.svg"})))
           )
         ), 
         React.createElement("div", {className: "bubbles"}, 
