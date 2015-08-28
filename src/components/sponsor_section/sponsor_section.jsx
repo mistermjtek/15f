@@ -34,7 +34,7 @@ module.exports = React.createClass({
           </ul>
           <ul className='partners'>
             <h2 className='section title'>Partners</h2>
-            <a href="http://mlh.io" target="_blank"><img ref='img' src='images/company_logos/mlh.png' /></a>
+            <a href="http://mlh.io" target="_blank"><img ref='img' src='images/company_logos/mlh-logo-grayscale.svg' /></a>
           </ul>
         </div>
         <div className='bubbles'>
