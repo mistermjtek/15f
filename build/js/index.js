@@ -22578,6 +22578,7 @@ module.exports = React.createClass({displayName: "exports",
 
     return (
       React.createElement("section", {className: time}, 
+        React.createElement("img", {className: "skyline", src: "images/skyline.svg"}), 
         React.createElement("div", {className: "center"}, 
           React.createElement("img", {className: "logo", src: "images/logo.svg"}), 
           React.createElement("h3", {className: "subtitle date"}, "October 17-18, 2015"), 
@@ -22591,8 +22592,7 @@ module.exports = React.createClass({displayName: "exports",
         ), 
         React.createElement("ul", {className: "planes"}, 
           React.createElement("img", {className: "plane", src: "images/plane.svg"})
-        ), 
-        React.createElement("img", {className: "skyline", src: "images/skyline.svg"})
+        )
       )
     );
   }

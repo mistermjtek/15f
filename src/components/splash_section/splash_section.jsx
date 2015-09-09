@@ -15,6 +15,7 @@ module.exports = React.createClass({
 
     return (
       <section className={time}>
+        <img className='skyline' src='images/skyline.svg' />
         <div className='center'>
           <img className='logo' src='images/logo.svg' />
           <h3 className='subtitle date'>October 17-18, 2015</h3>
@@ -29,7 +30,6 @@ module.exports = React.createClass({
         <ul className='planes'>
           <img className='plane' src='images/plane.svg' />
         </ul>
-        <img className='skyline' src='images/skyline.svg' />
       </section>
     );
   }
