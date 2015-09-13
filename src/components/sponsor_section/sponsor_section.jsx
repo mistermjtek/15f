@@ -23,6 +23,7 @@ module.exports = React.createClass({
             <li><a href="http://ibm.com" target="_blank"><img ref='img' src='images/company_logos/btnIBM.png' /></a></li>
             <li className='extraSmall'><a href="http://developers.facebook.com" target="_blank"><img ref='img' src='images/company_logos/facebook.png' /></a></li>
             <li><a href="https://developers.google.com/" target="_blank"><img ref='img' src='images/company_logos/Google_2015_logo.svg' /></a></li>
+            <li><a href="http://disneytechjobs.com/" target="_blank"><img ref='img' src='images/company_logos/disney.png' /></a></li>
           </ul>
           <ul className='silver'>
             <li><a href="http://zillow.com" target="_blank"><img ref='img' src='images/company_logos/ZillowLogo.png' /></a></li>
@@ -35,6 +36,7 @@ module.exports = React.createClass({
             <li className='extraLarge'><a href="http://extrahop.com" target="_blank"><img ref='img' src='images/company_logos/extrahop.png' /></a></li>
             <li className='extraLarge'><a href="http://algorithmia.com" target="_blank"><img ref='img' src='images/company_logos/algorithmia.png' /></a></li>
             <li><a href="http://www.go.co/" target="_blank"><img ref='img' src='images/company_logos/co2.png' /></a></li>
+            <li><a href="https://www.soylent.com/" target="_blank"><img ref='img' src='images/company_logos/soylent.svg' /></a></li>
           </ul>
           <h2 className='section title'>Partners</h2>
           <ul className='partners'>
