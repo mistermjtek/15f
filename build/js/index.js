@@ -22619,15 +22619,17 @@ module.exports = React.createClass({displayName: "exports",
             React.createElement("li", null, React.createElement("a", {href: "http://microsoft.com", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/microsoft.png"})))
           ), 
           React.createElement("ul", {className: "gold"}, 
+            React.createElement("li", null, React.createElement("a", {href: "https://developers.google.com/", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/Google_2015_logo.svg"}))), 
+            React.createElement("li", null, React.createElement("a", {href: "http://a16z.com/", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/a16z.svg"}))), 
+            React.createElement("li", {className: "extraSmall"}, React.createElement("a", {href: "http://developers.facebook.com", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/facebook.png"}))), 
             React.createElement("li", null, React.createElement("a", {href: "http://qumulo.com/", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/qumulo.png"}))), 
             React.createElement("li", null, React.createElement("a", {href: "http://isilon.com/", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/isilon.png"}))), 
-            React.createElement("li", null, React.createElement("a", {href: "http://concur.com", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/logos_concur_horizontal.png"}))), 
+            React.createElement("li", null, React.createElement("a", {href: "http://disneytechjobs.com/", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/disney.png"}))), 
             React.createElement("li", null, React.createElement("a", {href: "http://ibm.com", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/btnIBM.png"}))), 
-            React.createElement("li", {className: "extraSmall"}, React.createElement("a", {href: "http://developers.facebook.com", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/facebook.png"}))), 
-            React.createElement("li", null, React.createElement("a", {href: "https://developers.google.com/", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/Google_2015_logo.svg"}))), 
-            React.createElement("li", null, React.createElement("a", {href: "http://disneytechjobs.com/", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/disney.png"})))
+            React.createElement("li", null, React.createElement("a", {href: "http://concur.com", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/logos_concur_horizontal.png"})))
           ), 
           React.createElement("ul", {className: "silver"}, 
+            React.createElement("li", null, React.createElement("a", {href: "http://www.taser.com/", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/taser.png"}))), 
             React.createElement("li", null, React.createElement("a", {href: "http://www.amazon.com/", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/amazon.png"}))), 
             React.createElement("li", null, React.createElement("a", {href: "http://www.ge.com/", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/ge.png"}))), 
             React.createElement("li", null, React.createElement("a", {href: "http://zillow.com", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/ZillowLogo.png"}))), 
@@ -22640,11 +22642,16 @@ module.exports = React.createClass({displayName: "exports",
             React.createElement("li", {className: "extraLarge"}, React.createElement("a", {href: "http://extrahop.com", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/extrahop.png"}))), 
             React.createElement("li", {className: "extraLarge"}, React.createElement("a", {href: "http://algorithmia.com", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/algorithmia.png"}))), 
             React.createElement("li", null, React.createElement("a", {href: "http://www.go.co/", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/co2.png"}))), 
-            React.createElement("li", null, React.createElement("a", {href: "https://www.soylent.com/", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/soylent.svg"})))
+            React.createElement("li", null, React.createElement("a", {href: "https://www.soylent.com/", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/soylent.svg"}))), 
+            React.createElement("li", null, React.createElement("a", {href: "https://www.namecheap.com/", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/namecheap.png"}))), 
+            React.createElement("li", null, React.createElement("a", {href: "http://www.bonsaimediagroup.com/", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/bonsai.gif"}))), 
+            React.createElement("li", null, React.createElement("a", {href: "http://www.intel.com/", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/intel.png"}))), 
+            React.createElement("li", null, React.createElement("a", {href: "http://www.shippable.com/", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/shippable.png"}))), 
+            React.createElement("li", null, React.createElement("a", {href: "http://www.wolfram.com/", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/wolfram.png"})))
           ), 
           React.createElement("h2", {className: "section title"}, "Partners"), 
           React.createElement("ul", {className: "partners"}, 
-            React.createElement("li", null, React.createElement("a", {href: "http://mlh.io", target: "_blank"}, React.createElement("img", {ref: "img", src: "images/company_logos/mlh-logo-grayscale.svg"})))
+            React.createElement("li", null, React.createElement("a", {id: "mlh-trust-badge", href: "https://mlh.io/?utm_campaign=Trust%20Badge", target: "_blank"}, React.createElement("img", {src: "https://s3.amazonaws.com/logged-assets/trust-badge/f2015.png", alt: "MLH Official - Fall 2015", style: { width: "160px"}})))
           )
         ), 
         React.createElement("div", {className: "bubbles"}, 
