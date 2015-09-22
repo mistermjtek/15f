@@ -1113,20 +1113,27 @@ body {
   width: 80%;
 }
 .SponsorSection .tiers .gold li {
-  width: 30%;
+  width: 27%;
 }
 .SponsorSection .tiers .gold li.extraSmall {
-  width: 15%;
+  width: 10%;
 }
 .SponsorSection .tiers .silver li,
 .SponsorSection .tiers .partners li {
-  width: 17%;
+  width: 20%;
+}
+.SponsorSection .tiers .silver li.extraSmall,
+.SponsorSection .tiers .partners li.extraSmall {
+  width: 11%;
 }
 .SponsorSection .tiers .bronze li {
   width: 10%;
 }
 .SponsorSection .tiers .bronze li.extraLarge {
   width: 15%;
+}
+.SponsorSection .tiers .bronze li.extraSmall {
+  width: 7%;
 }
 html,
 body,
