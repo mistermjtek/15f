@@ -26,6 +26,8 @@ module.exports = React.createClass({
             <li><a href="http://disneytechjobs.com/" target="_blank"><img ref='img' src='images/company_logos/disney.png' /></a></li>
           </ul>
           <ul className='silver'>
+            <li><a href="http://www.amazon.com/" target="_blank"><img ref='img' src='images/company_logos/amazon.png' /></a></li>
+            <li><a href="http://www.ge.com/" target="_blank"><img ref='img' src='images/company_logos/ge.png' /></a></li>
             <li><a href="http://zillow.com" target="_blank"><img ref='img' src='images/company_logos/ZillowLogo.png' /></a></li>
             <li><a href="http://venmo.com" target="_blank"><img ref='img' src='images/company_logos/venmo.png' /></a></li>
             <li><a href="http://libertymutual.com" target="_blank"><img ref='img' src='images/company_logos/libertymutual.png' /></a></li>
