@@ -834,6 +834,9 @@ body {
 .SplashSection .center .subtitle.date {
   margin-top: 10px;
 }
+.SplashSection .center .subtitle.applications {
+  margin-top: 15px;
+}
 .SplashSection .center .Button {
   width: 150px;
   font-size: 30px;
