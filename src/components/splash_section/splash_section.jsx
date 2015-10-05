@@ -20,7 +20,7 @@ module.exports = React.createClass({
           <img className='logo' src='images/logo.svg' />
           <h3 className='subtitle date'>October 17-18, 2015</h3>
           <h4 className='subtitle location'>UW, Seattle</h4>
-          <a target='_blank' href='/apply'><Button content='Apply!' flavor={Button.flavors.solid} /></a>
+          <h5 className='subtitile'>APPLICATIONS ARE NOW CLOSED!</h5>
         </div>
         <ul className='clouds'>
           <img className='cloud form1' src='images/cloud1.svg' />
