@@ -6,8 +6,7 @@
   position relative
 
   .section.title
-    top 10px
-    position absolute
+    padding-top 25px
 
   .stones
     bottom -7px
@@ -19,12 +18,32 @@
     @media mediaPhone
       bottom 0
 
-  .faqs
-    padding websitePadding * 3 websitePadding websitePadding websitePadding
+  .row
+    padding websitePadding / 3 websitePadding
 
-    .faq
+    @media mediaPhone
+      padding websitePadding
+
+    .wd-6
       display inline-block
-      width 50%
+      width 60%
+      vertical-align top
+      padding 0 websitePadding
+
+      @media mediaPhone
+        display block
+        width 100%
+        padding 0
+
+      .qa
+        margin-top 20px
+
+        .question
+          margin-bottom 5px
+
+    .wd-4
+      display inline-block
+      width 40%
       vertical-align top
       padding 0 websitePadding
 

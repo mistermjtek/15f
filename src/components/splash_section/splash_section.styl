@@ -2,6 +2,13 @@
 centerSize = 320px
 cloudSpeed = 100s
 planeSpeed = 60s
+spinSpeed = 30s
+
+@keyframes spin
+    from
+        transform rotate(0deg)
+    to
+        transform rotate(360deg)
 
 @keyframes cloud1
   0%
@@ -52,7 +59,7 @@ planeSpeed = 60s
     transform scale(1.1)
 
 .SplashSection
-  height 100 vh
+  height calc(100vh - 60px)
   color white
 
   .center
@@ -62,7 +69,7 @@ planeSpeed = 60s
     width centerSize
     position absolute
     left 50%
-    top 45%
+    top 50%
     margin-left -(centerSize / 2)
     margin-top -(centerSize / 2) - 60px
 
@@ -78,7 +85,7 @@ planeSpeed = 60s
 
       &.applications
         margin-top 15px
-        
+
     .Button
       width 150px
       font-size 30px
@@ -89,9 +96,27 @@ planeSpeed = 60s
   .skyline
     width 100%
     position absolute
-    bottom -10px
+    bottom 0px
 
   .clouds
+    .moon
+      position absolute
+      top 10%
+      width 60px
+      right 5%
+      height 60px
+
+    .sun
+      position absolute
+      top 10%
+      width 60px
+      right 5%
+      height 60px
+      animation spin spinSpeed infinite linear
+
+      @media mediaPhone
+        display none
+
     .cloud
       position absolute
 
@@ -99,6 +124,9 @@ planeSpeed = 60s
         width 150px
         top 25%
         animation cloud1 cloudSpeed infinite
+
+        @media mediaPhone
+          display none
 
       &.form2
         width 100px
@@ -119,11 +147,11 @@ planeSpeed = 60s
       transform rotate(-10deg)
       animation plane planeSpeed linear infinite
 
-.morning
+.SplashSection.morning
   background linear-gradient(colorBlue, colorBlueLight, colorBlueLightest)
 
-.evening
+.SplashSection.evening
   background linear-gradient(colorPink, colorPinkLight)
 
-.night
+.SplashSection.night
   background url('/images/stardust.png')

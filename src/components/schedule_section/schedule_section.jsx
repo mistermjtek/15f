@@ -10,50 +10,52 @@ module.exports = React.createClass({
     return {
       eventsByDay: {
         1: [{
-          number: 3,
-          period: 'pm',
-          title: 'Check-in'
+          path: 'images/angularJS.png',
+          title: 'AngularJS'
         }, {
-          number: 5,
-          period: 'pm',
-          title: 'Opening Ceremony'
+          path: 'images/html5.png',
+          title: 'HTML5'
         }, {
-          number: 7,
-          period: 'pm',
-          title: 'Start Hacking!'
+          path: 'images/css3.png',
+          title: 'CSS3'
         }, {
-          number: 8,
-          period: 'pm',
-          title: 'Dinner'
+          path: 'images/js.png',
+          title: 'Javascript'
         }, {
-          number: 12,
-          period: 'am',
-          title: 'Midnight Snack Attack'
+          path: 'images/reactJS.png',
+          title: 'ReactJS'
         }],
         2: [{
-          number: 8,
-          period: 'am',
-          title: 'Breakfast'
+          path: 'images/mongoDB.png',
+          title: 'MongoDB'
         }, {
-          number: 12,
-          period: 'pm',
-          title: 'Lunch'
+          path: 'images/nodeJS.png',
+          title: 'NodeJS'
         }, {
-          number: 5,
-          period: 'pm',
-          title: 'Submit Your Hack!'
+          path: 'images/java.png',
+          title: 'Java'
         }, {
-          number: 6,
-          period: 'pm',
-          title: 'Judging and Dinner'
+          path: 'images/sass.png',
+          title: 'Sass'
         }, {
-          number: 8,
-          period: 'pm',
-          title: 'Closing Ceremony'
+          path: 'images/git.png',
+          title: 'Git'
+        }],
+        3: [{
+          path: 8,
+          title: 'Ionic'
         }, {
-          number: 9,
-          period: 'pm',
-          title: 'Go Home'
+          path: 12,
+          title: 'Livescript'
+        }, {
+          path: 5,
+          title: 'Phonegap'
+        }, {
+          path: 'images/stylus.png',
+          title: 'Stylus'
+        }, {
+          path: 'images/d3.png',
+          title: 'D3.js'
         }]
       }
     };
@@ -66,18 +68,15 @@ module.exports = React.createClass({
     var getEvent = function(eventData) {
       return (
         <li className='event' key={eventData.title}>
-          <time className='time'>
-            <div className='number'>{eventData.number}</div>
-            <div className='period'>{eventData.period}</div>
-          </time>
+            <img src={eventData.path} className='logo'/>
           <div className='event-title'>{eventData.title}</div>
         </li>
       );
     };
 
     // Returns the list of events for a day
-    var getEvents = function(dayNumber) {
-      var events = self.props.eventsByDay[dayNumber];
+    var getEvents = function(daypath) {
+      var events = self.props.eventsByDay[daypath];
       return (
         <ul className='events'>
           {events.map(function(eventData) {
@@ -89,15 +88,16 @@ module.exports = React.createClass({
 
     return (
       <section className='ScheduleSection page-section' id='schedule'>
-        <h2 className='section title'>Schedule</h2>
+        <h2 className='section title'>Skills</h2>
         <ul className='days'>
           <li className='day'>
-            <h3 className='day-title'>October 17th</h3>
             {getEvents(1)}
           </li>
           <li className='day'>
-            <h3 className='day-title'>October 18th</h3>
             {getEvents(2)}
+          </li>
+          <li className='day'>
+            {getEvents(3)}
           </li>
         </ul>
         <Boat />

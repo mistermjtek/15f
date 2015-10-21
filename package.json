@@ -55,6 +55,8 @@
   },
   "dependencies": {
     "raf": "^2.0.4",
-    "react-inlinesvg": "^0.3.0"
+    "react-inlinesvg": "^0.3.0",
+    "react-scroll": "^0.30.0",
+    "smoothscroll": "^0.2.2"
   }
 }

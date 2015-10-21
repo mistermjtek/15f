@@ -25,22 +25,18 @@ module.exports = React.createClass({
             <img className='logo' src='/images/logo.svg' />
           </div>
           <div className='col links'>
-            <h5 className='title'>Links</h5>
+            <h5 className='title'>Social Media</h5>
             <ul className='links-list'>
-              <li><a href='http://14f.dubhacks.co/'>DubHacks Fall 2014</a></li>
-              <li><a href='/code-of-conduct.pdf'>Code of Conduct</a></li>
-              <li><a href='https://github.com/dubhacks/15f'>View Source</a></li>
-              <li><a href='mailto:info@dubhacks.co'>Contact Us</a></li>
-              <li><a href='https://www.facebook.com/uwhacks'>Facebook</a></li>
-              <li><a href='https://twitter.com/dubhacks'>Twitter</a></li>
-              <li><a href='https://medium.com/@dubhacks'>Press</a></li>
+              <li><a href='https://github.com/mistermjtek'>View Github</a></li>
+              <li><a href='mailto:michaeljeffreywu@gmail.com'>Contact Me</a></li>
+              <li><a href='https://www.linkedin.com/in/michaeljeffreywu'>LinkedIn</a></li>
+              <li><a href='https://twitter.com/mistermjtek'>Twitter</a></li>
             </ul>
           </div>
         </div>
         <div className='sub footer'>
           <div className='love'>Made with <span className='heart'>❤</span> in Seattle</div>
-          <p className='TOS'>DubHacks is a student event. Our sponsors are sponsors of the event and not of the University of Washington.<br/>There is no implied endorsement of these companies by the University.</p>
-          <p className='TOS'>IBM and the IBM logo are trademarks of International Business Machines Corp., registered in many jurisdictions worldwide</p>
+          // <p className='TOS'>Design inspired by DubHacks, developed by </p>
         </div>
       </section>
     );

@@ -214,14 +214,8 @@ body {
 }
 .DescriptionSection {
   position: relative;
-  padding-bottom: 150px;
+  padding-bottom: 50px;
   color: #ef5352;
-}
-.DescriptionSection .trees {
-  position: absolute;
-  width: 105%;
-  left: -10px;
-  bottom: -10px;
 }
 .DescriptionSection .title {
   margin-bottom: 45px;
@@ -254,8 +248,7 @@ body {
   position: relative;
 }
 .FAQSection .section.title {
-  top: 10px;
-  position: absolute;
+  padding-top: 25px;
 }
 .FAQSection .stones {
   bottom: -7px;
@@ -269,34 +262,58 @@ body {
     bottom: 0;
   }
 }
-.FAQSection .faqs {
-  padding: 90px 30px 30px 30px;
+.FAQSection .row {
+  padding: 30px/3 30px;
 }
-.FAQSection .faqs .faq {
+@media all and (max-width: 600px) {
+  .FAQSection .row {
+    padding: 30px;
+  }
+}
+.FAQSection .row .wd-6 {
   display: inline-block;
-  width: 50%;
+  width: 60%;
   vertical-align: top;
   padding: 0 30px;
 }
 @media all and (max-width: 600px) {
-  .FAQSection .faqs .faq {
+  .FAQSection .row .wd-6 {
     display: block;
     width: 100%;
     padding: 0;
   }
 }
-.FAQSection .faqs .faq .qa {
+.FAQSection .row .wd-6 .qa {
   margin-top: 20px;
 }
-.FAQSection .faqs .faq .qa .question {
+.FAQSection .row .wd-6 .qa .question {
   margin-bottom: 5px;
 }
-.FAQSection .faqs a {
+.FAQSection .row .wd-4 {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+  padding: 0 30px;
+}
+@media all and (max-width: 600px) {
+  .FAQSection .row .wd-4 {
+    display: block;
+    width: 100%;
+    padding: 0;
+  }
+}
+.FAQSection .row .wd-4 .qa {
+  margin-top: 20px;
+}
+.FAQSection .row .wd-4 .qa .question {
+  margin-bottom: 5px;
+}
+.FAQSection .row a {
   -webkit-transition: border-bottom 200ms;
           transition: border-bottom 200ms;
   border-bottom: 1px dotted rgba(255,255,255,0.3);
 }
-.FAQSection .faqs a:hover {
+.FAQSection .row a:hover {
   border-bottom: 1px dotted rgba(255,255,255,0.7);
 }
 @font-face {
@@ -506,7 +523,6 @@ body {
   src: local('Unica One'), local('UnicaOne-Regular'), url("../../fonts/font-title.ttf") format('truetype');
 }
 .HeaderSection {
-  position: fixed;
   background: #fff;
   z-index: 100;
   height: 60px;
@@ -515,9 +531,10 @@ body {
 }
 .HeaderSection .logo {
   display: inline-block;
-  margin-top: 5px;
-  margin-left: 10px;
+  margin-top: -38px;
+  margin-left: 0px;
   width: 120px;
+  height: 120px;
 }
 .HeaderSection .nav {
   display: inline-block;
@@ -540,18 +557,19 @@ body {
     font-size: 12px;
   }
 }
-@media all and (max-width: 1000px) {
-  .HeaderSection .nav li:not(.register-button) {
-    display: none;
-  }
-}
 .HeaderSection .nav li .Button {
   padding: 5px 20px;
   font-size: 20px;
   color: #3b403d;
 }
-.HeaderSection .nav li .Button:hover:not(.solid) {
-  background: #eee;
+.HeaderSection .nav li .Button.night-nav {
+  color: #fff;
+}
+.HeaderSection .nav li .Button.morning-nav {
+  color: #fff;
+}
+.HeaderSection .nav li .Button.evening-nav {
+  color: #fff;
 }
 .HeaderSection .social-buttons {
   float: right;
@@ -572,6 +590,15 @@ body {
 .HeaderSection .social-buttons li .Button .icon {
   width: 25px;
   vertical-align: middle;
+}
+.HeaderSection.morning {
+  background: #00b2e2;
+}
+.HeaderSection.evening {
+  background: #eb1e7a;
+}
+.HeaderSection.night {
+  background: url("/images/stardust.png");
 }
 @-webkit-keyframes buttonShake {
   0% {
@@ -666,6 +693,7 @@ body {
   src: local('Unica One'), local('UnicaOne-Regular'), url("../../fonts/font-title.ttf") format('truetype');
 }
 .ScheduleSection {
+  padding-top: 30px;
   position: relative;
   background: -webkit-linear-gradient(#6e5ea4, #594094);
   background: linear-gradient(#6e5ea4, #594094);
@@ -679,7 +707,7 @@ body {
 }
 .ScheduleSection .days .day {
   display: inline-block;
-  width: 50%;
+  width: 33%;
   padding: 0 10%;
   margin-top: 20px;
   vertical-align: top;
@@ -719,24 +747,13 @@ body {
   margin-bottom: 20px;
   overflow: hidden;
 }
-.ScheduleSection .days .day .events .event .time {
+.ScheduleSection .days .day .events .event .logo {
   width: 50px;
   height: 50px;
   display: inline-block;
   text-align: center;
-  border: 2px solid #2cafe6;
-  border-radius: 50%;
-  line-height: 1;
   float: left;
-}
-.ScheduleSection .days .day .events .event .time .number {
-  font-size: 26px;
-  font-weight: 700;
-  margin-top: 4px;
-}
-.ScheduleSection .days .day .events .event .time .period {
-  text-transform: uppercase;
-  font-size: 12px;
+  line-height: 1;
 }
 .ScheduleSection .days .day .events .event .event-title {
   padding-top: 10px;
@@ -809,7 +826,7 @@ body {
   src: local('Unica One'), local('UnicaOne-Regular'), url("../../fonts/font-title.ttf") format('truetype');
 }
 .SplashSection {
-  height: 100vh;
+  height: calc(100vh - 60px);
   color: #fff;
 }
 .SplashSection .center {
@@ -819,7 +836,7 @@ body {
   width: 320px;
   position: absolute;
   left: 50%;
-  top: 45%;
+  top: 50%;
   margin-left: -160px;
   margin-top: -220px;
 }
@@ -847,7 +864,28 @@ body {
 .SplashSection .skyline {
   width: 100%;
   position: absolute;
-  bottom: -10px;
+  bottom: 0px;
+}
+.SplashSection .clouds .moon {
+  position: absolute;
+  top: 10%;
+  width: 60px;
+  right: 5%;
+  height: 60px;
+}
+.SplashSection .clouds .sun {
+  position: absolute;
+  top: 10%;
+  width: 60px;
+  right: 5%;
+  height: 60px;
+  -webkit-animation: spin 30s infinite linear;
+          animation: spin 30s infinite linear;
+}
+@media all and (max-width: 600px) {
+  .SplashSection .clouds .sun {
+    display: none;
+  }
 }
 .SplashSection .clouds .cloud {
   position: absolute;
@@ -857,6 +895,11 @@ body {
   top: 25%;
   -webkit-animation: cloud1 100s infinite;
           animation: cloud1 100s infinite;
+}
+@media all and (max-width: 600px) {
+  .SplashSection .clouds .cloud.form1 {
+    display: none;
+  }
 }
 .SplashSection .clouds .cloud.form2 {
   width: 100px;
@@ -881,16 +924,36 @@ body {
   -webkit-animation: plane 60s linear infinite;
           animation: plane 60s linear infinite;
 }
-.morning {
+.SplashSection.morning {
   background: -webkit-linear-gradient(#00b2e2, #2cafe6, #94dff0);
   background: linear-gradient(#00b2e2, #2cafe6, #94dff0);
 }
-.evening {
+.SplashSection.evening {
   background: -webkit-linear-gradient(#eb1e7a, #ef5352);
   background: linear-gradient(#eb1e7a, #ef5352);
 }
-.night {
+.SplashSection.night {
   background: url("/images/stardust.png");
+}
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
 @-webkit-keyframes cloud1 {
   0% {

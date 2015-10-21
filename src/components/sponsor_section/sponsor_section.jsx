@@ -11,7 +11,7 @@ module.exports = React.createClass({
     return (
       <section className='SponsorSection page-section' id='sponsor'>
         <img className='squid' src='images/squid.svg' />
-        <h2 className='section title'>Sponsors</h2>
+        <h2 className='section title'>Projects</h2>
         <div className='tiers'>
           <ul className='platinum'>
             <li><a href="http://microsoft.com" target="_blank"><img ref='img' src='images/company_logos/microsoft.png' /></a></li>

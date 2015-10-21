@@ -6,23 +6,32 @@ module.exports = React.createClass({
     var d = new Date();
   	var n = d.getHours();
     var time = "SplashSection page-section";
-  	if (n >= 20 || n < 6)
+    var sunAndMoon = "";
+  	if (n >= 20 || n < 6) {
   	  time += " night";
-  	else if (n > 16 && n < 20)
+      sunAndMoon = "images/moon.svg";
+    }
+  	else if (n > 16 && n < 20) {
   	  time += " evening";
-  	else
+      sunAndMoon = "images/sun.svg";
+    }
+  	else {
   	  time += " morning";
+      sunAndMoon = "images/sun.svg";
+    }
 
     return (
       <section className={time}>
-        <img className='skyline' src='images/skyline.svg' />
+        <img className='skyline' src='images/skyline.png' />
         <div className='center'>
-          <img className='logo' src='images/logo.svg' />
-          <h3 className='subtitle date'>October 17-18, 2015</h3>
-          <h4 className='subtitle location'>UW, Seattle</h4>
-          <h5 className='subtitle applications'>APPLICATIONS FOR PARTICIPANTS AND VOLUNTEERS ARE NOW CLOSED!</h5>
+          <h1 className='subtitle'>Michael Jeffrey Wu</h1>
+          <hr></hr>
+          <h3 className='subtitle date'>Front End Developer</h3>
+          <h4 className='subtitle location'>Based in Los Angeles</h4>
+          <h5 className='subtitle applications'>Raised in the Silicon Valley</h5>
         </div>
         <ul className='clouds'>
+          <img className='sun' src={sunAndMoon}/>
           <img className='cloud form1' src='images/cloud1.svg' />
           <img className='cloud form2' src='images/cloud2.svg' />
           <img className='cloud form3' src='images/cloud3.svg' />

@@ -1,60 +1,92 @@
 var React = require('react');
 
 module.exports = React.createClass({
+  propTypes: {
+    experience: React.PropTypes.object
+  },
+
+  getDefaultProps: function() {
+    return {
+      experience: {
+        1: [{
+          company: 'Adventure Bucket List',
+          jobTitle: 'Frontend Developer',
+          link: 'http://www.adventurebucketlist.com/',
+          date: 'August 2014 - October 2015',
+          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In condimentum vel leo et posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam et cursus felis, at sodales nibh. Sed non nunc ultrices, consequat libero mollis, maximus felis. Phasellus justo sapien, consectetur at hendrerit vitae, finibus vitae lacus. '
+        }],
+        2: [{
+          company: 'SynergySuite' ,
+          jobTitle: 'Mobile Developer',
+          link: 'http://www.synergysuite.com/',
+          date: 'June 2014 - July 2015',
+          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In condimentum vel leo et posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam et cursus felis, at sodales nibh. Sed non nunc ultrices, consequat libero mollis, maximus felis. Phasellus justo sapien, consectetur at hendrerit vitae, finibus vitae lacus. '
+        }],
+        3: [{
+          company: 'Statim Health' ,
+          jobTitle: 'Lead Software Developer',
+          link: 'http://www.statimhealth.com/',
+          date: 'June 2014 - August 2014',
+          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In condimentum vel leo et posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam et cursus felis, at sodales nibh. Sed non nunc ultrices, consequat libero mollis, maximus felis. Phasellus justo sapien, consectetur at hendrerit vitae, finibus vitae lacus. '
+        }],
+        4: [{
+          company: 'Monte Jade Science and Technology' ,
+          jobTitle: 'Web Developer',
+          link: 'http://www.montejade.org/',
+          date: 'January 2014 - April 2014',
+          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In condimentum vel leo et posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam et cursus felis, at sodales nibh. Sed non nunc ultrices, consequat libero mollis, maximus felis. Phasellus justo sapien, consectetur at hendrerit vitae, finibus vitae lacus. '
+        }]
+      }
+    };
+  },
+
   render: function() {
+    var self = this;
+    // Returns the html for a single event
+    var getJobInfo = function(jobData) {
+      return (
+        <div className = 'wd-4'>
+          <div className='qa'>
+          <h4 className='header'>{jobData.company}</h4>
+          <h5 className='date'>{jobData.date}</h5>
+          <a href={jobData.link}>{jobData.link}</a>
+          </div>
+        </div>
+      );
+    };
+
+    var getJobDescription = function(jobData) {
+      return (
+        <div className= 'wd-6'>
+          <div className='qa'>
+          <h4 className='question'>{jobData.jobTitle}</h4>
+          <p>{jobData.description}</p>
+          </div>
+        </div>
+      );
+    };
+
+    // Returns the list of events for a day
+    var getJobTitles = function(jobNumber) {
+      var jobInfo = self.props.experience[jobNumber];
+      return (
+        <div className='row'>
+          {jobInfo.map(function(jobInfoData) {
+            return getJobInfo(jobInfoData);
+          })}
+          {jobInfo.map(function(jobInfoData) {
+            return getJobDescription(jobInfoData);
+          })}
+      </div>
+      );
+    };
     return (
       <section className='FAQSection page-section' id='faq'>
-        <h2 className='section title'>FAQ</h2>
-        <div className='faqs'>
-          <ul className='faq'>
-            <li className='qa'>
-              <h4 className='question'>What is DubHacks?</h4>
-              <p>DubHacks is the largest collegiate hackathon in the Pacific Northwest. The first of its kind in the Pacific Northwest, student developers and designers gather at the University of Washington in Seattle campus to form teams and build projects with the goal of creating solutions to real-world problems and learning new technologies. This is the second-ever DubHacks event.</p>
-            </li>
-            <li className='qa'>
-              <h4 className='question'>Who can attend?</h4>
-              <p>Undergraduate university and high school students of all backgrounds are encouraged to apply and attend DubHacks.</p>
-            </li>
-            <li className='qa'>
-              <h4 className='question'>Travel reimbursement?</h4>
-              <p>We will provide travel reimbursement to select participants. Up to $150 travel reimbursement for out-of-state students and up to $50 for in-state participants provided a valid receipt.</p>
-            </li>
-            <li className='qa'>
-              <h4 className='question'>How much does this event cost?</h4>
-              <p>Absolutely free. We will provide you WiFi, meals, caffeine, swag, and the workspace.</p>
-            </li>
-            <li className='qa'>
-              <h4 className='question'>What should I build?</h4>
-              <p>Anything really. The project is up to you and your team. You have 24 hours to make anything, ranging from web apps, desktop apps, mobile apps, or even hardware.</p>
-            </li>
-          </ul>
-          <ul className='faq'>
-            <li className='qa'>
-              <h4 className='question'>How big are teams?</h4>
-              <p>A team can be as big as 5 people. We'll help with pairing team members if you don't come with one.</p>
-            </li>
-            <li className='qa'>
-              <h4 className='question'>How do applications work?</h4>
-              <p>Applications for out-of-state attendees must be submitted by September 18th. All other applications are due October 3rd.</p>
-            </li>
-            <li className='qa'>
-              <h4 className='question'>Will you have hardware prototyping equipment?</h4>
-              <p>Yes. Our partners at MLH will have limited stock of Oculus Rifts, Myo arm-bands, Leap Motions, Arduinos, 3D printers and more to give out to hackers for the duration of the hackathon.</p>
-            </li>
-            <li className='qa'>
-              <h4 className='question'>Are we allowed to build on past projects?</h4>
-              <p>A hackathon is an experience to build on something completely new within a set amount of time. With that in mind, you cannot work on past projects. Using your own APIs or third-party APIs is alright as long as the project is a fresh start.</p>
-            </li>
-            <li className='qa'>
-              <h4 className='question'>What should I bring?</h4>
-              <p>Please bring a laptop, charger, student id and passion! Besides that, a toothbrush, sleeping bag/blanket, and change of clothes is recommended.</p>
-            </li>
-            <li className='qa'>
-              <h4 className='question'>I have a different question. Who can I ask?</h4>
-              <p>Reach out to us at via <a href='http://twitter.com/dubhacks'>Twitter</a>, <a href='http://facebook.com/uwhacks'>Facebook</a>, or send an email to <a href='mailto:info@dubhacks.co'>info@dubhacks.co</a>.</p>
-            </li>
-          </ul>
-        </div>
+        <h2 className='section title'>Experience</h2>
+            {getJobTitles(1)}
+            {getJobTitles(2)}
+            {getJobTitles(3)}
+            {getJobTitles(4)}
       </section>
     );
   }
