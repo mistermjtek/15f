@@ -1,10 +1,15 @@
-# DubHacks Fall 2015
+# Dubfolio
+
+Michael Jeffrey Wu's ReactJS Portfolio
 
 ## Development
 
-Just run
+Make sure to have nodeJS and npm installed.
 
 ```sh
 sudo npm install
 gulp
 ```
+
+## LICENSE
+MIT LICENSE

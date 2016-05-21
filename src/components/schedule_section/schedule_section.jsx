@@ -21,41 +21,32 @@ module.exports = React.createClass({
         }, {
           path: 'images/js.png',
           title: 'Javascript'
-        }, {
-          path: 'images/reactJS.png',
-          title: 'ReactJS'
         }],
         2: [{
+          path: 'images/reactJS.png',
+          title: 'ReactJS'
+        }, {
           path: 'images/mongoDB.png',
           title: 'MongoDB'
         }, {
-          path: 'images/nodeJS.png',
+          path: 'http://cdn.instantlogosearch.com/svg/svgporn/nodejs-icon.svg',
           title: 'NodeJS'
-        }, {
-          path: 'images/java.png',
-          title: 'Java'
         }, {
           path: 'images/sass.png',
           title: 'Sass'
-        }, {
-          path: 'images/git.png',
-          title: 'Git'
         }],
         3: [{
-          path: 8,
-          title: 'Ionic'
+          path: 'http://cdn.instantlogosearch.com/svg/svgporn/java.svg',
+          title: 'Java'
         }, {
-          path: 12,
-          title: 'Livescript'
-        }, {
-          path: 5,
-          title: 'Phonegap'
-        }, {
-          path: 'images/stylus.png',
-          title: 'Stylus'
+          path: 'http://cdn.instantlogosearch.com/svg/svgporn/python.svg',
+          title: 'Python'
         }, {
           path: 'images/d3.png',
           title: 'D3.js'
+        }, {
+          path: 'images/git.png',
+          title: 'Git'
         }]
       }
     };

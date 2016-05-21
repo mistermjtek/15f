@@ -22398,32 +22398,39 @@ module.exports = React.createClass({displayName: "exports",
     return {
       experience: {
         1: [{
+          company: 'Spotlike' ,
+          jobTitle: 'Lead Frontend Developer',
+          link: 'http://www.spotlike.com/',
+          date: 'February 2016 - Present',
+          description: 'Designing and implementing a ranking-based social networking web application. Converting the application from jQuery to AngularJS and using task managers like Gulp for a clean and secure codebase.'
+        }],
+        2: [{
+          company: 'SmileyFace Studio' ,
+          jobTitle: 'Founder & CTO',
+          link: 'http://www.smileyface.space/',
+          date: 'February 2016 - Present',
+          description: 'Started a disruptive design and development studio focused on bringing beauty to the world in unconventional mediums. Generated leads and secured a consistent revenue model. Hired, screened, and managed a team of 5 designers and developers. Work ranges from web and mobile designs to virtual reality and visual projections.'
+        }],
+        3: [{
           company: 'Adventure Bucket List',
           jobTitle: 'Frontend Developer',
           link: 'http://www.adventurebucketlist.com/',
-          date: 'August 2014 - October 2015',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In condimentum vel leo et posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam et cursus felis, at sodales nibh. Sed non nunc ultrices, consequat libero mollis, maximus felis. Phasellus justo sapien, consectetur at hendrerit vitae, finibus vitae lacus. '
+          date: 'August 2014 - November 2015',
+          description: 'Developed the MVP front-end web application for clients to begin using to process transactions. Built out the travel operator dashboard for clients to manage their customers, metrics and activities. Used AngularJS, REST, NodeJS, MongoDB, Jade, LiveScript, Sass, Material Design to create a scalable product. Integrated the application widget to several travel operators around the world. Started off as an intern and promoted to a full-time position. Led a small team of developers & designers and tracked their workflow via Github & Trello.'
         }],
-        2: [{
+        4: [{
           company: 'SynergySuite' ,
           jobTitle: 'Mobile Developer',
           link: 'http://www.synergysuite.com/',
           date: 'June 2014 - July 2015',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In condimentum vel leo et posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam et cursus felis, at sodales nibh. Sed non nunc ultrices, consequat libero mollis, maximus felis. Phasellus justo sapien, consectetur at hendrerit vitae, finibus vitae lacus. '
+          description: 'Built an enterprise mobile app from the ground up deployed to all devices using Cordova/Phonegap, Ionic, Angular.js. Created interactive graphs using D3.js for clients to view analytics. Joined the team as an intern and promoted to a year-round part-time position. Discussed with customers about feature requests and bug fixes. Released private beta mobile app onto Google Play Store and App Store.'
         }],
-        3: [{
+        5: [{
           company: 'Statim Health' ,
-          jobTitle: 'Lead Software Developer',
+          jobTitle: 'Interim CTO',
           link: 'http://www.statimhealth.com/',
           date: 'June 2014 - August 2014',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In condimentum vel leo et posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam et cursus felis, at sodales nibh. Sed non nunc ultrices, consequat libero mollis, maximus felis. Phasellus justo sapien, consectetur at hendrerit vitae, finibus vitae lacus. '
-        }],
-        4: [{
-          company: 'Monte Jade Science and Technology' ,
-          jobTitle: 'Web Developer',
-          link: 'http://www.montejade.org/',
-          date: 'January 2014 - April 2014',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In condimentum vel leo et posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam et cursus felis, at sodales nibh. Sed non nunc ultrices, consequat libero mollis, maximus felis. Phasellus justo sapien, consectetur at hendrerit vitae, finibus vitae lacus. '
+          description: 'Created a website demo designed to pitch to venture capitalists in the Silicon Valley. Redesigned and developed the pending landing page.'
         }]
       }
     };
@@ -22475,7 +22482,8 @@ module.exports = React.createClass({displayName: "exports",
             getJobTitles(1), 
             getJobTitles(2), 
             getJobTitles(3), 
-            getJobTitles(4)
+            getJobTitles(4), 
+            getJobTitles(5)
       )
     );
   }
@@ -22491,39 +22499,9 @@ module.exports = React.createClass({displayName: "exports",
   render: function() {
     return (
       React.createElement("section", {className: "FooterSection page-section"}, 
-        React.createElement("div", {className: "main footer"}, 
-          React.createElement("div", {className: "col organizers"}, 
-            React.createElement("h5", {className: "title"}, "Fall 2015 DubHacks Organizers"), 
-            React.createElement("ul", {className: "organizers-list"}, 
-              React.createElement("a", {href: "http://grant.cm/"}, React.createElement("li", null, "Grant Timmerman")), 
-              React.createElement("a", {href: "https://www.linkedin.com/in/skylerkidd"}, React.createElement("li", null, "Skyler Kidd")), 
-              React.createElement("a", {href: "http://mahirk.com/"}, React.createElement("li", null, "Mahir Kothary")), 
-              React.createElement("a", {href: "https://twitter.com/naomimusgrave"}, React.createElement("li", null, "Naomi Musgrave")), 
-              React.createElement("a", {href: "https://twitter.com/NavidAzodi"}, React.createElement("li", null, "Navid Azodi")), 
-              React.createElement("a", {href: "http://davidcoven.me"}, React.createElement("li", null, "David Coven")), 
-              React.createElement("a", {href: "https://twitter.com/karangoel"}, React.createElement("li", null, "Karan Goel")), 
-              React.createElement("a", {href: "http://anwell.me/"}, React.createElement("li", null, "Anwell Wang")), 
-              React.createElement("a", {href: "http://christopher.su/"}, React.createElement("li", null, "Christopher Su")), 
-              React.createElement("a", {href: "http://www.lucascolusso.com/"}, React.createElement("li", null, "Lucas Colusso")), 
-              React.createElement("a", {href: "http://www.linkedin.com/in/MaliaImayama"}, React.createElement("li", null, "Malia Imayama"))
-            )
-          ), 
-          React.createElement("div", {className: "col logo"}, 
-            React.createElement("img", {className: "logo", src: "/images/logo.svg"})
-          ), 
-          React.createElement("div", {className: "col links"}, 
-            React.createElement("h5", {className: "title"}, "Social Media"), 
-            React.createElement("ul", {className: "links-list"}, 
-              React.createElement("li", null, React.createElement("a", {href: "https://github.com/mistermjtek"}, "View Github")), 
-              React.createElement("li", null, React.createElement("a", {href: "mailto:michaeljeffreywu@gmail.com"}, "Contact Me")), 
-              React.createElement("li", null, React.createElement("a", {href: "https://www.linkedin.com/in/michaeljeffreywu"}, "LinkedIn")), 
-              React.createElement("li", null, React.createElement("a", {href: "https://twitter.com/mistermjtek"}, "Twitter"))
-            )
-          )
-        ), 
         React.createElement("div", {className: "sub footer"}, 
-          React.createElement("div", {className: "love"}, "Made with ", React.createElement("span", {className: "heart"}, "❤"), " in Seattle"), 
-          "// ", React.createElement("p", {className: "TOS"}, "Design inspired by DubHacks, developed by ")
+          React.createElement("div", {className: "love"}, "Made with ", React.createElement("span", {className: "heart"}, "❤"), " in Los Angeles"), 
+          React.createElement("p", {className: "TOS"}, "Design inspired by DubHacks, developed by Michael Jeffrey Wu")
         )
       )
     );
@@ -22610,7 +22588,6 @@ module.exports = React.createClass({displayName: "exports",
         React.createElement(DescriptionSection, null), 
         React.createElement(ScheduleSection, null), 
         React.createElement(FAQSection, null), 
-        React.createElement(SponsorSection, null), 
         React.createElement(FooterSection, null)
       )
     );
@@ -22644,41 +22621,32 @@ module.exports = React.createClass({displayName: "exports",
         }, {
           path: 'images/js.png',
           title: 'Javascript'
-        }, {
-          path: 'images/reactJS.png',
-          title: 'ReactJS'
         }],
         2: [{
+          path: 'images/reactJS.png',
+          title: 'ReactJS'
+        }, {
           path: 'images/mongoDB.png',
           title: 'MongoDB'
         }, {
-          path: 'images/nodeJS.png',
+          path: 'http://cdn.instantlogosearch.com/svg/svgporn/nodejs-icon.svg',
           title: 'NodeJS'
-        }, {
-          path: 'images/java.png',
-          title: 'Java'
         }, {
           path: 'images/sass.png',
           title: 'Sass'
-        }, {
-          path: 'images/git.png',
-          title: 'Git'
         }],
         3: [{
-          path: 8,
-          title: 'Ionic'
+          path: 'http://cdn.instantlogosearch.com/svg/svgporn/java.svg',
+          title: 'Java'
         }, {
-          path: 12,
-          title: 'Livescript'
-        }, {
-          path: 5,
-          title: 'Phonegap'
-        }, {
-          path: 'images/stylus.png',
-          title: 'Stylus'
+          path: 'http://cdn.instantlogosearch.com/svg/svgporn/python.svg',
+          title: 'Python'
         }, {
           path: 'images/d3.png',
           title: 'D3.js'
+        }, {
+          path: 'images/git.png',
+          title: 'Git'
         }]
       }
     };

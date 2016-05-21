@@ -246,6 +246,7 @@ body {
   background: linear-gradient(#00b2e2, #0081bd);
   color: #fff;
   position: relative;
+  padding-bottom: 70px;
 }
 .FAQSection .section.title {
   padding-top: 25px;

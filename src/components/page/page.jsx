@@ -16,7 +16,6 @@ module.exports = React.createClass({
         <DescriptionSection />
         <ScheduleSection />
         <FAQSection />
-        <SponsorSection />
         <FooterSection />
       </div>
     );
