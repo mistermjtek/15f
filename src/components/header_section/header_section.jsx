@@ -39,13 +39,12 @@ module.exports = React.createClass({
           <ul className='nav-buttons'>
               <li onClick={this.scrollToSection('schedule')}><Button day={dayTime} content='Skills' /></li>
               <li onClick={this.scrollToSection('faq')}><Button day={dayTime} content='Experience' /></li>
-              <li onClick={this.scrollToSection('sponsor')}><Button day={dayTime} content='Projects' /></li>
           </ul>
         </nav>
         <ul className='social-buttons'>
-          <li><a href='mailto:info@dubhacks.co'><Button icon='mail' /></a></li>
-          <li><a href='http://www.facebook.com/uwhacks'><Button icon='facebook' /></a></li>
-          <li><a href='http://www.twitter.com/dubhacks'><Button icon='twitter' /></a></li>
+          <li><a href='mailto:michaeljeffreywu@gmail.com'><Button icon='mail' /></a></li>
+          <li><a href='http://www.facebook.com/michaeljeffreywu'><Button icon='facebook' /></a></li>
+          <li><a href='http://www.twitter.com/mistermjtek'><Button icon='twitter' /></a></li>
         </ul>
       </section>
     );
