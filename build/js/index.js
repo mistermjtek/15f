@@ -22376,7 +22376,7 @@ module.exports = React.createClass({displayName: "exports",
       React.createElement("section", {className: "DescriptionSection page-section"}, 
         React.createElement("div", {className: "text"}, 
           React.createElement("h2", {className: "section title"}, "Who Am I?"), 
-          React.createElement("p", {className: "description"}, "Recent ", React.createElement("strong", null, "University of California, San Diego"), " graduate working as a web developer for 2 years. I am an allround web developer. I am a senior programmer with good knowledge of front-end techniques. I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also I like working in a team, you'll learn faster and more. As the saying goes: 'two heads are better than one'.")
+          React.createElement("p", {className: "description"}, "Recent ", React.createElement("strong", null, "University of California, San Diego"), " graduate working as a web developer for 2 years. I am a front end developer focused on building beautiful and optimized applications. I love structure and order so I stand for elegant code. I love spending time on fixing little details and optimizing web apps. My passion is learning and using the most recent application frameworks to create scalable products for small companies looking to grow or large companies looking for better user experiences. I believe great user interfaces that understand human needs are the driving force of today’s successful businesses.")
         )
       )
     );
@@ -22552,14 +22552,13 @@ module.exports = React.createClass({displayName: "exports",
         React.createElement("nav", {className: "nav"}, 
           React.createElement("ul", {className: "nav-buttons"}, 
               React.createElement("li", {onClick: this.scrollToSection('schedule')}, React.createElement(Button, {day: dayTime, content: "Skills"})), 
-              React.createElement("li", {onClick: this.scrollToSection('faq')}, React.createElement(Button, {day: dayTime, content: "Experience"})), 
-              React.createElement("li", {onClick: this.scrollToSection('sponsor')}, React.createElement(Button, {day: dayTime, content: "Projects"}))
+              React.createElement("li", {onClick: this.scrollToSection('faq')}, React.createElement(Button, {day: dayTime, content: "Experience"}))
           )
         ), 
         React.createElement("ul", {className: "social-buttons"}, 
-          React.createElement("li", null, React.createElement("a", {href: "mailto:info@dubhacks.co"}, React.createElement(Button, {icon: "mail"}))), 
-          React.createElement("li", null, React.createElement("a", {href: "http://www.facebook.com/uwhacks"}, React.createElement(Button, {icon: "facebook"}))), 
-          React.createElement("li", null, React.createElement("a", {href: "http://www.twitter.com/dubhacks"}, React.createElement(Button, {icon: "twitter"})))
+          React.createElement("li", null, React.createElement("a", {href: "mailto:michaeljeffreywu@gmail.com"}, React.createElement(Button, {icon: "mail"}))), 
+          React.createElement("li", null, React.createElement("a", {href: "http://www.facebook.com/michaeljeffreywu"}, React.createElement(Button, {icon: "facebook"}))), 
+          React.createElement("li", null, React.createElement("a", {href: "http://www.twitter.com/mistermjtek"}, React.createElement(Button, {icon: "twitter"})))
         )
       )
     );
