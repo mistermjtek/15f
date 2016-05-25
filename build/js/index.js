@@ -22500,6 +22500,7 @@ module.exports = React.createClass({displayName: "exports",
     return (
       React.createElement("section", {className: "FooterSection page-section"}, 
         React.createElement("div", {className: "sub footer"}, 
+          React.createElement("a", {href: "/resume.pdf"}, "View My Resume"), 
           React.createElement("div", {className: "love"}, "Made with ", React.createElement("span", {className: "heart"}, "❤"), " in Los Angeles"), 
           React.createElement("p", {className: "TOS"}, "Design inspired by DubHacks, developed by Michael Jeffrey Wu")
         )
@@ -22557,8 +22558,9 @@ module.exports = React.createClass({displayName: "exports",
         ), 
         React.createElement("ul", {className: "social-buttons"}, 
           React.createElement("li", null, React.createElement("a", {href: "mailto:michaeljeffreywu@gmail.com"}, React.createElement(Button, {icon: "mail"}))), 
-          React.createElement("li", null, React.createElement("a", {href: "http://www.facebook.com/l1tethen1te"}, React.createElement(Button, {icon: "facebook"}))), 
-          React.createElement("li", null, React.createElement("a", {href: "http://www.twitter.com/mistermjtek"}, React.createElement(Button, {icon: "twitter"})))
+          React.createElement("li", null, React.createElement("a", {href: "/resume.pdf"}, React.createElement(Button, {icon: "resume"}))), 
+          React.createElement("li", null, React.createElement("a", {href: "http://www.github.com/mistermjtek"}, React.createElement(Button, {icon: "github"}))), 
+          React.createElement("li", null, React.createElement("a", {href: "http://www.linkedin.com/in/michaeljeffreywu"}, React.createElement(Button, {icon: "linkedin"})))
         )
       )
     );
