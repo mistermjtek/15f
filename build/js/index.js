@@ -22557,7 +22557,7 @@ module.exports = React.createClass({displayName: "exports",
         ), 
         React.createElement("ul", {className: "social-buttons"}, 
           React.createElement("li", null, React.createElement("a", {href: "mailto:michaeljeffreywu@gmail.com"}, React.createElement(Button, {icon: "mail"}))), 
-          React.createElement("li", null, React.createElement("a", {href: "http://www.facebook.com/michaeljeffreywu"}, React.createElement(Button, {icon: "facebook"}))), 
+          React.createElement("li", null, React.createElement("a", {href: "http://www.facebook.com/l1tethen1te"}, React.createElement(Button, {icon: "facebook"}))), 
           React.createElement("li", null, React.createElement("a", {href: "http://www.twitter.com/mistermjtek"}, React.createElement(Button, {icon: "twitter"})))
         )
       )
