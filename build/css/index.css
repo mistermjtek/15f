@@ -599,7 +599,7 @@ body {
   background: #eb1e7a;
 }
 .HeaderSection.night {
-  background: url("/dubfolio/images/stardust.png");
+  background: url("/images/stardust.png");
 }
 @-webkit-keyframes buttonShake {
   0% {
@@ -934,7 +934,7 @@ body {
   background: linear-gradient(#eb1e7a, #ef5352);
 }
 .SplashSection.night {
-  background: url("/dubfolio/images/stardust.png");
+  background: url("/images/stardust.png");
 }
 @-webkit-keyframes spin {
   from {
